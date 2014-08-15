@@ -45,7 +45,7 @@ publications/conferences/mattia_conf2007.pdf
 Direct hippocampal-prefrontal input supports the encoding of spatial information during a working memory task
 T. Spellman, M. Rigotti, S. Fusi, J. Gogos, J. Gordon
 Society for Neuroscience Annual Meeting (Washington DC), 2014
-publications/abstracts/spellman_abs2013.pdf
+publications/abstracts/spellman_abs2014.pdf
 
 Neurophysiological mechanisms supporting flexible, context-specific, operant and Pavlovian behavior
 J. Munuera, M. Rigotti,3, S. Fusi, C.D. Salzman
