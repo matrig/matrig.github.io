@@ -13,19 +13,19 @@ Current Opinion in Neurobiology,
 http://dx.doi.org/10.1016/j.conb.2016.01.010
 publications/articles/fusi2016.pdf
 
-Abstract context representations in primate amygdala and prefrontal cortex
-A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman
-Neuron,
-87:869-881 (2015)
-http://dx.doi.org/10.1016/j.neuron.2015.07.024
-publications/articles/saez2015.pdf
-
 Hippocampal-prefrontal input supports spatial encoding in working memory
 T. Spellman, M. Rigotti, S.E. Ahmari, S. Fusi, J.A. Gogos, J.A. Gordon
 Nature,
 522:309-314 (2015)
 http://dx.doi.org/10.1038/nature14445
 publications/articles/spellman2015.pdf
+
+Abstract context representations in primate amygdala and prefrontal cortex
+A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman
+Neuron,
+87:869-881 (2015)
+http://dx.doi.org/10.1016/j.neuron.2015.07.024
+publications/articles/saez2015.pdf
 
 Estimating the dimensionality of neural responses with fMRI Repetition Suppression
 M. Rigotti, S. Fusi
