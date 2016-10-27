@@ -4,6 +4,6 @@
     @{0}</a>
     <a href="@{5}" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>	
     @{1}<br>
-    <em>@{2}</em>@{3}          	
+    <em>@{2}</em> @{3}          	
     </h6>
 </li>
