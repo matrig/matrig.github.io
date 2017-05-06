@@ -1,4 +1,25 @@
 # ARTICLES
+Hebbian Learning in a Random Network Captures Selectivity Properties of Prefrontal Cortex
+G.W. Lindsay, M. Rigotti, M.R. Warden, E.K. Miller, S. Fusi
+bioRxiv,
+133025 (2017)
+http://doi.org/10.1101/133025
+publications/articles/lindsay2017.pdf
+
+Neurophysiological mechanisms supporting flexible, context specific, emotional regulation
+S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman
+Biological Psychiatry,
+volume 81, pages S272, 2017
+http://dx.doi.org/10.1016/j.biopsych.2017.02.1081
+publications/conferences/bernardi_conf2017.pdf
+
+The hippocampus as a predictive recurrent neural network
+S. Recanatesi, G. Wayne, M. Rigotti
+Cosyne: Computational and Systems Neuroscience Conference,
+2017
+<a></a>
+publications/conferences/recanatesi_conf2017.pdf
+
 Energy-Efficient Neuromorphic Classifiers
 D. Martí, M. Rigotti, M. Seok, S. Fusi
 Neural Computation,
