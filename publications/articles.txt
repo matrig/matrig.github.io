@@ -1,9 +1,9 @@
 # ARTICLES
 Hebbian Learning in a Random Network Captures Selectivity Properties of Prefrontal Cortex
 G.W. Lindsay, M. Rigotti, M.R. Warden, E.K. Miller, S. Fusi
-bioRxiv,
-133025 (2017)
-http://doi.org/10.1101/133025
+Journal of Neuroscience,
+37:11021-11036, 2017
+https://doi.org/10.1523/JNEUROSCI.1222-17.2017
 publications/articles/lindsay2017.pdf
 
 Neurophysiological mechanisms supporting flexible, context specific, emotional regulation
