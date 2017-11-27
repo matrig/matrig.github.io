@@ -1,4 +1,10 @@
 # ABSTRACT
+Characterizing human prefrontal cortex representations with fMRI
+A. Bhandari and M. Rigotti and C. Gagne and S. Fusi and D. Badre
+Society for Neuroscience Meeting (Washington DC),
+2017
+publications/abstracts/bhandari_abs2017.pdf
+
 Neurophysiological mechanisms for representing abstract components of mental states
 J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman
 Society for Neuroscience Meeting (San Diego CA),
