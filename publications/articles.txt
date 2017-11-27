@@ -5,6 +5,8 @@ Journal of Neuroscience,
 37:11021-11036, 2017
 https://doi.org/10.1523/JNEUROSCI.1222-17.2017
 publications/articles/lindsay2017.pdf
+@{preprint} https://doi.org/10.1101/133025
+@{code} https://senselab.med.yale.edu/ModelDB/showModel?model=234097
 
 Neurophysiological mechanisms supporting flexible, context specific, emotional regulation
 S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman
