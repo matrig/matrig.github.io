@@ -4,7 +4,7 @@ J. Munuera, M. Rigotti, C.D. Salzman
 Nature Neuroscience,
 21: 415-423, 2018
 http://dx.doi.org/10.1038/s41593-018-0082-8
-publications/articles/muneura2018.pdf
+publications/articles/munuera2018.pdf
 
 Hebbian Learning in a Random Network Captures Selectivity Properties of Prefrontal Cortex
 G.W. Lindsay, M. Rigotti, M.R. Warden, E.K. Miller, S. Fusi
