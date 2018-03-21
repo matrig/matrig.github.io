@@ -2,7 +2,7 @@
 Shared  neural coding for social hierarchy and reward value in primate amygdala
 J. Munuera, M. Rigotti, C.D. Salzman
 Nature Neuroscience,
-21: 415-423 (2018)
+21: 415-423, 2018
 http://dx.doi.org/10.1038/s41593-018-0082-8
 publications/articles/muneura2018.pdf
 
