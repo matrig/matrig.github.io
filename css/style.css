@@ -197,6 +197,32 @@
 					width: 48px;
 					height: 48px;
 				}
+				
+		    .image.avatar64
+			{
+				width: 64px;
+				height: 64px;
+				background: #f00;
+			}
+			
+				.image.avatar64 img
+				{
+					width: 64px;
+					height: 64px;
+				}
+			
+		    .image.avatar82
+			{
+				width: 82px;
+				height: 82px;
+				background: #f00;
+			}
+			
+				.image.avatar82 img
+				{
+					width: 82px;
+					height: 82px;
+				}
 
 			.image.full
 			{
