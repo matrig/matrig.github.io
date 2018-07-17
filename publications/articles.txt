@@ -1,4 +1,11 @@
 # ARTICLES
+Efficient ConvNets for Analog Arrays
+M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
+arXiv:1807.01356,
+2018
+https://arxiv.org/abs/1807.01356
+publications/articles/rasch2018.pdf
+
 Shared  neural coding for social hierarchy and reward value in primate amygdala
 J. Munuera, M. Rigotti, C.D. Salzman
 Nature Neuroscience,
