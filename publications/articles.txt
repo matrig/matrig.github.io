@@ -1,4 +1,21 @@
 # ARTICLES
+# (optional fields (@{...}) have to be put at the end of the entry)
+#
+The geometry of abstraction in hippocampus and prefrontal cortex
+S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
+bioRxiv:408633
+2018
+https://doi.org/10.1101/408633
+publications/articles/bernardi2018.pdf
+@{year}2018
+
+Signatures and mechanisms of low-dimensional neural predictive manifolds
+S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
+bioRxiv:471987
+2018
+https://doi.org/10.1101/471987
+publications/articles/recanatesi2018.pdf
+
 Efficient ConvNets for Analog Arrays
 M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
 arXiv:1807.01356,
@@ -6,7 +23,7 @@ arXiv:1807.01356,
 https://arxiv.org/abs/1807.01356
 publications/articles/rasch2018.pdf
 
-Shared  neural coding for social hierarchy and reward value in primate amygdala
+Shared neural coding for social hierarchy and reward value in primate amygdala
 J. Munuera, M. Rigotti, C.D. Salzman
 Nature Neuroscience,
 21: 415-423, 2018
@@ -21,6 +38,7 @@ https://doi.org/10.1523/JNEUROSCI.1222-17.2017
 publications/articles/lindsay2017.pdf
 @{preprint} https://doi.org/10.1101/133025
 @{code} https://senselab.med.yale.edu/ModelDB/showModel?model=234097
+@{year}2017
 
 Neurophysiological mechanisms supporting flexible, context specific, emotional regulation
 S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman
@@ -42,6 +60,7 @@ Neural Computation,
 28: 2011-2044 (2016)
 http://dx.doi.org/10.1162/NECO_a_00882
 publications/articles/marti2016.pdf
+@{year}2016
 
 Why neurons mix: high dimensionality for higher cognition
 S. Fusi, E.K. Miller, M. Rigotti
@@ -56,6 +75,7 @@ Nature,
 522:309-314 (2015)
 http://dx.doi.org/10.1038/nature14445
 publications/articles/spellman2015.pdf
+@{year}2015
 
 Abstract context representations in primate amygdala and prefrontal cortex
 A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman
@@ -84,6 +104,7 @@ BMC Neuroscience 2014,
 15 (Suppl 1):P160
 <a></a>
 publications/conferences/lindsay_conf2014.pdf
+@{year}2014
 
 The importance of mixed selectivity in complex cognitive tasks
 M. Rigotti, O. Barak, M.R. Warden, X.-J. Wang, N.D. Daw, E.K. Miller, S. Fusi
@@ -91,6 +112,7 @@ Nature,
 497:585-590 (2013)
 http://dx.doi.org/10.1038/nature12160
 publications/articles/rigotti2013.pdf
+@{year}2013
 
 The sparseness of mixed selectivity neurons controls the generalization-discrimination trade-off
 O. Barak, M. Rigotti, S. Fusi
@@ -126,6 +148,7 @@ Cosyne: Computational and Systems Neuroscience Conference,
 2012
 <a></a>
 publications/conferences/rigotti_conf2012.pdf
+@{year}2012
 
 Neural representations that are good for both generalization and discrimination
 O. Barak, M. Rigotti and S. Fusi
@@ -140,6 +163,7 @@ Neural Computation,
 23:1935-43 (2011)
 http://dx.doi.org/10.1162/NECO_a_00152
 publications/articles/barak2011.pdf
+@{year}2011
 
 Context, correlation and decorrelation with randomly connected neurons
 O. Barak, M. Rigotti and S. Fusi
@@ -149,11 +173,12 @@ Cosyne: Computational and Systems Neuroscience Conference,
 publications/conferences/barak_conf2011.pdf
 
 Internal representation of task rules by recurrent dynamics: the importance of the diversity of neural responses
-M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang and S. Fusi 
+M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang and S. Fusi
 Frontiers in Computational Neuroscience,
 4:24 (2010)
 http://dx.doi.org/10.3389/fncom.2010.00024
 publications/articles/rigotti2010b.pdf
+@{year}2010
 
 Attractor concretion as a mechanism for the formation of context representations
 M. Rigotti, D. Ben Dayan Rubin, S.E. Morrison, C.D. Salzman and S. Fusi
@@ -168,6 +193,7 @@ BMC Neurosciencee 2009,
 10(Suppl 1):P292
 <a></a>
 publications/conferences/chersi_conf2009.pdf
+@{year}2009
 
 Event-driven transitions between attractors in spiking networks
 M. Mattia, M. Rigotti and S. Fusi
@@ -175,6 +201,7 @@ Cosyne: Computational and Systems Neuroscience Conference,
 2007
 <a></a>
 publications/conferences/mattia_conf2007.pdf
+@{year}2007
 
 An H-theorem for the general relativistic Ornstein-Uhlenbeck process
 M. Rigotti and F. Debbasch
@@ -182,3 +209,4 @@ Journal of Mathematical Physics,
 46:103303 (2005)
 http://dx.doi.org/10.1063/1.2038627
 publications/articles/rigotti2005.pdf
+@{year}2005
