@@ -20,12 +20,18 @@
 		</noscript>
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+    <script>$(document).ready(function(){$('#show_articles').load("publications/articles.html");});
+    </script>
+    <script>$(document).ready(function(){$('#show_abstracts').load("publications/abstracts.html");});
+    </script>
+    <script>$(document).ready(function(){$('#show_conferences').load("publications/conferences.html");});
+    </script>
   </head>
   <body>
 
     <!-- Header -->
     <div id="header" class="skel-panels-fixed">
-      
+
       <div class="top">
         <!-- Logo -->
         <div id="logo"> <span class="image avatar82"><img src="images/avatar.jpg"
@@ -51,22 +57,22 @@
           </ul>
         </nav>
       </div>
-            
+
       <div class="bottom">
 		<ul class="icons">
-		    <li><a target="_blank" href="https://twitter.com/MattiaRigotti" class="fa fa-twitter"></a><span style="color:gray;">@MattiaRigotti</span>		    
+		    <li><a target="_blank" href="https://twitter.com/MattiaRigotti" class="fa fa-twitter"></a><span style="color:gray;">@MattiaRigotti</span>
 		    </li>
 		</ul>
-		
+
         <h6 class="fa fa-envelope" style="font-size:medium;text-align:center">   mr<a></a>2666<a></a>@<a></a>columbia<a></a>.edu
         </h6>
         <h6 style="font-size:small;text-align:center">
             <a href="MattiaRigotti_pubkey.asc" style="text-decoration:none;color:gray;" target="_blank">
             (pgp key)
             </a> <br> <br>
-        </h6>		
+        </h6>
 	  </div>
-      
+
     </div>
 
     <!-- Main -->
@@ -151,548 +157,26 @@
 
           	<ul style="text-align:left">
 
-<h3 style="margin-left: -20px">Articles</h3>
+                <!-- Articles -->
+                <h3 style="margin-left: -20px">Articles</h3>
+                <div id="show_articles"></div>
 
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2018</span> </li>
+                <br>
 
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="https://arxiv.org/abs/1807.01356" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank"> 
-    Efficient ConvNets for Analog Arrays</a>
-    <a href="https://arxiv.org/pdf/1807.01356" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a>
-    <br>	
-    M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch<br>
-    <em>arXiv:1807.01356,</em> 2018          	
-    </h6>
-</li>
+                <!-- Abstracts -->
+                <h3 style="margin-left: -20px">Conference abstracts</h3>
+                <div id="show_abstracts"></div>
 
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1038/s41593-018-0082-8" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank"> 
-    Shared  neural coding for social hierarchy and reward value in primate amygdala</a>
-    <a href="publications/articles/munuera2018.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a>
-    <br>	
-    J. Munuera, M. Rigotti, C.D. Salzman<br>
-    <em>Nature Neuroscience,</em> 21: 415-423, 2018
-    </h6>
-</li>
+                <br>
 
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2017</span> </li>
+                <!-- Conferences -->
+                <h3 style="margin-left: -20px">Conference presentations</h3>
+                <div id="show_conferences"></div>
 
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="https://doi.org/10.1523/JNEUROSCI.1222-17.2017" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Hebbian Learning in a Random Network Captures Selectivity Properties of Prefrontal Cortex</a>
-    <a href="publications/articles/lindsay2017.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a>
-    <a href="https://doi.org/10.1101/133025" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[preprint]</span></a>
-    <a href="https://senselab.med.yale.edu/ModelDB/showModel?model=234097" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[code]</span></a>
-    <br>
-    G.W. Lindsay, M. Rigotti, M.R. Warden, E.K. Miller, S. Fusi<br>
-    <em>Journal of Neuroscience,</em> 37:11021-11036, 2017
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1016/j.biopsych.2017.02.1081" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Neurophysiological mechanisms supporting flexible, context specific, emotional regulation</a>
-    <a href="publications/conferences/bernardi_conf2017.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman<br>
-    <em>Biological Psychiatry,</em> volume 81, pages S272, 2017
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-        <span style="font-weight:bold;color:gray;">The hippocampus as a predictive recurrent neural network</span>
-    <a href="publications/conferences/recanatesi_conf2017.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    S. Recanatesi, G. Wayne, M. Rigotti<br>
-    <em>Cosyne: Computational and Systems Neuroscience Conference,</em> 2017
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2016</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1162/NECO_a_00882" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Energy-Efficient Neuromorphic Classifiers</a>
-    <a href="publications/articles/marti2016.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a>
-    <a href="https://arxiv.org/abs/1507.00235" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[preprint]</span></a><br>
-    D. Martí, M. Rigotti, M. Seok, S. Fusi<br>
-    <em>Neural Computation,</em> 28: 2011-2044 (2016)
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1016/j.conb.2016.01.010" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Why neurons mix: high dimensionality for higher cognition</a>
-    <a href="publications/articles/fusi2016.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    S. Fusi, E.K. Miller, M. Rigotti<br>
-    <em>Current Opinion in Neurobiology,</em> 37: 66-74 (2016)
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2015</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1038/nature14445" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Hippocampal-prefrontal input supports spatial encoding in working memory</a>
-    <a href="publications/articles/spellman2015.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    T. Spellman, M. Rigotti, S.E. Ahmari, S. Fusi, J.A. Gogos, J.A. Gordon<br>
-    <em>Nature,</em> 522:309-314 (2015)
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1016/j.neuron.2015.07.024" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Abstract context representations in primate amygdala and prefrontal cortex</a>
-    <a href="publications/articles/saez2015.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman<br>
-    <em>Neuron,</em> 87:869-881 (2015)
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://arxiv.org/abs/1605.03952" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Estimating the dimensionality of neural responses with fMRI Repetition Suppression</a>
-    <a href="publications/conferences/rigotti_conf2015.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti, S. Fusi<br>
-    <em>Proceedings of the 5th NIPS Workshop on Machine Learning and Interpretation in NeuroImaging (MLINI),</em> 2015
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Neurophysiological mechanisms supporting flexible, context specific, emotional regulation</span>
-    <a href="publications/conferences/bernardi_conf2015.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman<br>
-    <em>Biological Psychiatry,</em> volume 77, pages 136S-136S, 2015
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2014</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Hebbian-inspired rewiring of a random network replicates pattern of selectivity seen in PFC</span>
-    <a href="publications/conferences/lindsay_conf2014.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    G. Lindsay, M. Rigotti, M. R. Warden, E. K. Miller, S. Fusi<br>
-    <em>BMC Neuroscience 2014,</em> 15 (Suppl 1):P160
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2013</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1038/nature12160" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    The importance of mixed selectivity in complex cognitive tasks</a>
-    <a href="publications/articles/rigotti2013.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti, O. Barak, M.R. Warden, X.-J. Wang, N.D. Daw, E.K. Miller, S. Fusi<br>
-    <em>Nature,</em> 497:585-590 (2013)
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1523/JNEUROSCI.2753-12.2013" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    The sparseness of mixed selectivity neurons controls the generalization-discrimination trade-off</a>
-    <a href="publications/articles/barak2013.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    O. Barak, M. Rigotti, S. Fusi<br>
-    <em>Journal of Neuroscience,</em> 33:3844-56 (2013)
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Scalability properties of multimodular networks with dynamic gating</span>
-    <a href="publications/conferences/marti_conf2013b.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    D. Marti, O. Barak, M. Rigotti, S. Fusi<br>
-    <em>BMC Neuroscience 2013,</em> 14(Suppl 1):P136
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-        <span style="font-weight:bold;color:gray;">A VLSI chip with spike-based synaptic plasticity for online learning in real-time</span>
-    <a href="publications/conferences/stefanini_conf2013.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    F. Stefanini, M. Rigotti, S. Fusi and G. Indiveri<br>
-    <em>International Workshop on Neuromorphic and Brain-Based Computing Systems, NeuComp (Grenoble, France),</em> 2013
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Scalability properties of multimodular networks with dynamic gating</span>
-    <a href="publications/conferences/marti_conf2013a.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    D. Marti, O. Barak, M. Rigotti and S. Fusi<br>
-    <em>Cosyne: Computational and Systems Neuroscience Conference,</em> 2013
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2012</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">An adaptive spiking neural network for decision making in partially observable environments</span>
-    <a href="publications/conferences/rigotti_conf2012.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti, D. Ben Dayan Rubin, N.D. Daw and S. Fusi<br>
-    <em>Cosyne: Computational and Systems Neuroscience Conference,</em> 2012
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Neural representations that are good for both generalization and discrimination</span>
-    <a href="publications/conferences/barak_conf2012.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    O. Barak, M. Rigotti and S. Fusi<br>
-    <em>Cosyne: Computational and Systems Neuroscience Conference,</em> 2012
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2011</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1162/NECO_a_00152" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    A simple derivation of a bound on the Perceptron margin using Singular Value Decomposition</a>
-    <a href="publications/articles/barak2011.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    O. Barak, M. Rigotti<br>
-    <em>Neural Computation,</em> 23:1935-43 (2011)
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Context, correlation and decorrelation with randomly connected neurons</span>
-    <a href="publications/conferences/barak_conf2011.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    O. Barak, M. Rigotti and S. Fusi<br>
-    <em>Cosyne: Computational and Systems Neuroscience Conference,</em> 2011
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2010</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.3389/fncom.2010.00024" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Internal representation of task rules by recurrent dynamics: the importance of the diversity of neural responses</a>
-    <a href="publications/articles/rigotti2010b.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang and S. Fusi <br>
-    <em>Frontiers in Computational Neuroscience,</em> 4:24 (2010)
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1016/j.neuroimage.2010.01.047" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    Attractor concretion as a mechanism for the formation of context representations</a>
-    <a href="publications/articles/rigotti2010a.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti, D. Ben Dayan Rubin, S.E. Morrison, C.D. Salzman and S. Fusi<br>
-    <em>NeuroImage,</em> 52:833-47 (2010)
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2009</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Power-law autocorrelation of neural activity in models of mental states that are hierarchically organized</span>
-    <a href="publications/conferences/chersi_conf2009.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    F. Chersi, M. Rigotti and S. Fusi<br>
-    <em>BMC Neurosciencee 2009,</em> 10(Suppl 1):P292
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2007</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Event-driven transitions between attractors in spiking networks</span>
-    <a href="publications/conferences/mattia_conf2007.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Mattia, M. Rigotti and S. Fusi<br>
-    <em>Cosyne: Computational and Systems Neuroscience Conference,</em> 2007
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2005</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://dx.doi.org/10.1063/1.2038627" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
-    An H-theorem for the general relativistic Ornstein-Uhlenbeck process</a>
-    <a href="publications/articles/rigotti2005.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti and F. Debbasch<br>
-    <em>Journal of Mathematical Physics,</em> 46:103303 (2005)
-    </h6>
-</li>
-
-
-<br>
-
-
-
-<h3 style="margin-left: -20px">Conference abstracts</h3>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2017</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Characterizing human prefrontal cortex representations with fMRI</span>
-    <a href="publications/abstracts/bhandari_abs2017.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    A. Bhandari, M. Rigotti, C. Gagne, S. Fusi, D. Badre<br>
-    <em>Society for Neuroscience Meeting (Washington DC),</em> 2017
-    </h6>
-</li>
-
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2016</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Neurophysiological mechanisms for representing abstract components of mental states</span>
-    <a href="publications/abstracts/munuera_abs2016.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman<br>
-    <em>Society for Neuroscience Meeting (San Diego CA),</em> 2016
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Cortico-hippocampal contribution to the generation of contextual information</span>
-    <a href="publications/abstracts/bernardi_abs2016.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman<br>
-    <em>Society for Neuroscience Meeting (San Diego CA),</em> 2016
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2014</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Direct hippocampal-prefrontal input supports the encoding of spatial information during a working memory task</span>
-    <a href="publications/abstracts/spellman_abs2014.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    T. Spellman, M. Rigotti, S. Fusi, J. Gogos, J. Gordon<br>
-    <em>Society for Neuroscience Annual Meeting (Washington DC),</em> 2014
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Neurophysiological mechanisms supporting flexible, context-specific, operant and Pavlovian behavior</span>
-    <a href="publications/abstracts/munuera_abs2014.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman<br>
-    <em>Society for Neuroscience Annual Meeting (Washington DC),</em> 2014
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2013</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Neural mechanisms of context representation and reinforcement expectation in the amygdala and prefrontal cortex</span>
-    <a href="publications/abstracts/saez_abs2013.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman<br>
-    <em>Society for Neuroscience Annual Meeting (San Diego, CA),</em> 2013
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2010</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Reinforcement learning with a value system in an attractor neural network</span>
-    <a href="publications/abstracts/rigotti_abs2010.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti, S. Fusi<br>
-    <em>Society for Neuroscience Annual Meeting (San Diego, CA),</em> 2010
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Dynamic gating in multi-modular neural networks using random connections</span>
-    <a href="publications/abstracts/barak_abs2010.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    O. Barak, M. Rigotti, S. Fusi<br>
-    <em>Society for Neuroscience Annual Meeting (San Diego, CA),</em> 2010
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2009</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">A theory for the formation of the neural representation of context in reinforcement learning</span>
-    <a href="publications/abstracts/rigotti_abs2009.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang, S. Fusi<br>
-    <em>Society for Neuroscience Annual Meeting (Chicago, Il),</em> 2009
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Models of neural networks of spiking neurons performing complex cognitive tasks</span>
-    <a href="publications/abstracts/bendayanrubin_abs2009.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    D. Ben Dayan Rubin, M. Rigotti, S. Fusi<br>
-    <em>Society for Neuroscience Annual Meeting (Chicago, Il),</em> 2009
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2008</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Neural Network models of hierarchically organized mental states show highly variable activity with long range temporal correlations</span>
-    <a href="publications/abstracts/chersi_abs2008.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    F. Chersi, M. Rigotti, D. Ben Dayan Rubin, S. Fusi<br>
-    <em>FENS - Forum of European Neuroscience (Geneva, CH),</em> vol. 4, 126.5, 2008
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2007</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Modeling gain neuromodulation of recurrent cortical networks for cognitive switch</span>
-    <a href="publications/abstracts/fusi_abs2007.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    S. Fusi, M. Rigotti, M. Mattia<br>
-    <em>Society for Neuroscience Annual Meeting (San Diego, CA),</em> pp.929.2/TT10 , 2007
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">The importance of neural diversity in complex cognitive tasks</span>
-    <a href="publications/abstracts/rigotti_abs2007.pdf" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
-    M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang, S. Fusi<br>
-    <em>Society for Neuroscience Annual Meeting (San Diego, CA),</em> pp.929.3/TT11, 2007
-    </h6>
-</li>
-
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">2006</span> </li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Modeling event-driven transitions between attractors of the neural dynamics</span><br>
-    M. Rigotti, S. Fusi<br>
-    <em>Society for Neuroscience Annual Meeting (Atlanta, GA),</em> pp.569.14/LL5, 2006
-    </h6>
-</li>
-
-
-
-
-<br>
-<h3 style="margin-left: -20px">Conference presentations</h3>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Jul 06, 2018</span> &nbsp; &nbsp;
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://indico.pku.edu.cn/e/QB2018" style="text-decoration:none;color:gray; font-weight:normal;" target="_blank">
-    PKU Quantitative Biology Meeting</a><br>
-    Peking University, Beijing, China
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Sep 12, 2017</span> &nbsp; &nbsp;
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://www.bernstein-network.de/en/bernstein-conference/past-conferences/2017/satellite-workshops/the-neural-code-universal-grammar-or-area-specific-mechanisms-russo-toutounji" style="text-decoration:none;color:gray; font-weight:normal;" target="_blank">
-    Workshop "The Neural Code: Universal Grammar or Area-Specific Mechanisms?"</a><br>
-    Bernstein Conference, Göttingen, Germany
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Nov 02, 2016</span> &nbsp; &nbsp;
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://aibrain.kaist.ac.kr/nc2016/" style="text-decoration:none;color:gray; font-weight:normal;" target="_blank">
-    '16 KAIST International Neural Computation Workshop</a><br>    
-    KAIST, Daejeon, South Korea
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">May 05, 2016</span> &nbsp; &nbsp;    
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://www.ps2016.org/downloads/abstracts-ps2016.pdf#page=25" style="text-decoration:none;color:gray; font-weight:normal;" target="_blank">
-    Symposium on the Role of Task Representation in Response Selection</a><br>
-    International Meeting of the Psychonomic Society (PS-2016), Granada, Spain
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Dec 12, 2015</span> &nbsp; &nbsp;
-    <style> a:hover { background: #DDDDFF; } </style> <a href="https://sites.google.com/site/mliniworkshop2015/schedule" style="text-decoration:none;color:gray; font-weight:normal;" target="_blank">
-    Workshop on Machine Learning and Interpretation in NeuroImaging</a><br>
-    Conference on Neural Information Processing Systems (NIPS-2015), Montreal, Canada
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Sep 18, 2015</span> &nbsp; &nbsp;
-    <style> a:hover { background: #DDDDFF; } </style> <a href="http://www.bernstein-network.de/en/bernstein-conference/past-conferences/2015/program/phd-student-event" style="text-decoration:none;color:gray; font-weight:normal;" target="_blank">
-    PhD Symposium</a><br>
-    Bernstein Conference, Heidelberg, Germany
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">May 15, 2015</span> &nbsp; &nbsp;
-    Workshop session on neuronal selectivity in the PFC<br>
-    4th Meeting on the Computational Properties of the Prefrontal Cortex, Washington, DC, USA
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">May 05, 2014</span> &nbsp; &nbsp;
-    Wokshop on attractor dynamics and learning<br>
-    Capo Caccia Cognitive Neuromorphic Engineering Workshop, Capo Caccia, Italy
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Apr 07, 2014</span> &nbsp; &nbsp;
-    Mini-Symposium on Prefrontal Cortex neural representations<br>
-    Cognitive Neuroscience Annual Meeting (CNS-2014), Boston, MA, USA
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">May 10, 2011</span> &nbsp; &nbsp;
-    Wokshop on attractor neural dynamics<br>
-    Capo Caccia Cognitive Neuromorphic Engineering Workshop, Capo Caccia, Italy
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Jun 15, 2010</span> &nbsp; &nbsp;
-    Gatsby-Columbia-ICNC Workshop<br>
-    Hebrew University, Jerusalem, Israel
-    </h6>
-</li>
-
-<li type="square">
-<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <span style="font-weight:bold;color:gray;">Sep 17, 2008</span> &nbsp; &nbsp;
-    Workshop on Working Memory<br>
-    5th European Conference on Complex Systems (ECCS-08), Jerusalem, Israel
-    </h6>
-</li>
 	        </ul>
         </div>
       </section>
+
 
       <!-- Other projects -->
       <section id="otherprojects" class="three">
@@ -791,7 +275,7 @@
         <ul class="menu">
           <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
-        <p><br>(last modified: 20 July 2018)</p>
+        <p><br>(last modified: 11 January 2019)</p>
       </div>
     </div>
   </body>

@@ -1,7 +1,9 @@
+<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">@{year}</span> </li>
+
 <li type="square">
 <h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
     <span style="font-weight:bold;color:gray;">@{0}</span>
-    <a href="@{4}" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>	
+    <a href="@{4}" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a><br>
     @{1}<br>
     <em>@{2}</em> @{3}
     </h6>
