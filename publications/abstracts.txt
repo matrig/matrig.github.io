@@ -5,91 +5,90 @@ Characterizing human prefrontal cortex representations with fMRI
 A. Bhandari, M. Rigotti, C. Gagne, S. Fusi, D. Badre
 Society for Neuroscience Meeting (Washington DC),
 2017
-publications/abstracts/bhandari_abs2017.pdf
+@{pdf}publications/abstracts/bhandari_abs2017.pdf
 @{year}2017
 
 Neurophysiological mechanisms for representing abstract components of mental states
 J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman
 Society for Neuroscience Meeting (San Diego CA),
 2016
-publications/abstracts/munuera_abs2016.pdf
+@{pdf}publications/abstracts/munuera_abs2016.pdf
 @{year}2016
 
 Cortico-hippocampal contribution to the generation of contextual information
 S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman
 Society for Neuroscience Meeting (San Diego CA),
 2016
-publications/abstracts/bernardi_abs2016.pdf
+@{pdf}publications/abstracts/bernardi_abs2016.pdf
 
 Direct hippocampal-prefrontal input supports the encoding of spatial information during a working memory task
 T. Spellman, M. Rigotti, S. Fusi, J. Gogos, J. Gordon
 Society for Neuroscience Annual Meeting (Washington DC),
 2014
-publications/abstracts/spellman_abs2014.pdf
+@{pdf}publications/abstracts/spellman_abs2014.pdf
 @{year}2014
 
 Neurophysiological mechanisms supporting flexible, context-specific, operant and Pavlovian behavior
 J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman
 Society for Neuroscience Annual Meeting (Washington DC),
 2014
-publications/abstracts/munuera_abs2014.pdf
+@{pdf}publications/abstracts/munuera_abs2014.pdf
 
 Neural mechanisms of context representation and reinforcement expectation in the amygdala and prefrontal cortex
 A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman
 Society for Neuroscience Annual Meeting (San Diego, CA),
 2013
-publications/abstracts/saez_abs2013.pdf
+@{pdf}publications/abstracts/saez_abs2013.pdf
 @{year}2013
 
 Reinforcement learning with a value system in an attractor neural network
 M. Rigotti, S. Fusi
 Society for Neuroscience Annual Meeting (San Diego, CA),
 2010
-publications/abstracts/rigotti_abs2010.pdf
+@{pdf}publications/abstracts/rigotti_abs2010.pdf
 @{year}2010
 
 Dynamic gating in multi-modular neural networks using random connections
 O. Barak, M. Rigotti, S. Fusi
 Society for Neuroscience Annual Meeting (San Diego, CA),
 2010
-publications/abstracts/barak_abs2010.pdf
+@{pdf}publications/abstracts/barak_abs2010.pdf
 
 A theory for the formation of the neural representation of context in reinforcement learning
 M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang, S. Fusi
 Society for Neuroscience Annual Meeting (Chicago, Il),
 2009
-publications/abstracts/rigotti_abs2009.pdf
+@{pdf}publications/abstracts/rigotti_abs2009.pdf
 @{year}2009
 
 Models of neural networks of spiking neurons performing complex cognitive tasks
 D. Ben Dayan Rubin, M. Rigotti, S. Fusi
 Society for Neuroscience Annual Meeting (Chicago, Il),
 2009
-publications/abstracts/bendayanrubin_abs2009.pdf
+@{pdf}publications/abstracts/bendayanrubin_abs2009.pdf
 
 Neural Network models of hierarchically organized mental states show highly variable activity with long range temporal correlations
 F. Chersi, M. Rigotti, D. Ben Dayan Rubin, S. Fusi
 FENS - Forum of European Neuroscience (Geneva, CH),
 vol. 4, 126.5, 2008
-publications/abstracts/chersi_abs2008.pdf
+@{pdf}publications/abstracts/chersi_abs2008.pdf
 @{year}2008
 
 Modeling gain neuromodulation of recurrent cortical networks for cognitive switch
 S. Fusi, M. Rigotti, M. Mattia
 Society for Neuroscience Annual Meeting (San Diego, CA),
 pp.929.2/TT10 , 2007
-publications/abstracts/fusi_abs2007.pdf
+@{pdf}publications/abstracts/fusi_abs2007.pdf
 @{year}2007
 
 The importance of neural diversity in complex cognitive tasks
 M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang, S. Fusi
 Society for Neuroscience Annual Meeting (San Diego, CA),
 pp.929.3/TT11, 2007
-publications/abstracts/rigotti_abs2007.pdf
+@{pdf}publications/abstracts/rigotti_abs2007.pdf
 
 Modeling event-driven transitions between attractors of the neural dynamics
 M. Rigotti, S. Fusi
 Society for Neuroscience Annual Meeting (Atlanta, GA),
 pp.569.14/LL5, 2006
 @{year}2006
-.
