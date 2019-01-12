@@ -77,7 +77,7 @@ vol. 4, 126.5, 2008
 Modeling gain neuromodulation of recurrent cortical networks for cognitive switch
 S. Fusi, M. Rigotti, M. Mattia
 Society for Neuroscience Annual Meeting (San Diego, CA),
-pp.929.2/TT10 , 2007
+pp.929.2/TT10, 2007
 @{pdf}publications/abstracts/fusi_abs2007.pdf
 @{year}2007
 
