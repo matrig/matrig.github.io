@@ -51,7 +51,7 @@ The hippocampus as a predictive recurrent neural network
 S. Recanatesi, G. Wayne, M. Rigotti
 Cosyne: Computational and Systems Neuroscience Conference,
 2017
-<a></a>
+http://www.cosyne.org/c/index.php?title=Cosyne2017_posters_3
 publications/conferences/recanatesi_conf2017.pdf
 
 Energy-Efficient Neuromorphic Classifiers
@@ -95,14 +95,14 @@ Neurophysiological mechanisms supporting flexible, context specific, emotional r
 S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman
 Biological Psychiatry,
 volume 77, pages 136S-136S, 2015
-<a></a>
+https://books.google.com/books?id=AO58CAAAQBAJ&pg=PT419
 publications/conferences/bernardi_conf2015.pdf
 
 Hebbian-inspired rewiring of a random network replicates pattern of selectivity seen in PFC
 G. Lindsay, M. Rigotti, M. R. Warden, E. K. Miller, S. Fusi
 BMC Neuroscience 2014,
 15 (Suppl 1):P160
-<a></a>
+https://dx.doi.org/10.1186%2F1471-2202-15-S1-P160
 publications/conferences/lindsay_conf2014.pdf
 @{year}2014
 
@@ -125,36 +125,36 @@ Scalability properties of multimodular networks with dynamic gating
 D. Marti, O. Barak, M. Rigotti, S. Fusi
 BMC Neuroscience 2013,
 14(Suppl 1):P136
-<a></a>
+https://dx.doi.org/10.1186%2F1471-2202-14-S1-P136
 publications/conferences/marti_conf2013b.pdf
 
 A VLSI chip with spike-based synaptic plasticity for online learning in real-time
 F. Stefanini, M. Rigotti, S. Fusi and G. Indiveri
 International Workshop on Neuromorphic and Brain-Based Computing Systems, NeuComp (Grenoble, France),
 2013
-<a></a>
+https://www.date-conference.com/date13/conference/workshop-w3
 publications/conferences/stefanini_conf2013.pdf
 
 Scalability properties of multimodular networks with dynamic gating
 D. Marti, O. Barak, M. Rigotti and S. Fusi
 Cosyne: Computational and Systems Neuroscience Conference,
 2013
-<a></a>
+https://dx.doi.org/10.1186%2F1471-2202-14-S1-P136
 publications/conferences/marti_conf2013a.pdf
 
 An adaptive spiking neural network for decision making in partially observable environments
 M. Rigotti, D. Ben Dayan Rubin, N.D. Daw and S. Fusi
 Cosyne: Computational and Systems Neuroscience Conference,
 2012
-<a></a>
+http://www.cosyne.org/c/index.php?title=Cosyne2012_posters_2
 publications/conferences/rigotti_conf2012.pdf
 @{year}2012
 
 Neural representations that are good for both generalization and discrimination
-O. Barak, M. Rigotti and S. Fusi
+O. Barak, M. Rigotti, S. Fusi
 Cosyne: Computational and Systems Neuroscience Conference,
 2012
-<a></a>
+http://www.cosyne.org/c/index.php?title=Cosyne2012_posters_2
 publications/conferences/barak_conf2012.pdf
 
 A simple derivation of a bound on the Perceptron margin using Singular Value Decomposition
@@ -169,7 +169,7 @@ Context, correlation and decorrelation with randomly connected neurons
 O. Barak, M. Rigotti and S. Fusi
 Cosyne: Computational and Systems Neuroscience Conference,
 2011
-<a></a>
+http://www.cosyne.org/c/index.php?title=Cosyne_11_posters
 publications/conferences/barak_conf2011.pdf
 
 Internal representation of task rules by recurrent dynamics: the importance of the diversity of neural responses
@@ -191,7 +191,7 @@ Power-law autocorrelation of neural activity in models of mental states that are
 F. Chersi, M. Rigotti and S. Fusi
 BMC Neurosciencee 2009,
 10(Suppl 1):P292
-<a></a>
+https://doi.org/10.1186/1471-2202-10-S1-P292
 publications/conferences/chersi_conf2009.pdf
 @{year}2009
 
@@ -199,7 +199,7 @@ Event-driven transitions between attractors in spiking networks
 M. Mattia, M. Rigotti and S. Fusi
 Cosyne: Computational and Systems Neuroscience Conference,
 2007
-<a></a>
+http://www.cosyne.org/c/images/e/ea/Cosyne-poster-II-22.pdf
 publications/conferences/mattia_conf2007.pdf
 @{year}2007
 
