@@ -3,7 +3,7 @@
 #
 The geometry of abstraction in hippocampus and prefrontal cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
-bioRxiv:408633
+bioRxiv:408633,
 2018
 https://doi.org/10.1101/408633
 publications/articles/bernardi2018.pdf
@@ -11,10 +11,17 @@ publications/articles/bernardi2018.pdf
 
 Signatures and mechanisms of low-dimensional neural predictive manifolds
 S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
-bioRxiv:471987
+bioRxiv:471987,
 2018
 https://doi.org/10.1101/471987
 publications/articles/recanatesi2018.pdf
+
+Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
+A. Choromanska, S. Kumaravel, R. Luss, I. Rish, B. Kingsbury, M. Rigotti, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
+arXiv:1806.09077,
+2018
+https://arxiv.org/abs/1806.09077
+publications/articles/choromanska2018.pdf
 
 Efficient ConvNets for Analog Arrays
 M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
