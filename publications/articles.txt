@@ -1,6 +1,14 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
+A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
+arXiv:1806.09077,
+2019
+https://arxiv.org/abs/1806.09077
+publications/articles/choromanska2019.pdf
+@{year}2019
+
 The geometry of abstraction in hippocampus and prefrontal cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
 bioRxiv:408633,
@@ -15,13 +23,6 @@ bioRxiv:471987,
 2018
 https://doi.org/10.1101/471987
 publications/articles/recanatesi2018.pdf
-
-Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
-A. Choromanska, S. Kumaravel, R. Luss, I. Rish, B. Kingsbury, M. Rigotti, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
-arXiv:1806.09077,
-2018
-https://arxiv.org/abs/1806.09077
-publications/articles/choromanska2018.pdf
 
 Efficient ConvNets for Analog Arrays
 M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
