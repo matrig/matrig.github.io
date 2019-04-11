@@ -1,4 +1,4 @@
-<li><span style="font-weight: bold; line-height:20px; margin-left: -20px;">@{year}</span> </li>
+<h6><span style="font-weight:bold; color:gray; line-height:20px; margin-left:-20px;">@{year}</span></h6>
 
 <li type="square">
 <h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
