@@ -1,13 +1,20 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
+A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
+ICML
+2019
+https://arxiv.org/abs/1806.09077
+publications/articles/choromanska2019.pdf
+@{year}2019
+
 The geometry of abstraction in hippocampus and pre-frontal cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman 
 Cosyne: Computational and Systems Neuroscience Conference,
 2019
 http://www.cosyne.org/c/index.php?title=Cosyne2019_posters_2
 publications/conferences/bernardi_conf2019.pdf
-@{year}2019
 
 Signatures of low-dimensional neural predictive manifolds 
 S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
@@ -15,13 +22,6 @@ Cosyne: Computational and Systems Neuroscience Conference,
 2019
 http://www.cosyne.org/c/index.php?title=Cosyne2019_posters_2
 publications/conferences/recanatesi_conf2019.pdf
-
-Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
-A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
-arXiv:1806.09077,
-2019
-https://arxiv.org/abs/1806.09077
-publications/articles/choromanska2019.pdf
 
 The geometry of abstraction in hippocampus and prefrontal cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
