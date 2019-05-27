@@ -5,8 +5,9 @@ Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
 A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
 ICML
 2019
-https://arxiv.org/abs/1806.09077
+https://www.icml.cc/Conferences/2019/ScheduleMultitrack?event=4692
 publications/articles/choromanska2019.pdf
+@{preprint}https://arxiv.org/abs/1806.09077
 @{year}2019
 
 The geometry of abstraction in hippocampus and pre-frontal cortex
