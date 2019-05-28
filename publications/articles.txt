@@ -5,8 +5,8 @@ Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
 A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
 ICML
 2019
-https://www.icml.cc/Conferences/2019/ScheduleMultitrack?event=4692
-publications/articles/choromanska2019.pdf
+http://proceedings.mlr.press/v97/choromanska19a.html
+publications/articles/choromanska2019a.pdf
 @{preprint}https://arxiv.org/abs/1806.09077
 @{year}2019
 
