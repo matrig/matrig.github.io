@@ -3,8 +3,8 @@
 #
 RAPA-ConvNets: Modified Convolutional Networks for Accelerated Training on Architectures with Analog Arrays
 M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
-Frontiers in Neuroscience | Neuromorphic Engineering
-2019
+Frontiers in Neuroscience | Neuromorphic Engineering,
+13:753 (2019)
 https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/abstract
 https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/pdf
 @{year}2019
