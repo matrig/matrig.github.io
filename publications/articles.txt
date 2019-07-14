@@ -1,6 +1,14 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+RAPA-ConvNets: Modified Convolutional Networks for Accelerated Training on Architectures with Analog Arrays
+M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
+Frontiers in Neuroscience | Neuromorphic Engineering
+2019
+https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/abstract
+https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/pdf
+@{year}2019
+
 Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
 A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
 ICML
@@ -8,7 +16,6 @@ ICML
 http://proceedings.mlr.press/v97/choromanska19a.html
 publications/articles/choromanska2019a.pdf
 @{preprint}https://arxiv.org/abs/1806.09077
-@{year}2019
 
 The geometry of abstraction in hippocampus and pre-frontal cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman 
