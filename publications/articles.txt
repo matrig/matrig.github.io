@@ -14,7 +14,7 @@ A. Bhandari, M.K. Benna, M. Rigotti, S. Fusi, D. Badre
 Conference on Cognitive Computational Neuroscience,
 2019
 https://doi.org/10.32470/CCN.2019.1162-0
-publications/conferences/bandhari2019.pdf
+publications/articles/bhandari2019.pdf
 
 Beyond Backprop: Online Alternating Minimization with Auxiliary Variables
 A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf
