@@ -23,6 +23,7 @@ ICML
 http://proceedings.mlr.press/v97/choromanska19a.html
 publications/articles/choromanska2019a.pdf
 @{preprint}https://arxiv.org/abs/1806.09077
+@{code}https://github.com/IBM/online-alt-min
 
 The geometry of abstraction in hippocampus and pre-frontal cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman 
