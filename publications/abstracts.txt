@@ -1,6 +1,13 @@
 # ABSTRACT
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Fmri adaptation vs pattern analysis: Evaluating methods for measuring human PFC representational geometry and dimensionality 
+A. Bhandari, Y. Braverman, M.K. Benna, M. Rigotti, S. Fusi, D. Badre
+Society for Neuroscience Meeting (Chicago IL),
+2019
+@{pdf}publications/abstracts/bhandari_abs2019.pdf
+@{year}2019
+
 Characterizing human prefrontal cortex representations with fMRI
 A. Bhandari, M. Rigotti, C. Gagne, S. Fusi, D. Badre
 Society for Neuroscience Meeting (Washington DC),
