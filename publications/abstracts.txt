@@ -1,7 +1,7 @@
 # ABSTRACT
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
-Fmri adaptation vs pattern analysis: Evaluating methods for measuring human PFC representational geometry and dimensionality 
+fMRI adaptation vs pattern analysis: Evaluating methods for measuring human PFC representational geometry and dimensionality
 A. Bhandari, Y. Braverman, M.K. Benna, M. Rigotti, S. Fusi, D. Badre
 Society for Neuroscience Meeting (Chicago IL),
 2019
