@@ -1,13 +1,22 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Sobolev Independence Criterion
+Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos
+NeurIPS,
+2019
+https://arxiv.org/abs/1910.14212
+publications/articles/mroueh2019.pdf
+@{preprint}https://arxiv.org/abs/1910.14212
+@{code}https://github.com/IBM/SIC
+@{year}2019
+
 RAPA-ConvNets: Modified Convolutional Networks for Accelerated Training on Architectures with Analog Arrays
 M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
 Frontiers in Neuroscience | Neuromorphic Engineering,
 13:753 (2019)
 https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/abstract
 https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/pdf
-@{year}2019
 
 Measuring prefrontal representational geometry: fMRI adaptation vs pattern analysis
 A. Bhandari, M.K. Benna, M. Rigotti, S. Fusi, D. Badre
@@ -26,13 +35,13 @@ publications/articles/choromanska2019a.pdf
 @{code}https://github.com/IBM/online-alt-min
 
 The geometry of abstraction in hippocampus and pre-frontal cortex
-S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman 
+S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
 Cosyne: Computational and Systems Neuroscience Conference,
 2019
 http://www.cosyne.org/c/index.php?title=Cosyne2019_posters_2
 publications/conferences/bernardi_conf2019.pdf
 
-Signatures of low-dimensional neural predictive manifolds 
+Signatures of low-dimensional neural predictive manifolds
 S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
 Cosyne: Computational and Systems Neuroscience Conference,
 2019
