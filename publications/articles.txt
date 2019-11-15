@@ -5,7 +5,7 @@ Sobolev Independence Criterion
 Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos
 NeurIPS,
 2019
-https://arxiv.org/abs/1910.14212
+https://papers.nips.cc/paper/9147-sobolev-independence-criterion
 publications/articles/mroueh2019.pdf
 @{preprint}https://arxiv.org/abs/1910.14212
 @{code}https://github.com/IBM/SIC
