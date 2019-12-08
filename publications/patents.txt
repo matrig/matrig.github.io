@@ -1,5 +1,5 @@
 Acceleration of Convolutional Neural Networks on Analog Arrays
 M. Rasch, T. Gokmen, M. Rigotti, W. Haensch
-US Patent App. 16/362,031
+US Patent App. 16/362,031, 
 2019
 https://patents.google.com/patent/US20190354847A1/en
