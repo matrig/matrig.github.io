@@ -11,3 +11,7 @@
 ../abstracts.html : abstracts.txt
 	line_parser.py \
 		-i abstracts.txt -t template_abstracts -o ../abstracts.html
+
+../patents.html : patents.txt
+	line_parser.py \
+		-i patents.txt -t template_patents -o ../patents.html
