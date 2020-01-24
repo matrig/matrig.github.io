@@ -3,7 +3,7 @@
 #
 Sobolev Independence Criterion
 Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos
-Advances in Neural Information Processing Systems 32,
+Advances in Neural Information Processing Systems 32, NeurIPS,
 2019
 https://papers.nips.cc/paper/9147-sobolev-independence-criterion
 publications/articles/mroueh2019.pdf
@@ -133,7 +133,8 @@ publications/articles/saez2015.pdf
 
 Estimating the dimensionality of neural responses with fMRI Repetition Suppression
 M. Rigotti, S. Fusi
-Proceedings of the 5th NIPS Workshop on Machine Learning and Interpretation in NeuroImaging (MLINI),
+Advances in Neural Information Processing Systems 28, MLINI
+Workshop at NIPS,
 2015
 http://arxiv.org/abs/1605.03952
 publications/conferences/rigotti_conf2015.pdf
