@@ -1,6 +1,15 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Alleviating Noisy Data in Image Captioning with Cooperative Distillation
+P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff
+VizWiz Grand Challenge Workshop,
+CVPR 2020
+https://vizwiz.org/workshops/2020-workshop/
+publications/articles/dognin2020.pdf
+@{slides}publications/articles/CVPR_Workshop_slides_2020
+@{year}2020
+
 Sobolev Independence Criterion
 Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos
 Advances in Neural Information Processing Systems 32,
