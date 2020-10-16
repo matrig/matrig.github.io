@@ -1,6 +1,24 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+The Geometry of Abstraction in the Hippocampus and Prefrontal Cortex
+S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
+Cell,
+183, 1-14 (2020)
+https://doi.org/10.1016/j.cell.2020.09.031
+https://www.biorxiv.org/content/10.1101/408633v3.full.pdf
+@{preprint}https://www.biorxiv.org/content/10.1101/408633v3
+@{year}2020
+
+Unbalanced Sobolev Descent
+Y. Mroueh, M. Rigotti
+Advances in Neural Information Processing Systems 33,
+NeurIPS 2020
+https://arxiv.org/abs/2009.14148
+publications/articles/mroueh2020.pdf
+@{preprint}https://arxiv.org/abs/2009.14148
+@{code}https://github.com/IBM/USD
+
 Alleviating Noisy Data in Image Captioning with Cooperative Distillation
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff
 VizWiz Grand Challenge Workshop,
@@ -9,7 +27,6 @@ https://vizwiz.org/workshops/2020-workshop/
 publications/articles/dognin2020.pdf
 @{slides}publications/articles/CVPR_Workshop_slides_2020.pdf
 @{video}https://ivc.ischool.utexas.edu/~yz9244/VizWiz_workshop/videos/103-poster.mp4
-@{year}2020
 
 Sobolev Independence Criterion
 Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos
