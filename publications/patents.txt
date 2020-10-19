@@ -1,3 +1,9 @@
+Layer-Wise Distillation for Protecting Pre-Trained Neural Network Models
+S. Chakraborty, M. Rigotti
+US Patent App. 16/367,448, 
+2020
+https://www.freepatentsonline.com/y2020/0311540.html
+
 Acceleration of Convolutional Neural Networks on Analog Arrays
 M. Rasch, T. Gokmen, M. Rigotti, W. Haensch
 US Patent App. 16/362,031, 
