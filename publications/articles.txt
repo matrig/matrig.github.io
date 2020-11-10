@@ -10,6 +10,14 @@ https://www.biorxiv.org/content/10.1101/408633v3.full.pdf
 @{preprint}https://www.biorxiv.org/content/10.1101/408633v3
 @{year}2020
 
+Tabular Transformers for Modeling Multivariate Time Series
+I. Padhi, Y. Schiff, I. Melnyk, M. Rigotti, Y. Mroueh, P. Dognin, J. Ross, R. Nair, E. Altman
+arXiv:2011.01843
+2020
+https://arxiv.org/abs/2011.01843
+publications/articles/padhi2020.pdf
+@{code}https://github.com/IBM/TabFormer
+
 Unbalanced Sobolev Descent
 Y. Mroueh, M. Rigotti
 Advances in Neural Information Processing Systems 33,
