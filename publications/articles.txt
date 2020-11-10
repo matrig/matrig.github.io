@@ -75,20 +75,13 @@ Cosyne: Computational and Systems Neuroscience Conference,
 http://www.cosyne.org/c/index.php?title=Cosyne2019_posters_2
 publications/conferences/recanatesi_conf2019.pdf
 
-The geometry of abstraction in hippocampus and prefrontal cortex
-S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
-bioRxiv:408633,
-2018
-https://doi.org/10.1101/408633
-publications/articles/bernardi2018.pdf
-@{year}2018
-
 Signatures and mechanisms of low-dimensional neural predictive manifolds
 S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
 bioRxiv:471987,
 2018
 https://doi.org/10.1101/471987
 publications/articles/recanatesi2018.pdf
+@{year}2018
 
 Efficient ConvNets for Analog Arrays
 M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
