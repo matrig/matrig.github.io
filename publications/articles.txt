@@ -14,7 +14,7 @@ Unbalanced Sobolev Descent
 Y. Mroueh, M. Rigotti
 Advances in Neural Information Processing Systems 33,
 NeurIPS 2020
-https://arxiv.org/abs/2009.14148
+https://proceedings.neurips.cc/paper/2020/hash/c5f5c23be1b71adb51ea9dc8e9d444a8-Abstract.html
 publications/articles/mroueh2020.pdf
 @{preprint}https://arxiv.org/abs/2009.14148
 @{code}https://github.com/IBM/USD
