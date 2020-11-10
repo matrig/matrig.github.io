@@ -10,14 +10,6 @@ https://www.biorxiv.org/content/10.1101/408633v3.full.pdf
 @{preprint}https://www.biorxiv.org/content/10.1101/408633v3
 @{year}2020
 
-Tabular Transformers for Modeling Multivariate Time Series
-I. Padhi, Y. Schiff, I. Melnyk, M. Rigotti, Y. Mroueh, P. Dognin, J. Ross, R. Nair, E. Altman
-arXiv:2011.01843
-2020
-https://arxiv.org/abs/2011.01843
-publications/articles/padhi2020.pdf
-@{code}https://github.com/IBM/TabFormer
-
 Unbalanced Sobolev Descent
 Y. Mroueh, M. Rigotti
 Advances in Neural Information Processing Systems 33,
@@ -26,6 +18,14 @@ https://proceedings.neurips.cc/paper/2020/hash/c5f5c23be1b71adb51ea9dc8e9d444a8-
 publications/articles/mroueh2020.pdf
 @{preprint}https://arxiv.org/abs/2009.14148
 @{code}https://github.com/IBM/USD
+
+Tabular Transformers for Modeling Multivariate Time Series
+I. Padhi, Y. Schiff, I. Melnyk, M. Rigotti, Y. Mroueh, P. Dognin, J. Ross, R. Nair, E. Altman
+arXiv:2011.01843
+2020
+https://arxiv.org/abs/2011.01843
+publications/articles/padhi2020.pdf
+@{code}https://github.com/IBM/TabFormer
 
 Alleviating Noisy Data in Image Captioning with Cooperative Distillation
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff
