@@ -1,6 +1,15 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Self-correcting Q-learning
+R. Zhu, M. Rigotti
+Thirty-Fifth AAAI Conference on Artificial Intelligence,
+AAAI-2021
+https://arxiv.org/abs/2012.01100
+publications/articles/zhu2020.pdf
+@{preprint}https://arxiv.org/abs/2012.01100
+@{year}2021
+
 The Geometry of Abstraction in the Hippocampus and Prefrontal Cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
 Cell,
