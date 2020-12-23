@@ -36,12 +36,22 @@ https://arxiv.org/abs/2011.01843
 publications/articles/padhi2020.pdf
 @{code}https://github.com/IBM/TabFormer
 
+Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge
+P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff,
+R.A. Young, B. Belgodere
+Winning Submission to the VizWiz 2020 Captions Challenge
+https://eval.ai/web/challenges/challenge-page/525/overview
+publications/articles/dognin2020b.pdf
+@{preprint}https://arxiv.org/abs/2012.11696
+@{video}https://ivc.ischool.utexas.edu/~yz9244/VizWiz_workshop/videos/MMTeam-oral.mp4
+
 Alleviating Noisy Data in Image Captioning with Cooperative Distillation
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff
 VizWiz Grand Challenge Workshop,
 CVPR 2020
 https://vizwiz.org/workshops/2020-workshop/
 publications/articles/dognin2020.pdf
+@{preprint}https://arxiv.org/abs/2012.11691
 @{slides}publications/articles/CVPR_Workshop_slides_2020.pdf
 @{video}https://ivc.ischool.utexas.edu/~yz9244/VizWiz_workshop/videos/103-poster.mp4
 
