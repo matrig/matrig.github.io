@@ -38,7 +38,8 @@ publications/articles/padhi2020.pdf
 
 Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young, B. Belgodere
-Winning Submission to the <a href="https://eval.ai/web/challenges/challenge-page/525/overview">VizWiz 2020 Captions Challenge</a> 
+Winning Submission to the <a href="https://eval.ai/web/challenges/challenge-page/525/overview">VizWiz 2020 Captions Challenge</a>
+CVPR 2020
 https://arxiv.org/abs/2012.11696
 publications/articles/dognin2020b.pdf
 @{video}https://ivc.ischool.utexas.edu/~yz9244/VizWiz_workshop/videos/MMTeam-oral.mp4
