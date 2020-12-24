@@ -52,7 +52,6 @@ https://vizwiz.org/workshops/2020-workshop/
 publications/articles/dognin2020.pdf
 @{preprint}https://arxiv.org/abs/2012.11691
 @{slides}publications/articles/CVPR_Workshop_slides_2020.pdf
-@{video}https://ivc.ischool.utexas.edu/~yz9244/VizWiz_workshop/videos/103-poster.mp4
 
 Sobolev Independence Criterion
 Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos
