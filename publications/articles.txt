@@ -15,7 +15,7 @@ S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
 Cell,
 183, 1-14 (2020)
 https://doi.org/10.1016/j.cell.2020.09.031
-https://authors.elsevier.com/c/1c3ZeL7PXcLBX
+publications/articles/bernardi2020.pdf
 @{preprint}https://www.biorxiv.org/content/10.1101/408633v3
 @{year}2020
 
