@@ -1,6 +1,15 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Predictive learning as a network mechanism for extracting low-dimensional latent space representations
+S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
+Nature Communications,
+12: 1417, 2021
+https://doi.org/10.1038/s41467-021-21696
+publications/recanatesi2021.pdf
+@{preprint}https://www.biorxiv.org/content/10.1101/471987v4
+@{year}2021
+
 Self-correcting Q-learning
 R. Zhu, M. Rigotti
 Thirty-Fifth AAAI Conference on Artificial Intelligence,
@@ -8,12 +17,11 @@ AAAI-2021
 https://arxiv.org/abs/2012.01100
 publications/articles/zhu2020.pdf
 @{preprint}https://arxiv.org/abs/2012.01100
-@{year}2021
 
 The Geometry of Abstraction in the Hippocampus and Prefrontal Cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
 Cell,
-183, 1-14 (2020)
+183, 1-14, 2020
 https://doi.org/10.1016/j.cell.2020.09.031
 publications/articles/bernardi2020.pdf
 @{preprint}https://www.biorxiv.org/content/10.1101/408633v3
@@ -66,7 +74,7 @@ publications/articles/mroueh2019.pdf
 RAPA-ConvNets: Modified Convolutional Networks for Accelerated Training on Architectures with Analog Arrays
 M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch
 Frontiers in Neuroscience | Neuromorphic Engineering,
-13:753 (2019)
+13:753, 2019
 https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/abstract
 https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/pdf
 
