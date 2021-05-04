@@ -18,6 +18,15 @@ https://arxiv.org/abs/2012.01100
 publications/articles/zhu2020.pdf
 @{preprint}https://arxiv.org/abs/2012.01100
 
+Tabular Transformers for Modeling Multivariate Time Series
+I. Padhi, Y. Schiff, I. Melnyk, M. Rigotti, Y. Mroueh, P. Dognin, J. Ross, R. Nair, E. Altman
+IEEE International Conference on Acoustics, Speech and Signal Processing,
+ICASSP 2021
+https://arxiv.org/abs/2011.01843
+publications/articles/padhi2021.pdf
+@{preprint}https://arxiv.org/abs/2011.01843
+@{code}https://github.com/IBM/TabFormer
+
 The Geometry of Abstraction in the Hippocampus and Prefrontal Cortex
 S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman
 Cell,
@@ -35,14 +44,6 @@ https://proceedings.neurips.cc/paper/2020/hash/c5f5c23be1b71adb51ea9dc8e9d444a8-
 publications/articles/mroueh2020.pdf
 @{preprint}https://arxiv.org/abs/2009.14148
 @{code}https://github.com/IBM/USD
-
-Tabular Transformers for Modeling Multivariate Time Series
-I. Padhi, Y. Schiff, I. Melnyk, M. Rigotti, Y. Mroueh, P. Dognin, J. Ross, R. Nair, E. Altman
-arXiv:2011.01843,
-2020
-https://arxiv.org/abs/2011.01843
-publications/articles/padhi2020.pdf
-@{code}https://github.com/IBM/TabFormer
 
 Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young, B. Belgodere
