@@ -1,11 +1,23 @@
+False detection rate control with null-hypothesis
+Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. dos Santos
+US Patent App. 16/600,479,
+2021
+https://patents.google.com/patent/US20210110409A1/en
+
+Feature selection using Sobolev independence criterion
+Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. dos Santos
+US Patent App. 16/600,477,
+2021
+https://patents.google.com/patent/US20210110285A1/en
+
 Layer-Wise Distillation for Protecting Pre-Trained Neural Network Models
 S. Chakraborty, M. Rigotti
-US Patent App. 16/367,448, 
+US Patent App. 16/367,448,
 2020
 https://www.freepatentsonline.com/y2020/0311540.html
 
 Acceleration of Convolutional Neural Networks on Analog Arrays
 M. Rasch, T. Gokmen, M. Rigotti, W. Haensch
-US Patent App. 16/362,031, 
+US Patent App. 16/362,031,
 2019
 https://patents.google.com/patent/US20190354847A1/en
