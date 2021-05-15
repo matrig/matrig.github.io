@@ -22,7 +22,7 @@ Tabular Transformers for Modeling Multivariate Time Series
 I. Padhi, Y. Schiff, I. Melnyk, M. Rigotti, Y. Mroueh, P. Dognin, J. Ross, R. Nair, E. Altman
 IEEE International Conference on Acoustics, Speech and Signal Processing,
 ICASSP 2021
-https://arxiv.org/abs/2011.01843
+https://ieeexplore.ieee.org/document/9414142
 publications/articles/padhi2021.pdf
 @{preprint}https://arxiv.org/abs/2011.01843
 @{code}https://github.com/IBM/TabFormer
