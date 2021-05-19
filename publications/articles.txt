@@ -10,6 +10,13 @@ publications/articles/recanatesi2021.pdf
 @{preprint}https://www.biorxiv.org/content/10.1101/471987v4
 @{year}2021
 
+Deep Bandits Show-Off: Simple and Efficient Exploration with Deep Networks
+M. Rigotti, R. Zhu
+arXiv:2105.04683,
+2021
+https://arxiv.org/abs/2105.04683
+publications/articles/rigotti2021.pdf
+
 Self-correcting Q-learning
 R. Zhu, M. Rigotti
 Thirty-Fifth AAAI Conference on Artificial Intelligence,
