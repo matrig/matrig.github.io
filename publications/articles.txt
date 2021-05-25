@@ -5,7 +5,7 @@ Predictive learning as a network mechanism for extracting low-dimensional latent
 S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
 Nature Communications,
 12: 1417, 2021
-https://doi.org/10.1038/s41467-021-21696
+https://doi.org/10.1038/s41467-021-21696-1
 publications/articles/recanatesi2021.pdf
 @{preprint}https://www.biorxiv.org/content/10.1101/471987v4
 @{year}2021
