@@ -16,6 +16,11 @@ Nov 02, 2016
 KAIST, Daejeon, South Korea
 @{url}http://aibrain.kaist.ac.kr/nc2016/
 
+Aug 29, 2016
+5th Workshop on the Computational Properties of the Prefrontal Cortex
+Lyon, France
+@{url}https://cppc2016.sciencesconf.org
+
 May 05, 2016
 Symposium on the Role of Task Representation in Response Selection
 International Meeting of the Psychonomic Society (PS-2016), Granada, Spain
@@ -42,6 +47,10 @@ Capo Caccia Cognitive Neuromorphic Engineering Workshop, Capo Caccia, Italy
 Apr 07, 2014
 Mini-Symposium on Prefrontal Cortex neural representations
 Cognitive Neuroscience Annual Meeting (CNS-2014), Boston, MA, USA
+
+Jul 26, 2013
+Sloan-Swartz Meeting for Computational Neuroscience
+Brandeis University, Boston, MA, USA
 
 May 10, 2011
 Wokshop on attractor neural dynamics
