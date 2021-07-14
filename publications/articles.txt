@@ -21,7 +21,7 @@ Self-correcting Q-learning
 R. Zhu, M. Rigotti
 Thirty-Fifth AAAI Conference on Artificial Intelligence,
 AAAI-2021
-https://arxiv.org/abs/2012.01100
+https://ojs.aaai.org/index.php/AAAI/article/view/17334
 publications/articles/zhu2020.pdf
 @{preprint}https://arxiv.org/abs/2012.01100
 
