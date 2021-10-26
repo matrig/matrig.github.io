@@ -11,11 +11,13 @@ publications/articles/recanatesi2021.pdf
 @{year}2021
 
 Deep Bandits Show-Off: Simple and Efficient Exploration with Deep Networks
-M. Rigotti, R. Zhu
-arXiv:2105.04683,
-2021
+R. Zhu, M. Rigotti, 
+Advances in Neural Information Processing Systems 35,
+NeurIPS 2021
 https://arxiv.org/abs/2105.04683
-publications/articles/rigotti2021.pdf
+publications/articles/zhu2021.pdf
+@{preprint}https://arxiv.org/abs/2105.04683
+@{code}https://github.com/IBM/SAU-explore
 
 Self-correcting Q-learning
 R. Zhu, M. Rigotti
