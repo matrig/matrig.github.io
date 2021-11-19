@@ -14,7 +14,7 @@ Deep Bandits Show-Off: Simple and Efficient Exploration with Deep Networks
 R. Zhu, M. Rigotti, 
 Advances in Neural Information Processing Systems 35,
 NeurIPS 2021
-https://arxiv.org/abs/2105.04683
+https://proceedings.neurips.cc/paper/2021/hash/92fde850d824c2ba9b563cb6fa4078c3-Abstract.html
 publications/articles/zhu2021.pdf
 @{preprint}https://arxiv.org/abs/2105.04683
 @{code}https://github.com/IBM/SAU-explore
