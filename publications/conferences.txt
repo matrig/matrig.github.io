@@ -1,6 +1,19 @@
 # CONFERENCES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Sep 21, 2021
+Workshop "The Geometry of Neural Activity: low-dimensional dynamics and high-dimensional representations"
+Bernstein Conference, online
+@{url}https://bernstein-network.de/bernstein-conference/program/satellite-workshops/the-geometry-of-neural-activity-low-dimensional-dynamics-and-high-dimensional-representations
+
+Mar 23, 2021
+Oxford/IBM Research Workshop on Behavioral Neuroscience
+Oxford, England (online)
+
+Sep 29, 2020
+Behavioral Neuroscience for AGI Workshop
+IBM Research, Yorktown Heights, NY, USA
+
 Jul 06, 2018
 PKU Quantitative Biology Meeting
 Peking University, Beijing, China
