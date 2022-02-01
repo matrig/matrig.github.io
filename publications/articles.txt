@@ -8,7 +8,6 @@ Journal of Artificial Intelligence Research, 73, 437-459, 2022
 https://www.jair.org/index.php/jair/article/view/13113
 publications/articles/dognin2022.pdf
 @{preprint}https://arxiv.org/abs/2012.11696
-@{video}https://www.youtube.com/watch?v=-0IMg6E6nRw
 @{year}2022
 
 Predictive learning as a network mechanism for extracting low-dimensional latent space representations
