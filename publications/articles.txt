@@ -1,6 +1,16 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge
+P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young, B. Belgodere
+Journal of Artificial Intelligence Research, 73, 437-459, 2022
+Winning Submission to the <a href="https://eval.ai/web/challenges/challenge-page/525/overview">VizWiz 2020 Captions Challenge</a>,
+https://www.jair.org/index.php/jair/article/view/13113
+publications/articles/dognin2022.pdf
+@{preprint}https://arxiv.org/abs/2012.11696
+@{video}https://www.youtube.com/watch?v=-0IMg6E6nRw
+@{year}2022
+
 Predictive learning as a network mechanism for extracting low-dimensional latent space representations
 S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
 Nature Communications,
@@ -53,14 +63,6 @@ https://proceedings.neurips.cc/paper/2020/hash/c5f5c23be1b71adb51ea9dc8e9d444a8-
 publications/articles/mroueh2020.pdf
 @{preprint}https://arxiv.org/abs/2009.14148
 @{code}https://github.com/IBM/USD
-
-Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge
-P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young, B. Belgodere
-Winning Submission to the <a href="https://eval.ai/web/challenges/challenge-page/525/overview">VizWiz 2020 Captions Challenge</a>,
-CVPR 2020
-https://arxiv.org/abs/2012.11696
-publications/articles/dognin2020b.pdf
-@{video}https://www.youtube.com/watch?v=-0IMg6E6nRw
 
 Alleviating Noisy Data in Image Captioning with Cooperative Distillation
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff
