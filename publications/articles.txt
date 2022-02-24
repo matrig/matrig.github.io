@@ -5,8 +5,8 @@ Attention-based Interpretability with Concept Transformers
 M. Rigotti, C. Miksovic, I. Giurgiu, T. Gschwind, P. Scotton
 International Conference on Learning Representations,
 ICLR 2022
-publications/articles/rigotti2022.pdf
 https://openreview.net/forum?id=kAa9eDS0RdO
+publications/articles/rigotti2022.pdf
 @{year}2022
 
 Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge
