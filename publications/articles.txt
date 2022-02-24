@@ -1,6 +1,14 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Attention-based Interpretability with Concept Transformers
+M. Rigotti, C. Miksovic, I. Giurgiu, T. Gschwind, P. Scotton
+International Conference on Learning Representations,
+ICLR 2022
+publications/articles/rigotti2022.pdf
+https://openreview.net/forum?id=kAa9eDS0RdO
+@{year}2022
+
 Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young, B. Belgodere
 Journal of Artificial Intelligence Research, 73, 437-459, 2022
@@ -8,7 +16,6 @@ Journal of Artificial Intelligence Research, 73, 437-459, 2022
 https://www.jair.org/index.php/jair/article/view/13113
 publications/articles/dognin2022.pdf
 @{preprint}https://arxiv.org/abs/2012.11696
-@{year}2022
 
 Predictive learning as a network mechanism for extracting low-dimensional latent space representations
 S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown
