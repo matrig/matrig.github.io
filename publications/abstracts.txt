@@ -1,6 +1,13 @@
 # ABSTRACT
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Correction of Motion Artefacts in HR-pQCT using Cycle-consistent Adversarial Networks
+P.Y. Steiner, M. Walle, M. Rigotti, D.E. Whittier, C. McLennan, P.R. Atkins, R. Müller, C.J. Collins
+27th Congress of the European Society of Biomechanics, ESB (Porto, Portugal),
+2022
+@{pdf}publications/abstracts/steiner_abs2022.pdf
+@{year}2022
+
 fMRI adaptation vs pattern analysis: Evaluating methods for measuring human PFC representational geometry and dimensionality
 A. Bhandari, Y. Braverman, M.K. Benna, M. Rigotti, S. Fusi, D. Badre
 Society for Neuroscience Meeting (Chicago IL),
