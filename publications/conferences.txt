@@ -1,6 +1,11 @@
 # CONFERENCES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Jun 16, 2022
+Keynote talk "Towards Automated Visual Inspection of Civil Engineering Structures"
+IEEE MELECON 2022, Palermo, Italy
+@{url}https://melecon2022.org/keynote-speakers/
+
 Sep 21, 2021
 Workshop "The Geometry of Neural Activity: low-dimensional dynamics and high-dimensional representations"
 Bernstein Conference, online
