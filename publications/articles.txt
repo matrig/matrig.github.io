@@ -9,6 +9,13 @@ https://openreview.net/forum?id=kAa9eDS0RdO
 publications/articles/rigotti2022.pdf
 @{year}2022
 
+Design of a Cloud-Based Data Platform for Standardized Machine Learning Workflows with Applications to Transport Infrastructure
+A. Bartezzaghi, I. Giurgiu, C. Marchiori, M. Rigotti, R. Sebastian, C. Malossi
+IEEE 21st Mediterranean Electrotechnical Conference
+MELECON 2022
+https://ieeexplore.ieee.org/abstract/document/9843138/
+publications/articles/bartezzaghi2022.pdf
+
 Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young, B. Belgodere
 Journal of Artificial Intelligence Research, 73, 437-459, 2022
