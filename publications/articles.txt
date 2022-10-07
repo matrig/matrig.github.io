@@ -35,7 +35,7 @@ publications/articles/janouskova2022.pdf
 
 Design of a Cloud-Based Data Platform for Standardized Machine Learning Workflows with Applications to Transport Infrastructure
 A. Bartezzaghi, I. Giurgiu, C. Marchiori, M. Rigotti, R. Sebastian, C. Malossi
-IEEE 21st Mediterranean Electrotechnical Conference
+IEEE 21st Mediterranean Electrotechnical Conference,
 MELECON 2022
 https://ieeexplore.ieee.org/abstract/document/9843138/
 publications/articles/bartezzaghi2022.pdf
@@ -103,8 +103,8 @@ publications/articles/mroueh2020.pdf
 
 Alleviating Noisy Data in Image Captioning with Cooperative Distillation
 P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff
-VizWiz Grand Challenge Workshop,
-CVPR 2020
+Computer Vision and Pattern Recognition Conference (CVPR 2020),
+VizWiz Grand Challenge Workshop
 https://vizwiz.org/workshops/2020-workshop/
 publications/articles/dognin2020.pdf
 @{preprint}https://arxiv.org/abs/2012.11691
