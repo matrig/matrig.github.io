@@ -1,3 +1,23 @@
+Weak Learning from Data Annotation Interactions,
+K. Janouskov{\'a}, I. Giurgiu, M. Rigotti, C. Malossi
+US Patent Reference P202107147US01,
+2022
+
+Explainability Using Concept Transformers
+M. Rigotti, I. Giurgiu, T. Gschwind, C. Miksovic, P. Scotton
+US Patent App. 17/956,857,
+2022
+
+Leveraging Explanations at Training
+M. Rigotti, C. Miksovic, F. Janicki, C. Malossi, P. Scotton, T. Frick, T. Gschwind
+US Patent App. 17/323,364,
+2021
+
+Analog Neural Networks with Sparse Corrective Digital Modules
+M. Rasch, M. Rigotti
+U.S. Patent App. 16/362,031,
+2021
+
 False detection rate control with null-hypothesis
 Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. dos Santos
 US Patent App. 16/600,479,
