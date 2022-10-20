@@ -1,5 +1,5 @@
 Weak Learning from Data Annotation Interactions,
-K. Janouskov{\'a}, I. Giurgiu, M. Rigotti, C. Malossi
+K. Janouskova, I. Giurgiu, M. Rigotti, C. Malossi
 US Patent Reference P202107147US01,
 2022
 
@@ -15,7 +15,7 @@ US Patent App. 17/323,364,
 
 Analog Neural Networks with Sparse Corrective Digital Modules
 M. Rasch, M. Rigotti
-U.S. Patent App. 16/362,031,
+US Patent App. 16/362,031,
 2021
 
 False detection rate control with null-hypothesis
