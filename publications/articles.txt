@@ -33,6 +33,13 @@ CVCIE Workshop @ ECCV2022
 https://arxiv.org/abs/2209.11159
 publications/articles/janouskova2022.pdf
 
+Active Learning for Imbalanced Civil Infrastructure Data
+T. Frick, D. Antognini, M. Rigotti, I. Giurgiu, B. Grewe, C. Malossi
+European Conference on Computer Vision,
+CVCIE Workshop @ ECCV2022
+https://arxiv.org/abs/2210.10586
+publications/articles/frick2022.pdf
+
 Design of a Cloud-Based Data Platform for Standardized Machine Learning Workflows with Applications to Transport Infrastructure
 A. Bartezzaghi, I. Giurgiu, C. Marchiori, M. Rigotti, R. Sebastian, C. Malossi
 IEEE 21st Mediterranean Electrotechnical Conference,
