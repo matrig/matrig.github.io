@@ -10,6 +10,12 @@ publications/articles/ito2022.pdf
 @{preprint}https://arxiv.org/abs/2209.07431
 @{year}2022
 
+The implications of categorical and category-free mixed selectivity on representational geometries
+Current Opinion in Neurobiology,
+77:102644 (2022)
+https://doi.org/10.1016/j.conb.2022.102644
+publications/articles/kaufman2022.pdf
+
 Attention-based Interpretability with Concept Transformers
 M. Rigotti, C. Miksovic, I. Giurgiu, T. Gschwind, P. Scotton
 International Conference on Learning Representations,
