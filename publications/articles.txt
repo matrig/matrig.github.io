@@ -4,7 +4,7 @@
 Compositional generalization through abstract representations in human and artificial neural networks
 T. Ito, T. Klinger, D.H. Schultz, J.D. Murray, M.W. Cole, M. Rigotti
 Advances in Neural Information Processing Systems 36,
-NeurIPS 2022
+NeurIPS 2022 (Awarded an oral presentation)
 https://openreview.net/forum?id=177GzUAds8U
 publications/articles/ito2022.pdf
 @{preprint}https://arxiv.org/abs/2209.07431
@@ -36,7 +36,7 @@ publications/articles/belgodere2022.pdf
 Model-Assisted Labeling via Explainability for Visual Inspection of Civil Infrastructures
 K. Janouskova, M. Rigotti, I. Giurgiu, C. Malossi
 European Conference on Computer Vision,
-CVCIE Workshop @ ECCV2022
+CVCIE Workshop @ ECCV2022 (Awarded best paper award)
 https://arxiv.org/abs/2209.11159
 publications/articles/janouskova2022.pdf
 
