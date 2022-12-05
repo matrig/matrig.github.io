@@ -8,6 +8,7 @@ NeurIPS 2022 (Awarded an oral presentation)
 https://openreview.net/forum?id=177GzUAds8U
 publications/articles/ito2022.pdf
 @{preprint}https://arxiv.org/abs/2209.07431
+@{slides}https://neurips.cc/virtual/2022/poster/54735
 @{year}2022
 
 The implications of categorical and category-free mixed selectivity on representational geometries
