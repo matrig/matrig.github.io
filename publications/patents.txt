@@ -8,15 +8,17 @@ M. Rigotti, I. Giurgiu, T. Gschwind, C. Miksovic, P. Scotton
 US Patent App. 17/956,857,
 2022
 
-Leveraging Explanations at Training
+Neural networks with analog and digital modules
+M. Rasch, M. Rigotti
+US Patent App. 17/362,684,
+2022
+https://patents.google.com/patent/US20220414445A1/en
+
+Leveraging explanations for training of an AI system
 M. Rigotti, C. Miksovic, F. Janicki, C. Malossi, P. Scotton, T. Frick, T. Gschwind
 US Patent App. 17/323,364,
 2021
-
-Analog Neural Networks with Sparse Corrective Digital Modules
-M. Rasch, M. Rigotti
-US Patent App. 16/362,031,
-2021
+https://patents.google.com/patent/US20220374703A1/en
 
 False detection rate control with null-hypothesis
 Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. dos Santos
@@ -26,7 +28,7 @@ https://patents.google.com/patent/US20210110409A1/en
 
 Feature selection using Sobolev independence criterion
 Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. dos Santos
-US Patent App. 16/600,477,
+US Patent App. 11/645,555
 2021
 https://patents.google.com/patent/US20210110285A1/en
 
