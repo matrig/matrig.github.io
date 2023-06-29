@@ -1,13 +1,20 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Adaptive Conformal Regression with Jackknife+ Rescaled Scores
+N. Deutschmann, M. Rigotti, M. Rodriguez Martinez
+arXiv preprint
+arXiv:2305.19901
+https://arxiv.org/abs/2305.19901
+publications/articles/deutschmann2023.pdf
+@{year}2023
+
 Auditing and Generating Synthetic Data with Controllable Trust Trade-offs
 B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navartil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young
 arXiv preprint
 arXiv:2304.10819
 https://arxiv.org/abs/2304.10819
 publications/articles/belgodere2023.pdf
-@{year}2023
 
 Cloud-Based Real-Time Molecular Screening Platform with MolFormer
 B. Belgodere, V. Chenthamarakshan, P. Das, P. Dognin, T. Kurien, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young
@@ -17,6 +24,7 @@ https://doi.org/10.1007/978-3-031-26422-1_47
 publications/articles/belgodere2022.pdf
 @{preprint}https://arxiv.org/abs/2208.06665
 @{slides}publications/articles/belgodere2022_demo_video.mp4
+@{demo}https://molformer.res.ibm.com
 @{year}2022
 
 Compositional generalization through abstract representations in human and artificial neural networks
