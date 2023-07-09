@@ -1,13 +1,23 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+DARE: Towards Robust Text Explanations in Biomedical and Healthcare Applications
+A. Ivankay, M. Rigotti, P. Frossard
+The 61st Annual Meeting of the Association for Computational Linguistics 
+ACL 2023 (Awarded an oral presentation)
+https://virtual2023.aclweb.org/paper_P1265.html
+publications/articles/ivankay2023.pdf
+@{preprint}https://arxiv.org/abs/2307.02094
+@{slides}publications/articles/ivankay2023-slides.pdf
+@{code}https://github.com/ibm/domain-adaptive-attribution-robustness
+@{year}2023
+
 Adaptive Conformal Regression with Jackknife+ Rescaled Scores
 N. Deutschmann, M. Rigotti, M. Rodriguez Martinez
 arXiv preprint
 arXiv:2305.19901
 https://arxiv.org/abs/2305.19901
 publications/articles/deutschmann2023.pdf
-@{year}2023
 
 Auditing and Generating Synthetic Data with Controllable Trust Trade-offs
 B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navartil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young
