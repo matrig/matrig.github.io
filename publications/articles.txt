@@ -12,6 +12,27 @@ publications/articles/ivankay2023.pdf
 @{code}https://github.com/ibm/domain-adaptive-attribution-robustness
 @{year}2023
 
+Towards Workflows for the Use of AI Foundation Models in Visual Inspection Applications
+M. Rigotti, D. Antognini, R. Assaf, K. Bakirci, T. Frick, I. Giurgiu, K. Janoušková, F. Janicki, H. Jubran, C. Malossi, A. Meterez, F. Scheidegger
+ce/papers,
+6(5), pp.605-613
+https://doi.org/10.1002/cepa.2141
+publications/articles/rigotti2023.pdf
+
+Importance of Digitalization and Standardization for Bridge and Tunnel Monitoring and Predictive Maintenance
+M. Weise, Mi. Böhms, D. Allaix, A. Sanchez-Rodriguez, M. Rigotti
+ce/papers,
+6(5), pp.592-599
+https://doi.org/10.1002/cepa.2144
+publications/articles/weise2023.pdf
+
+Risk Assessment and Statistical Significance in the Age of Foundation Models
+A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross
+arXiv preprint
+arXiv:2310.07132
+https://arxiv.org/abs/2310.07132
+publications/articles/nitsure2023.pdf
+
 Adaptive Conformal Regression with Jackknife+ Rescaled Scores
 N. Deutschmann, M. Rigotti, M. Rodriguez Martinez
 arXiv preprint
