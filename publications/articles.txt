@@ -1,6 +1,14 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Risk Assessment and Statistical Significance in the Age of Foundation Models
+A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross
+NeurIPS 2023
+Socially Responsible Language Modelling Research Workshop (SoLaR)
+https://openreview.net/forum?id=AW1T4xxZ6F
+publications/articles/nitsure2023a.pdf
+@{year}2023
+
 DARE: Towards Robust Text Explanations in Biomedical and Healthcare Applications
 A. Ivankay, M. Rigotti, P. Frossard
 The 61st Annual Meeting of the Association for Computational Linguistics 
@@ -10,7 +18,6 @@ publications/articles/ivankay2023.pdf
 @{preprint}https://arxiv.org/abs/2307.02094
 @{slides}publications/articles/ivankay2023-slides.pdf
 @{code}https://github.com/ibm/domain-adaptive-attribution-robustness
-@{year}2023
 
 Towards Workflows for the Use of AI Foundation Models in Visual Inspection Applications
 M. Rigotti, D. Antognini, R. Assaf, K. Bakirci, T. Frick, I. Giurgiu, K. Janoušková, F. Janicki, H. Jubran, C. Malossi, A. Meterez, F. Scheidegger
