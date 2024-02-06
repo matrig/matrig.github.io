@@ -1,6 +1,24 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+On the generalization capacity of neural networks during generic multimodal reasoning 
+T. Ito, S. Dan, M. Rigotti, J. Kozloski, M. Campbell
+International Conference on Learning Representations,
+ICLR 2024
+https://openreview.net/forum?id=zyBJodMrn5
+publications/articles/ito2024.pdf
+@{preprint}https://arxiv.org/abs/2401.15030
+
+Unraveling the Key Components of OOD Generalization via Diversification
+H. Benoit, L. Jiang, A. Atanov, O. Fatih Kar, M. Rigotti, A. Zamir
+International Conference on Learning Representations,
+ICLR 2024
+https://openreview.net/forum?id=Lvf7GnaLru
+publications/articles/benoit2024.pdf
+@{preprint}https://arxiv.org/abs/2312.16313
+@{year}2024
+
+
 Risk Assessment and Statistical Significance in the Age of Foundation Models
 A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross
 NeurIPS 2023
@@ -53,6 +71,7 @@ arXiv preprint
 arXiv:2304.10819
 https://arxiv.org/abs/2304.10819
 publications/articles/belgodere2023.pdf
+
 
 Cloud-Based Real-Time Molecular Screening Platform with MolFormer
 B. Belgodere, V. Chenthamarakshan, P. Das, P. Dognin, T. Kurien, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young
