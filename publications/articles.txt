@@ -8,6 +8,7 @@ ICLR 2024
 https://openreview.net/forum?id=zyBJodMrn5
 publications/articles/ito2024.pdf
 @{preprint}https://arxiv.org/abs/2401.15030
+@{year}2024
 
 Unraveling the Key Components of OOD Generalization via Diversification
 H. Benoit, L. Jiang, A. Atanov, O. Fatih Kar, M. Rigotti, A. Zamir
@@ -16,7 +17,6 @@ ICLR 2024
 https://openreview.net/forum?id=Lvf7GnaLru
 publications/articles/benoit2024.pdf
 @{preprint}https://arxiv.org/abs/2312.16313
-@{year}2024
 
 
 Risk Assessment and Statistical Significance in the Age of Foundation Models
