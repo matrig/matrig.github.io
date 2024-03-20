@@ -1,13 +1,21 @@
 # ARTICLES
 # (optional fields (@{...}) have to be put at the end of the entry)
 #
+Adaptive Conformal Regression with Jackknife+ Rescaled Scores
+N. Deutschmann, M. Rigotti, M. Rodriguez Martinez
+Transactions on Machine Learning Research,
+TMLR 2024
+https://openreview.net/forum?id=1fbTGC3BUD
+publications/articles/deutschmann2023.pdf
+@{preprint}https://arxiv.org/abs/2305.19901
+@{year}2024
+
 MC Layer Normalization for calibrated uncertainty in Deep Learning
 T. Frick, D. Antognini, I. Giurgiu, B.F. Grewe, C. Malossi, R.J.B. Zhu, M. Rigotti 
 Transactions on Machine Learning Research,
 TMLR 2024
 https://openreview.net/forum?id=bG3ICt3E0C
 publications/articles/frick2024.pdf
-@{year}2024
 
 On the generalization capacity of neural networks during generic multimodal reasoning 
 T. Ito, S. Dan, M. Rigotti, J. Kozloski, M. Campbell
@@ -24,7 +32,6 @@ ICLR 2024
 https://openreview.net/forum?id=Lvf7GnaLru
 publications/articles/benoit2024.pdf
 @{preprint}https://arxiv.org/abs/2312.16313
-
 
 Risk Assessment and Statistical Significance in the Age of Foundation Models
 A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross
@@ -64,13 +71,6 @@ arXiv preprint
 arXiv:2310.07132
 https://arxiv.org/abs/2310.07132
 publications/articles/nitsure2023.pdf
-
-Adaptive Conformal Regression with Jackknife+ Rescaled Scores
-N. Deutschmann, M. Rigotti, M. Rodriguez Martinez
-arXiv preprint
-arXiv:2305.19901
-https://arxiv.org/abs/2305.19901
-publications/articles/deutschmann2023.pdf
 
 Auditing and Generating Synthetic Data with Controllable Trust Trade-offs
 B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navartil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young
