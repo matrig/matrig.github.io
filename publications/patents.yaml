@@ -1,0 +1,45 @@
+- title: "Weak Learning from Data Annotation Interactions"
+  authors: "K. Janouskova, I. Giurgiu, M. Rigotti, C. Malossi"
+  reference: "US Patent Reference P202107147US01"
+  year: 2022
+
+- title: "Explainability Using Concept Transformers"
+  authors: "M. Rigotti, I. Giurgiu, T. Gschwind, C. Miksovic, P. Scotton"
+  reference: "US Patent App. 17/956,857"
+  year: 2022
+
+- title: "Neural networks with analog and digital modules"
+  authors: "M. Rasch, M. Rigotti"
+  reference: "US Patent App. 17/362,684"
+  year: 2022
+  link: "https://patents.google.com/patent/US20220414445A1/en"
+
+- title: "Leveraging explanations for training of an AI system"
+  authors: "M. Rigotti, C. Miksovic, F. Janicki, C. Malossi, P. Scotton, T. Frick, T. Gschwind"
+  reference: "US Patent App. 17/323,364"
+  year: 2021
+  link: "https://patents.google.com/patent/US20220374703A1/en"
+
+- title: "False detection rate control with null-hypothesis"
+  authors: "Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. dos Santos"
+  reference: "US Patent App. 16/600,479"
+  year: 2021
+  link: "https://patents.google.com/patent/US20210110409A1/en"
+
+- title: "Feature selection using Sobolev independence criterion"
+  authors: "Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. dos Santos"
+  reference: "US Patent App. 11/645,555"
+  year: 2021
+  link: "https://patents.google.com/patent/US20210110285A1/en"
+
+- title: "Layer-Wise Distillation for Protecting Pre-Trained Neural Network Models"
+  authors: "S. Chakraborty, M. Rigotti"
+  reference: "US Patent App. 16/367,448"
+  year: 2020
+  link: "https://www.freepatentsonline.com/y2020/0311540.html"
+
+- title: "Acceleration of Convolutional Neural Networks on Analog Arrays"
+  authors: "M. Rasch, T. Gokmen, M. Rigotti, W. Haensch"
+  reference: "US Patent App. 16/362,031"
+  year: 2019
+  link: "https://patents.google.com/patent/US20190354847A1/en"

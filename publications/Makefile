@@ -1,17 +1,15 @@
-../articles.html : articles.txt
-	line_parser.py \
-		-i articles.txt -t template_articles -o ../articles.html
+../articles.html : articles.yaml
+	python template_renderer.py \
+		 template_articles.html articles.yaml ../articles.html
 
+../conferences.html : conferences.yaml
+	python template_renderer.py \
+		template_conferences.html conferences.yaml ../conferences.html
 
-../conferences.html : conferences.txt
-	line_parser.py \
-		-i conferences.txt -t template_conferences -o ../conferences.html
+../abstracts.html : abstracts.yaml
+	python template_renderer.py \
+		template_abstracts.html abstracts.yaml ../abstracts.html
 
-
-../abstracts.html : abstracts.txt
-	line_parser.py \
-		-i abstracts.txt -t template_abstracts -o ../abstracts.html
-
-../patents.html : patents.txt
-	line_parser.py \
-		-i patents.txt -t template_patents -o ../patents.html
+../patents.html : patents.yaml
+	python template_renderer.py \
+		template_patents.html patents.yaml ../patents.html

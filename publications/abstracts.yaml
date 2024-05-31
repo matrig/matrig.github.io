@@ -1,0 +1,94 @@
+- title: "Correction of Motion Artefacts in HR-pQCT using Cycle-consistent Adversarial Networks"
+  authors: "P.Y. Steiner, M. Walle, M. Rigotti, D.E. Whittier, C. McLennan, P.R. Atkins, R. Müller, C.J. Collins"
+  conference: "27th Congress of the European Society of Biomechanics, ESB (Porto, Portugal)"
+  year: 2022
+  pdf: "publications/abstracts/steiner_abs2022.pdf"
+
+- title: "fMRI adaptation vs pattern analysis: Evaluating methods for measuring human PFC representational geometry and dimensionality"
+  authors: "A. Bhandari, Y. Braverman, M.K. Benna, M. Rigotti, S. Fusi, D. Badre"
+  conference: "Society for Neuroscience Meeting (Chicago IL)"
+  year: 2019
+  pdf: "publications/abstracts/bhandari_abs2019.pdf"
+
+- title: "Characterizing human prefrontal cortex representations with fMRI"
+  authors: "A. Bhandari, M. Rigotti, C. Gagne, S. Fusi, D. Badre"
+  conference: "Society for Neuroscience Meeting (Washington DC)"
+  year: 2017
+  pdf: "publications/abstracts/bhandari_abs2017.pdf"
+
+- title: "Neurophysiological mechanisms for representing abstract components of mental states"
+  authors: "J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman"
+  conference: "Society for Neuroscience Meeting (San Diego CA)"
+  year: 2016
+  pdf: "publications/abstracts/munuera_abs2016.pdf"
+
+- title: "Cortico-hippocampal contribution to the generation of contextual information"
+  authors: "S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman"
+  conference: "Society for Neuroscience Meeting (San Diego CA)"
+  year: 2016
+  pdf: "publications/abstracts/bernardi_abs2016.pdf"
+
+- title: "Direct hippocampal-prefrontal input supports the encoding of spatial information during a working memory task"
+  authors: "T. Spellman, M. Rigotti, S. Fusi, J. Gogos, J. Gordon"
+  conference: "Society for Neuroscience Annual Meeting (Washington DC)"
+  year: 2014
+  pdf: "publications/abstracts/spellman_abs2014.pdf"
+
+- title: "Neurophysiological mechanisms supporting flexible, context-specific, operant and Pavlovian behavior"
+  authors: "J. Munuera, M. Rigotti, S. Fusi, C.D. Salzman"
+  conference: "Society for Neuroscience Annual Meeting (Washington DC)"
+  year: 2014
+  pdf: "publications/abstracts/munuera_abs2014.pdf"
+
+- title: "Neural mechanisms of context representation and reinforcement expectation in the amygdala and prefrontal cortex"
+  authors: "A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman"
+  conference: "Society for Neuroscience Annual Meeting (San Diego, CA)"
+  year: 2013
+  pdf: "publications/abstracts/saez_abs2013.pdf"
+
+- title: "Reinforcement learning with a value system in an attractor neural network"
+  authors: "M. Rigotti, S. Fusi"
+  conference: "Society for Neuroscience Annual Meeting (San Diego, CA)"
+  year: 2010
+  pdf: "publications/abstracts/rigotti_abs2010.pdf"
+
+- title: "Dynamic gating in multi-modular neural networks using random connections"
+  authors: "O. Barak, M. Rigotti, S. Fusi"
+  conference: "Society for Neuroscience Annual Meeting (San Diego, CA)"
+  year: 2010
+  pdf: "publications/abstracts/barak_abs2010.pdf"
+
+- title: "A theory for the formation of the neural representation of context in reinforcement learning"
+  authors: "M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang, S. Fusi"
+  conference: "Society for Neuroscience Annual Meeting (Chicago, Il)"
+  year: 2009
+  pdf: "publications/abstracts/rigotti_abs2009.pdf"
+
+- title: "Models of neural networks of spiking neurons performing complex cognitive tasks"
+  authors: "D. Ben Dayan Rubin, M. Rigotti, S. Fusi"
+  conference: "Society for Neuroscience Annual Meeting (Chicago, Il)"
+  year: 2009
+  pdf: "publications/abstracts/bendayanrubin_abs2009.pdf"
+
+- title: "Neural Network models of hierarchically organized mental states show highly variable activity with long range temporal correlations"
+  authors: "F. Chersi, M. Rigotti, D. Ben Dayan Rubin, S. Fusi"
+  conference: "FENS - Forum of European Neuroscience (Geneva, CH)"
+  year: 2008
+  pdf: "publications/abstracts/chersi_abs2008.pdf"
+
+- title: "Modeling gain neuromodulation of recurrent cortical networks for cognitive switch"
+  authors: "S. Fusi, M. Rigotti, M. Mattia"
+  conference: "Society for Neuroscience Annual Meeting (San Diego, CA)"
+  year: 2007
+  pdf: "publications/abstracts/fusi_abs2007.pdf"
+
+- title: "The importance of neural diversity in complex cognitive tasks"
+  authors: "M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang, S. Fusi"
+  conference: "Society for Neuroscience Annual Meeting (San Diego, CA)"
+  year: 2007
+  pdf: "publications/abstracts/rigotti_abs2007.pdf"
+
+- title: "Modeling event-driven transitions between attractors of the neural dynamics"
+  authors: "M. Rigotti, S. Fusi"
+  conference: "Society for Neuroscience Annual Meeting (Atlanta, GA)"
+  year: 2006

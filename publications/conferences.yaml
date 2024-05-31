@@ -1,0 +1,80 @@
+- date: "Jun 16, 2022"
+  talk: "Keynote talk \"Towards Automated Visual Inspection of Civil Engineering Structures\""
+  conference: "IEEE MELECON 2022, Palermo, Italy"
+  url: "https://melecon2022.org/keynote-speakers/"
+
+- date: "Sep 21, 2021"
+  talk: "Workshop \"The Geometry of Neural Activity: low-dimensional dynamics and high-dimensional representations\""
+  conference: "Bernstein Conference, online"
+  url: "https://bernstein-network.de/en/bernstein-conference/general-information/about-bernstein-conference/bernstein-conference-2021"
+
+- date: "Mar 23, 2021"
+  talk: "Oxford/IBM Research Workshop on Behavioral Neuroscience"
+  conference: "Oxford, England (online)"
+
+- date: "Sep 29, 2020"
+  talk: "Behavioral Neuroscience for AGI Workshop"
+  conference: "IBM Research, Yorktown Heights, NY, USA"
+
+- date: "Jul 06, 2018"
+  talk: "PKU Quantitative Biology Meeting"
+  conference: "Peking University, Beijing, China"
+  url: "http://indico.pku.edu.cn/e/QB2018"
+
+- date: "Sep 12, 2017"
+  talk: "Workshop \"The Neural Code: Universal Grammar or Area-Specific Mechanisms?\""
+  conference: "Bernstein Conference, Göttingen, Germany"
+  url: "http://www.bernstein-network.de/en/bernstein-conference/past-conferences/2017/satellite-workshops/the-neural-code-universal-grammar-or-area-specific-mechanisms-russo-toutounji"
+
+- date: "Nov 02, 2016"
+  talk: "'16 KAIST International Neural Computation Workshop"
+  conference: "KAIST, Daejeon, South Korea"
+  url: "http://aibrain.kaist.ac.kr/nc2016/"
+
+- date: "Aug 29, 2016"
+  talk: "5th Workshop on the Computational Properties of the Prefrontal Cortex"
+  conference: "Lyon, France"
+  url: "https://cppc2016.sciencesconf.org"
+
+- date: "May 05, 2016"
+  talk: "Symposium on the Role of Task Representation in Response Selection"
+  conference: "International Meeting of the Psychonomic Society (PS-2016), Granada, Spain"
+  url: "http://www.ps2016.org/downloads/abstracts-ps2016.pdf#page=25"
+
+- date: "Dec 12, 2015"
+  talk: "Workshop on Machine Learning and Interpretation in NeuroImaging"
+  conference: "Conference on Neural Information Processing Systems (NIPS-2015), Montreal, Canada"
+  url: "https://sites.google.com/site/mliniworkshop2015/schedule"
+
+- date: "Sep 18, 2015"
+  talk: "PhD Symposium"
+  conference: "Bernstein Conference, Heidelberg, Germany"
+  url: "http://www.bernstein-network.de/en/bernstein-conference/past-conferences/2015/program/phd-student-event"
+
+- date: "May 15, 2015"
+  talk: "Workshop session on neuronal selectivity in the PFC"
+  conference: "4th Meeting on the Computational Properties of the Prefrontal Cortex, Washington, DC, USA"
+
+- date: "May 05, 2014"
+  talk: "Wokshop on attractor dynamics and learning"
+  conference: "Capo Caccia Cognitive Neuromorphic Engineering Workshop, Capo Caccia, Italy"
+
+- date: "Apr 07, 2014"
+  talk: "Mini-Symposium on Prefrontal Cortex neural representations"
+  conference: "Cognitive Neuroscience Annual Meeting (CNS-2014), Boston, MA, USA"
+
+- date: "Jul 26, 2013"
+  talk: "Sloan-Swartz Meeting for Computational Neuroscience"
+  conference: "Brandeis University, Boston, MA, USA"
+
+- date: "May 10, 2011"
+  talk: "Wokshop on attractor neural dynamics"
+  conference: "Capo Caccia Cognitive Neuromorphic Engineering Workshop, Capo Caccia, Italy"
+
+- date: "Jun 15, 2010"
+  talk: "Gatsby-Columbia-ICNC Workshop"
+  conference: "Hebrew University, Jerusalem, Israel"
+
+- date: "Sep 17, 2008"
+  talk: "Workshop on Working Memory"
+  conference: "5th European Conference on Complex Systems (ECCS-08), Jerusalem, Israel"

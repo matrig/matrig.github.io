@@ -1,0 +1,15 @@
+{% for patent in items %}
+<li type="square">
+<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
+    <style> a:hover { background: #DDDDFF; } </style> <a
+      {%- if patent.link %}
+      href="{{ patent.link }}"
+      {%- endif %}
+      style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
+    {{ patent.title }}</a>
+    <br>
+    {{ patent.authors }}<br>
+    <em>{{ patent.reference }},</em> {{ patent.year }}
+    </h6>
+</li>
+{% endfor %}

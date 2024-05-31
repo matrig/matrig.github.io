@@ -1,0 +1,15 @@
+{% for conference in items %}
+<li type="square">
+<h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
+    <span style="font-weight:bold;color:gray;">{{ conference.date }}</span> &nbsp; &nbsp;
+    <style> a:hover { background: #DDDDFF; } </style>
+    <a
+    {%- if conference.url %}
+        href="{{ conference.url }}"
+    {%- endif %}
+        style="text-decoration:none;color:gray; font-weight:normal;" target="_blank">
+    {{ conference.talk }}</a><br>
+    {{ conference.conference }}
+    </h6>
+</li>
+{% endfor %}

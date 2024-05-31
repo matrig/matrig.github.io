@@ -1,0 +1,517 @@
+- title: "Mixed selectivity: Cellular computations for complexity"
+  authors: "K.M. Tye, E.K. Miller, F.H. Taschbach, M.K. Benna, M. Rigotti, S. Fusi"
+  publication: "Neuron"
+  issue: "112, July 17,"
+  year: 2024
+  url: "https://doi.org/10.1016/j.neuron.2024.04.017"
+  pdf: publications/articles/tye2024.pdf
+
+- title: "Adaptive Conformal Regression with Jackknife+ Rescaled Scores"
+  authors: "N. Deutschmann, M. Rigotti, M. Rodriguez Martinez"
+  publication: "Transactions on Machine Learning Research"
+  issue: "TMLR"
+  year: 2024
+  url: "https://openreview.net/forum?id=1fbTGC3BUD"
+  pdf: "publications/articles/deutschmann2023.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2305.19901"
+
+- title: "MC Layer Normalization for calibrated uncertainty in Deep Learning"
+  authors: "T. Frick, D. Antognini, I. Giurgiu, B.F. Grewe, C. Malossi, R.J.B. Zhu, M. Rigotti"
+  publication: "Transactions on Machine Learning Research"
+  issue: "TMLR"
+  year: 2024
+  url: "https://openreview.net/forum?id=bG3ICt3E0C"
+  pdf: "publications/articles/frick2024.pdf"
+
+- title: "On the generalization capacity of neural networks during generic multimodal reasoning"
+  authors: "T. Ito, S. Dan, M. Rigotti, J. Kozloski, M. Campbell"
+  publication: "International Conference on Learning Representations"
+  issue: "ICLR"
+  year: 2024
+  url: "https://openreview.net/forum?id=zyBJodMrn5"
+  pdf: "publications/articles/ito2024.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2401.15030"
+
+- title: "Unraveling the Key Components of OOD Generalization via Diversification"
+  authors: "H. Benoit, L. Jiang, A. Atanov, O. Fatih Kar, M. Rigotti, A. Zamir"
+  publication: "International Conference on Learning Representations"
+  issue: "ICLR"
+  year: 2024
+  url: "https://openreview.net/forum?id=Lvf7GnaLru"
+  pdf: "publications/articles/benoit2024.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2312.16313"
+
+- title: "Risk Assessment and Statistical Significance in the Age of Foundation Models"
+  authors: "A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross"
+  publication: "NeurIPS"
+  year: 2023
+  issue: "Socially Responsible Language Modelling Research Workshop (SoLaR)"
+  url: "https://openreview.net/forum?id=AW1T4xxZ6F"
+  pdf: "publications/articles/nitsure2023a.pdf"
+
+- title: "DARE: Towards Robust Text Explanations in Biomedical and Healthcare Applications"
+  authors: "A. Ivankay, M. Rigotti, P. Frossard"
+  publication: "The 61st Annual Meeting of the Association for Computational Linguistics"
+  issue: "ACL (Awarded an oral presentation)"
+  year: 2023
+  url: "https://virtual2023.aclweb.org/paper_P1265.html"
+  pdf: "publications/articles/ivankay2023.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2307.02094"
+      slides: "publications/articles/ivankay2023-slides.pdf"
+      code: "https://github.com/ibm/domain-adaptive-attribution-robustness"
+
+- title: "Towards Workflows for the Use of AI Foundation Models in Visual Inspection Applications"
+  authors: "M. Rigotti, D. Antognini, R. Assaf, K. Bakirci, T. Frick, I. Giurgiu, K. Janoušková, F. Janicki, H. Jubran, C. Malossi, A. Meterez, F. Scheidegger"
+  publication: "ce/papers"
+  issue: "6(5), pp.605-613,"
+  year: 2023
+  url: "https://doi.org/10.1002/cepa.2141"
+  pdf: "publications/articles/rigotti2023.pdf"
+
+- title: "Importance of Digitalization and Standardization for Bridge and Tunnel Monitoring and Predictive Maintenance"
+  authors: "M. Weise, Mi. Böhms, D. Allaix, A. Sanchez-Rodriguez, M. Rigotti"
+  publication: "ce/papers"
+  issue: "6(5), pp.592-599,"
+  year: 2023
+  url: "https://doi.org/10.1002/cepa.2144"
+  pdf: "publications/articles/weise2023.pdf"
+
+- title: "Risk Assessment and Statistical Significance in the Age of Foundation Models"
+  authors: "A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross"
+  publication: "arXiv preprint"
+  issue: "arXiv:2310.07132,"
+  year: 2023
+  url: "https://arxiv.org/abs/2310.07132"
+  pdf: "publications/articles/nitsure2023.pdf"
+
+- title: "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs"
+  authors: "B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navartil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young"
+  publication: "arXiv preprint"
+  issue: "arXiv:2304.10819,"
+  year: 2023
+  url: "https://arxiv.org/abs/2304.10819"
+  pdf: "publications/articles/belgodere2023.pdf"
+
+- title: "Cloud-Based Real-Time Molecular Screening Platform with MolFormer"
+  authors: "B. Belgodere, V. Chenthamarakshan, P. Das, P. Dognin, T. Kurien, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young"
+  publication: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases"
+  issue: "ECML PKDD Demo"
+  year: 2022
+  url: "https://doi.org/10.1007/978-3-031-26422-1_47"
+  pdf: "publications/articles/belgodere2022.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2208.06665"
+      slides: "publications/articles/belgodere2022_demo_video.mp4"
+      demo: "https://molformer.res.ibm.com"
+
+- title: "Compositional generalization through abstract representations in human and artificial neural networks"
+  authors: "T. Ito, T. Klinger, D.H. Schultz, J.D. Murray, M.W. Cole, M. Rigotti"
+  publication: "Advances in Neural Information Processing Systems 36"
+  issue: "NeurIPS (Awarded an oral presentation)"
+  year: 2022
+  url: "https://openreview.net/forum?id=177GzUAds8U"
+  pdf: "publications/articles/ito2022.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2209.07431"
+      slides: "https://neurips.cc/virtual/2022/poster/54735"
+
+- title: "The implications of categorical and category-free mixed selectivity on representational geometries"
+  authors: "M.T. Kaufman, M.K. Benna, M. Rigotti, F. Stefanini, S. Fusi, A.K. Churchland"
+  publication: "Current Opinion in Neurobiology"
+  issue: "77:102644,"
+  year: 2022
+  url: "https://doi.org/10.1016/j.conb.2022.102644"
+  pdf: "publications/articles/kaufman2022.pdf"
+
+- title: "Attention-based Interpretability with Concept Transformers"
+  authors: "M. Rigotti, C. Miksovic, I. Giurgiu, T. Gschwind, P. Scotton"
+  publication: "International Conference on Learning Representations"
+  issue: "ICLR"
+  year: 2022
+  url: "https://openreview.net/forum?id=kAa9eDS0RdO"
+  pdf: "publications/articles/rigotti2022.pdf"
+
+- title: "Model-Assisted Labeling via Explainability for Visual Inspection of Civil Infrastructures"
+  authors: "K. Janouskova, M. Rigotti, I. Giurgiu, C. Malossi"
+  publication: "European Conference on Computer Vision"
+  issue: "CVCIE Workshop @ ECCV (Awarded best paper award)"
+  year: 2022
+  url: "https://arxiv.org/abs/2209.11159"
+  pdf: "publications/articles/janouskova2022.pdf"
+
+- title: "Active Learning for Imbalanced Civil Infrastructure Data"
+  authors: "T. Frick, D. Antognini, M. Rigotti, I. Giurgiu, B. Grewe, C. Malossi"
+  publication: "European Conference on Computer Vision"
+  issue: "CVCIE Workshop @ ECCV"
+  year: 2022
+  url: "https://arxiv.org/abs/2210.10586"
+  pdf: "publications/articles/frick2022.pdf"
+
+- title: "Design of a Cloud-Based Data Platform for Standardized Machine Learning Workflows with Applications to Transport Infrastructure"
+  authors: "A. Bartezzaghi, I. Giurgiu, C. Marchiori, M. Rigotti, R. Sebastian, C. Malossi"
+  publication: "IEEE 21st Mediterranean Electrotechnical Conference"
+  issue: "MELECON"
+  year: 2022
+  url: "https://ieeexplore.ieee.org/abstract/document/9843138/"
+  pdf: "publications/articles/bartezzaghi2022.pdf"
+
+- title: "Image Captioning as an Assistive Technology: Lessons Learned from VizWiz 2020 Challenge"
+  authors: "P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young, B. Belgodere"
+  publication: "Journal of Artificial Intelligence Research"
+  issue: "73, 437-459,"
+  year: 2022
+  url: "https://www.jair.org/index.php/jair/article/view/13113"
+  pdf: "publications/articles/dognin2022.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2012.11696"
+
+- title: "Predictive learning as a network mechanism for extracting low-dimensional latent space representations"
+  authors: "S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown"
+  publication: "Nature Communications"
+  issue: "12: 1417,"
+  year: 2021
+  url: "https://doi.org/10.1038/s41467-021-21696-1"
+  pdf: "publications/articles/recanatesi2021.pdf"
+  additional_links:
+    - preprint: "https://www.biorxiv.org/content/10.1101/471987v4"
+
+- title: "Deep Bandits Show-Off: Simple and Efficient Exploration with Deep Networks"
+  authors: "R. Zhu, M. Rigotti"
+  publication: "Advances in Neural Information Processing Systems 35"
+  issue: "NeurIPS"
+  year: 2021
+  url: "https://proceedings.neurips.cc/paper/2021/hash/92fde850d824c2ba9b563cb6fa4078c3-Abstract.html"
+  pdf: "publications/articles/zhu2021.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2105.04683"
+      code: "https://github.com/IBM/SAU-explore"
+
+- title: "Self-correcting Q-learning"
+  authors: "R. Zhu, M. Rigotti"
+  publication: "Thirty-Fifth AAAI Conference on Artificial Intelligence"
+  issue: "AAAI"
+  year: 2021
+  url: "https://ojs.aaai.org/index.php/AAAI/article/view/17334"
+  pdf: "publications/articles/zhu2020.pdf"
+  preprint: "https://arxiv.org/abs/2012.01100"
+
+- title: "Tabular Transformers for Modeling Multivariate Time Series"
+  authors: "I. Padhi, Y. Schiff, I. Melnyk, M. Rigotti, Y. Mroueh, P. Dognin, J. Ross, R. Nair, E. Altman"
+  publication: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+  issue: "ICASSP"
+  year: 2021
+  url: "https://ieeexplore.ieee.org/document/9414142"
+  pdf: "publications/articles/padhi2021.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2011.01843"
+      code: "https://github.com/IBM/TabFormer"
+
+- title: "The Geometry of Abstraction in the Hippocampus and Prefrontal Cortex"
+  authors: "S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman"
+  publication: "Cell"
+  issue: "183, 1-14,"
+  year: 2020
+  url: "https://doi.org/10.1016/j.cell.2020.09.031"
+  pdf: "publications/articles/bernardi2020.pdf"
+  additional_links:
+    - preprint: "https://www.biorxiv.org/content/10.1101/408633v3"
+
+- title: "Unbalanced Sobolev Descent"
+  authors: "Y. Mroueh, M. Rigotti"
+  publication: "Advances in Neural Information Processing Systems 34"
+  issue: "NeurIPS"
+  year: 2020
+  url: "https://proceedings.neurips.cc/paper/2020/hash/c5f5c23be1b71adb51ea9dc8e9d444a8-Abstract.html"
+  pdf: "publications/articles/mroueh2020.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2009.14148"
+      slides: "https://github.com/IBM/USD/raw/master/docs/neurips2020_slides.pptx"
+      code: "https://github.com/IBM/USD"
+
+- title: "Alleviating Noisy Data in Image Captioning with Cooperative Distillation"
+  authors: "P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff"
+  publication: "Computer Vision and Pattern Recognition Conference (CVPR 2020)"
+  issue: "VizWiz Grand Challenge Workshop"
+  year: 2020
+  url: "https://vizwiz.org/workshops/2020-workshop/"
+  pdf: "publications/articles/dognin2020.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2012.11691"
+      slides: "publications/articles/CVPR_Workshop_slides_2020.pdf"
+  
+- title: "Sobolev Independence Criterion"
+  authors: "Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos"
+  publication: "Advances in Neural Information Processing Systems 33"
+  issue: "NeurIPS"
+  year: 2019
+  url: "https://papers.nips.cc/paper/9147-sobolev-independence-criterion"
+  pdf: "publications/articles/mroueh2019.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/1910.14212"
+      code: "https://github.com/IBM/SIC"
+
+- title: "RAPA-ConvNets: Modified Convolutional Networks for Accelerated Training on Architectures with Analog Arrays"
+  authors: "M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch"
+  publication: "Frontiers in Neuroscience | Neuromorphic Engineering"
+  issue: "13:753,"
+  year: 2019
+  url: "https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/abstract"
+  pdf: "https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/pdf"
+
+- title: "Measuring prefrontal representational geometry: fMRI adaptation vs pattern analysis"
+  authors: "A. Bhandari, M.K. Benna, M. Rigotti, S. Fusi, D. Badre"
+  publication: "Conference on Cognitive Computational Neuroscience"
+  issue: "CCN"
+  year: 2019
+  url: "https://doi.org/10.32470/CCN.2019.1162-0"
+  pdf: "publications/articles/bhandari2019.pdf"
+
+- title: "Beyond Backprop: Online Alternating Minimization with Auxiliary Variables"
+  authors: "A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf"
+  publication: "International Conference on Machine Learning"
+  issue: "ICML"
+  year: 2019
+  url: "http://proceedings.mlr.press/v97/choromanska19a.html"
+  pdf: "publications/articles/choromanska2019a.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/1806.09077"
+      code: "http://github.com/IBM/online-alt-min"
+
+- title: "The geometry of abstraction in hippocampus and pre-frontal cortex"
+  authors: "S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman"
+  publication: "Computational and Systems Neuroscience Conference"
+  issue: "CoSyNe"
+  year: 2019
+  url: "http://www.cosyne.org/c/index.php?title=Cosyne2019_posters_2"
+  pdf: "publications/conferences/bernardi_conf2019.pdf"
+
+- title: "Signatures of low-dimensional neural predictive manifolds"
+  authors: "S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown"
+  publication: "Computational and Systems Neuroscience Conference"
+  issue: "CoSyNe"
+  year: 2019
+  url: "http://www.cosyne.org/c/index.php?title=Cosyne2019_posters_2"
+  pdf: "publications/conferences/recanatesi_conf2019.pdf"
+
+- title: "Signatures and mechanisms of low-dimensional neural predictive manifolds"
+  authors: "S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown"
+  publication: "bioRxiv"
+  issue: "471987,"
+  year: 2019
+  url: "https://doi.org/10.1101/471987"
+  pdf: "publications/articles/recanatesi2018.pdf"
+
+- title: "Efficient ConvNets for Analog Arrays"
+  authors: "M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch"
+  publication: "arXiv"
+  issue: "1807.01356,"
+  year: 2018
+  url: "https://arxiv.org/abs/1807.01356"
+  pdf: "publications/articles/rasch2018.pdf"
+
+- title: "Shared neural coding for social hierarchy and reward value in primate amygdala"
+  authors: "J. Munuera, M. Rigotti, C.D. Salzman"
+  publication: "Nature Neuroscience"
+  issue: "21: 415-423,"
+  year: 2018
+  url: "http://dx.doi.org/10.1038/s41593-018-0082-8"
+  pdf: "publications/articles/munuera2018.pdf"
+
+- title: "Hebbian Learning in a Random Network Captures Selectivity Properties of Prefrontal Cortex"
+  authors: "G.W. Lindsay, M. Rigotti, M.R. Warden, E.K. Miller, S. Fusi"
+  publication: "Journal of Neuroscience"
+  issue: "37:11021-11036,"
+  year: 2017
+  url: "https://doi.org/10.1523/JNEUROSCI.1222-17.2017"
+  pdf: "publications/articles/lindsay2017.pdf"
+  additional_links:
+    - preprint: "https://doi.org/10.1101/133025"
+      code: "https://senselab.med.yale.edu/ModelDB/showModel?model=234097"
+
+- title: "Neurophysiological mechanisms supporting flexible, context specific, emotional regulation"
+  authors: "S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman"
+  publication: "Biological Psychiatry"
+  issue: "volume 81, pages S272,"
+  year: 2017
+  url: "http://dx.doi.org/10.1016/j.biopsych.2017.02.1081"
+  pdf: "publications/conferences/bernardi_conf2017.pdf"
+
+- title: "The hippocampus as a predictive recurrent neural network"
+  authors: "S. Recanatesi, G. Wayne, M. Rigotti"
+  publication: "Computational and Systems Neuroscience Conference"
+  issue: "CoSyNe"
+  year: 2017
+  url: "http://www.cosyne.org/c/index.php?title=Cosyne2017_posters_3"
+  pdf: "publications/conferences/recanatesi_conf2017.pdf"
+
+- title: "Energy-Efficient Neuromorphic Classifiers"
+  authors: "D. Martí, M. Rigotti, M. Seok, S. Fusi"
+  publication: "Neural Computation"
+  issue: "28: 2011-2044,"
+  year: 2016
+  url: "http://dx.doi.org/10.1162/NECO_a_00882"
+  pdf: "publications/articles/marti2016.pdf"
+
+- title: "Why neurons mix: high dimensionality for higher cognition"
+  authors: "S. Fusi, E.K. Miller, M. Rigotti"
+  publication: "Current Opinion in Neurobiology"
+  issue: "37: 66-74,"
+  year: 2016
+  url: "http://dx.doi.org/10.1016/j.conb.2016.01.010"
+  pdf: "publications/articles/fusi2016.pdf"
+
+- title: "Hippocampal-prefrontal input supports spatial encoding in working memory"
+  authors: "T. Spellman, M. Rigotti, S.E. Ahmari, S. Fusi, J.A. Gogos, J.A. Gordon"
+  publication: "Nature"
+  issue: "522:309-314,"
+  year: 2015
+  url: "http://dx.doi.org/10.1038/nature14445"
+  pdf: "publications/articles/spellman2015.pdf"
+
+- title: "Abstract context representations in primate amygdala and prefrontal cortex"
+  authors: "A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman"
+  publication: "Neuron,"
+  issue: "87:869-881"
+  year: 2015
+  url: "http://dx.doi.org/10.1016/j.neuron.2015.07.024"
+  pdf: "publications/articles/saez2015.pdf"
+
+- title: "Estimating the dimensionality of neural responses with fMRI Repetition Suppression"
+  authors: "M. Rigotti, S. Fusi"
+  publication: "Advances in Neural Information Processing Systems 28"
+  issue: "MLINI Workshop at NIPS"
+  year: 2015
+  url: "http://arxiv.org/abs/1605.03952"
+  pdf: "publications/conferences/rigotti_conf2015.pdf"
+
+- title: "Neurophysiological mechanisms supporting flexible, context specific, emotional regulation"
+  authors: "S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman"
+  publication: "Biological Psychiatry"
+  issue: "volume 77, pages 136S-136S,"
+  year: 2015
+  url: "https://books.google.com/books?id=AO58CAAAQBAJ&pg=PT419"
+  pdf: "publications/conferences/bernardi_conf2015.pdf"
+
+- title: "Hebbian-inspired rewiring of a random network replicates pattern of selectivity seen in PFC"
+  authors: "G. Lindsay, M. Rigotti, M. R. Warden, E. K. Miller, S. Fusi"
+  publication: "BMC Neuroscience"
+  year: 2014
+  issue: "15 (Suppl 1):P160,"
+  url: "https://dx.doi.org/10.1186%2F1471-2202-15-S1-P160"
+  pdf: "publications/conferences/lindsay_conf2014.pdf"
+
+- title: "The importance of mixed selectivity in complex cognitive tasks"
+  authors: "M. Rigotti, O. Barak, M.R. Warden, X.-J. Wang, N.D. Daw, E.K. Miller, S. Fusi"
+  publication: "Nature"
+  issue: "497:585-590,"
+  year: 2013
+  url: "http://dx.doi.org/10.1038/nature12160"
+  pdf: "publications/articles/rigotti2013.pdf"
+
+- title: "The sparseness of mixed selectivity neurons controls the generalization-discrimination trade-off"
+  authors: "O. Barak, M. Rigotti, S. Fusi"
+  publication: "Journal of Neuroscience"
+  issue: "33:3844-56,"
+  year: 2013
+  url: "http://dx.doi.org/10.1523/JNEUROSCI.2753-12.2013"
+  pdf: "publications/articles/barak2013.pdf"
+
+- title: "Scalability properties of multimodular networks with dynamic gating"
+  authors: "D. Marti, O. Barak, M. Rigotti, S. Fusi"
+  publication: "BMC Neuroscience"
+  issue: "14(Suppl 1):P136,"
+  year: 2013
+  url: "https://dx.doi.org/10.1186%2F1471-2202-14-S1-P136"
+  pdf: "publications/conferences/marti_conf2013b.pdf"
+
+- title: "A VLSI chip with spike-based synaptic plasticity for online learning in real-time"
+  authors: "F. Stefanini, M. Rigotti, S. Fusi and G. Indiveri"
+  publication: "International Workshop on Neuromorphic and Brain-Based Computing Systems"
+  issue: "NeuComp (Grenoble, France)"
+  year: 2013
+  url: "https://www.date-conference.com/date13/conference/workshop-w3"
+  pdf: "publications/conferences/stefanini_conf2013.pdf"
+
+- title: "Scalability properties of multimodular networks with dynamic gating"
+  authors: "D. Marti, O. Barak, M. Rigotti and S. Fusi"
+  publication: "Computational and Systems Neuroscience Conference"
+  issue: "CoSyNe"
+  year: 2013
+  url: "https://dx.doi.org/10.1186%2F1471-2202-14-S1-P136"
+  pdf: "publications/conferences/marti_conf2013a.pdf"
+
+- title: "An adaptive spiking neural network for decision making in partially observable environments"
+  authors: "M. Rigotti, D. Ben Dayan Rubin, N.D. Daw and S. Fusi"
+  publication: "Cosyne: Computational and Systems Neuroscience Conference"
+  issue: "CoSyNe"
+  year: 2012
+  url: "http://www.cosyne.org/c/index.php?title=Cosyne2012_posters_2"
+  pdf: "publications/conferences/rigotti_conf2012.pdf"
+
+- title: "Neural representations that are good for both generalization and discrimination"
+  authors: "O. Barak, M. Rigotti, S. Fusi"
+  publication: "Computational and Systems Neuroscience Conference"
+  issue: "CoSyNe"
+  year: 2012
+  url: "http://www.cosyne.org/c/index.php?title=Cosyne2012_posters_2"
+  pdf: "publications/conferences/barak_conf2012.pdf"
+
+- title: "A simple derivation of a bound on the Perceptron margin using Singular Value Decomposition"
+  authors: "O. Barak, M. Rigotti"
+  publication: "Neural Computation"
+  issue: "23:1935-43,"
+  year: 2011
+  url: "http://dx.doi.org/10.1162/NECO_a_00152"
+  pdf: "publications/articles/barak2011.pdf"
+
+- title: "Context, correlation and decorrelation with randomly connected neurons"
+  authors: "O. Barak, M. Rigotti and S. Fusi"
+  publication: "Computational and Systems Neuroscience Conference"
+  issue: "CoSyNe"
+  year: 2011
+  url: "http://www.cosyne.org/c/index.php?title=Cosyne_11_posters"
+  pdf: "publications/conferences/barak_conf2011.pdf"
+
+- title: "Internal representation of task rules by recurrent dynamics: the importance of the diversity of neural responses"
+  authors: "M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang and S. Fusi"
+  publication: "Frontiers in Computational Neuroscience"
+  issue: "4:24,"
+  year: 2010
+  url: "http://dx.doi.org/10.3389/fncom.2010.00024"
+  pdf: "publications/articles/rigotti2010b.pdf"
+
+- title: "Attractor concretion as a mechanism for the formation of context representations"
+  authors: "M. Rigotti, D. Ben Dayan Rubin, S.E. Morrison, C.D. Salzman and S. Fusi"
+  publication: "NeuroImage"
+  issue: "52:833-47,"
+  year: 2010
+  url: "http://dx.doi.org/10.1016/j.neuroimage.2010.01.047"
+  pdf: "publications/articles/rigotti2010a.pdf"
+
+- title: "Power-law autocorrelation of neural activity in models of mental states that are hierarchically organized"
+  authors: "F. Chersi, M. Rigotti and S. Fusi"
+  publication: "BMC Neurosciencee"
+  issue: "10(Suppl 1):P292,"
+  year: 2009
+  url: "https://doi.org/10.1186/1471-2202-10-S1-P292"
+  pdf: "publications/conferences/chersi_conf2009.pdf"
+
+- title: "Event-driven transitions between attractors in spiking networks"
+  authors: "M. Mattia, M. Rigotti and S. Fusi"
+  publication: "Computational and Systems Neuroscience Conference"
+  issue: "CoSyNe"
+  year: 2007
+  url: "http://www.cosyne.org/c/images/e/ea/Cosyne-poster-II-22.pdf"
+  pdf: "publications/conferences/mattia_conf2007.pdf"
+
+- title: "An H-theorem for the general relativistic Ornstein-Uhlenbeck process"
+  authors: "M. Rigotti and F. Debbasch"
+  publication: "Journal of Mathematical Physics"
+  issue: "46:103303,"
+  year: 2005
+  url: "http://dx.doi.org/10.1063/1.2038627"
+  pdf: "publications/articles/rigotti2005.pdf"
