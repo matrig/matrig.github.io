@@ -1,3 +1,19 @@
+- title: "Distributional Preference Alignment of LLMs via Optimal Transport"
+  authors: "I. Melnyk, Y. Mroueh, B. Belgodere, M. Rigotti, A. Nitsure, M. Yurochkin, K. Greenewald, J. Navratil, J. Ross"
+  publication: "arXiv"
+  issue: "2406.05882"
+  year: 2024
+  url: "https://doi.org/10.48550/arXiv.2406.05882"
+  pdf: "publications/articles/melnyk2024.pdf"
+
+- title: "Multivariate Stochastic Dominance via Optimal Transport and Applications to Models Benchmarking"
+  authors: "G. Rioux, A. Nitsure, M. Rigotti, K. Greenewald, Y. Mroueh"
+  publication: "arXiv preprint"
+  issue: "arXiv:2406.06425"
+  year: 2024
+  url: "https://doi.org/10.48550/arXiv.2406.06425"
+  pdf: "publications/articles/rioux2024.pdf"
+
 - title: "Mixed selectivity: Cellular computations for complexity"
   authors: "K.M. Tye, E.K. Miller, F.H. Taschbach, M.K. Benna, M. Rigotti, S. Fusi"
   publication: "Neuron"
@@ -85,7 +101,7 @@
   publication: "arXiv preprint"
   issue: "arXiv:2310.07132,"
   year: 2023
-  url: "https://arxiv.org/abs/2310.07132"
+  url: "https://doi.org/10.48550/arXiv.2310.07132"
   pdf: "publications/articles/nitsure2023.pdf"
 
 - title: "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs"
@@ -93,7 +109,7 @@
   publication: "arXiv preprint"
   issue: "arXiv:2304.10819,"
   year: 2023
-  url: "https://arxiv.org/abs/2304.10819"
+  url: "https://doi.org/10.48550/arXiv.2304.10819"
   pdf: "publications/articles/belgodere2023.pdf"
 
 - title: "Cloud-Based Real-Time Molecular Screening Platform with MolFormer"
@@ -140,7 +156,7 @@
   publication: "European Conference on Computer Vision"
   issue: "CVCIE Workshop @ ECCV (Awarded best paper award)"
   year: 2022
-  url: "https://arxiv.org/abs/2209.11159"
+  url: "https://doi.org/10.48550/arXiv.2209.11159"
   pdf: "publications/articles/janouskova2022.pdf"
 
 - title: "Active Learning for Imbalanced Civil Infrastructure Data"
@@ -148,7 +164,7 @@
   publication: "European Conference on Computer Vision"
   issue: "CVCIE Workshop @ ECCV"
   year: 2022
-  url: "https://arxiv.org/abs/2210.10586"
+  url: "https://doi.org/10.48550/arXiv.2210.10586"
   pdf: "publications/articles/frick2022.pdf"
 
 - title: "Design of a Cloud-Based Data Platform for Standardized Machine Learning Workflows with Applications to Transport Infrastructure"
@@ -385,7 +401,7 @@
   publication: "Advances in Neural Information Processing Systems 28"
   issue: "MLINI Workshop at NIPS"
   year: 2015
-  url: "http://arxiv.org/abs/1605.03952"
+  url: "https://doi.org/10.48550/arXiv.1605.03952"
   pdf: "publications/conferences/rigotti_conf2015.pdf"
 
 - title: "Neurophysiological mechanisms supporting flexible, context specific, emotional regulation"
