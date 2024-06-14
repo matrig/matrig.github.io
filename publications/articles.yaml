@@ -1,3 +1,11 @@
+- title: "Risk Aware Benchmarking of Large Language Models"
+  authors: "A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross"
+  publication: "International Conference on Machine Learning"
+  issue: "ICML"
+  year: 2024
+  url: "https://openreview.net/forum?id=Mv8y13wfDm"
+  pdf: "publications/articles/nitsure2024.pdf"
+
 - title: "Distributional Preference Alignment of LLMs via Optimal Transport"
   authors: "I. Melnyk, Y. Mroueh, B. Belgodere, M. Rigotti, A. Nitsure, M. Yurochkin, K. Greenewald, J. Navratil, J. Ross"
   publication: "arXiv preprint"
