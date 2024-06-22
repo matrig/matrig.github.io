@@ -1,3 +1,11 @@
+- title: "Interactive Image Segmentation Guided by Visual Prompting"
+  authors: "T. Frick, C. Skura, F.M. Janicki, R. Assaf, N. Avogaro, D. Caraballo-Rivera, Y.G. Cinar, B. Ebouky, I. Giurgiu, T. Katsuki, P.S. Kluska, C. Malossi, H. Qiu, T. Sakai, F. Scheidegger, A. Simeski, D. Yang, A. Bartezzaghi, M. Rigotti"
+  publication: "IEEE/CVF Conference on Computer Vision and Pattern Recognition, Demo Track"
+  year: 2024
+  url: "https://cvpr.thecvf.com/virtual/2024/demonstration/32144"
+  additional_links:
+    - abstract: "https://research.ibm.com/publications/interactive-image-segmentation-guided-by-visual-prompting"
+
 - title: "Risk Aware Benchmarking of Large Language Models"
   authors: "A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross"
   publication: "International Conference on Machine Learning"
