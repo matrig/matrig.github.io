@@ -76,6 +76,13 @@
   additional_links:
     - preprint: "https://arxiv.org/abs/2312.16313"
 
+- title: "AI for bridge inspection with IBM Inspecto"
+  authors: "A.C.I. Malossi, R. Assaf, N. Avogaro, A. Bartezzaghi, B. Ebouky, T. Frick, I. Giurgiu, F.M. Janicki, P. Kluska, M. Rigotti, F. Scheidegger, A. Simeski, C. Skura, D. Caraballo, Y. Cinar, F. Bormlund, S. Gjerding"
+  publication: "IABMAS"
+  year: 2024
+  url: "https://doi.org/10.1201/9781003483755-421"
+  pdf: "publications/articles/malossi2024.pdf"
+
 - title: "Risk Assessment and Statistical Significance in the Age of Foundation Models"
   authors: "A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross"
   publication: "NeurIPS"
