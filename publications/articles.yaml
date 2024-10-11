@@ -1,6 +1,7 @@
 - title: "Distributional Preference Alignment of LLMs via Optimal Transport"
   authors: "I. Melnyk, Y. Mroueh, B. Belgodere, M. Rigotti, A. Nitsure, M. Yurochkin, K. Greenewald, J. Navratil, J. Ross"
-  publication: "NeurIPS"
+  publication: "Advances in Neural Information Processing Systems 38"
+  issue: "NeurIPS"
   year: 2024
   url: "https://neurips.cc/virtual/2024/poster/96822"
   pdf: "publications/articles/melnyk2024.pdf"
@@ -9,7 +10,8 @@
 
 - title: "Multivariate Stochastic Dominance via Optimal Transport and Applications to Models Benchmarking"
   authors: "G. Rioux, A. Nitsure, M. Rigotti, K. Greenewald, Y. Mroueh"
-  publication: "NeurIPS"
+  publication: "Advances in Neural Information Processing Systems 38"
+  issue: "NeurIPS"
   year: 2024
   url: "https://neurips.cc/virtual/2024/poster/95459"
   pdf: "publications/articles/rioux2024.pdf"
