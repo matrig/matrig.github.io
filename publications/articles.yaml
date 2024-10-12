@@ -18,6 +18,15 @@
   additional_links:
     - preprint: "https://arxiv.org/abs/2406.06425"
 
+- title: "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs"
+  authors: "B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navartil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young"
+  publication: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
+  year: 2024
+  url: "https://doi.org/10.1109/JETCAS.2024.3477976"
+  pdf: "publications/articles/belgodere2024.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2304.10819"
+
 - title: "Probabilistic Feature Matching for Fast Scalable Visual Prompting"
   authors: "T. Frick, C. Skura, F.M. Janicki, R. Assaf, N. Avogaro, D. Caraballo-Rivera, Y.G. Cinar, B. Ebouky, I. Giurgiu, T. Katsuki, P.S. Kluska, C. Malossi, H. Qiu, T. Sakai, F. Scheidegger, A. Simeski, D. Yang, A. Bartezzaghi, M. Rigotti"
   publication: "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence"
@@ -139,14 +148,6 @@
   year: 2023
   url: "https://doi.org/10.48550/arXiv.2310.07132"
   pdf: "publications/articles/nitsure2023.pdf"
-
-- title: "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs"
-  authors: "B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navartil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young"
-  publication: "arXiv preprint"
-  issue: "arXiv:2304.10819,"
-  year: 2023
-  url: "https://doi.org/10.48550/arXiv.2304.10819"
-  pdf: "publications/articles/belgodere2023.pdf"
 
 - title: "Cloud-Based Real-Time Molecular Screening Platform with MolFormer"
   authors: "B. Belgodere, V. Chenthamarakshan, P. Das, P. Dognin, T. Kurien, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young"
