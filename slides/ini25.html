@@ -296,6 +296,7 @@ Mattia Rigotti
 </ul></li>
 <li><strong>post-training</strong>: <em>Instruction finetuning</em> and <em>Alignment</em>
 <ul>
+<li><em>less data and compute intensive</em></li>
 <li><strong>suppress</strong> the bad 👎</li>
 <li><strong>“elicit”</strong> the good 👍</li>
 </ul></li>
@@ -332,16 +333,17 @@ Mattia Rigotti
 </ul></li>
 <li><strong>post-training</strong>: <em>Instruction finetuning</em> and <em>Alignment</em>
 <ul>
+<li><em>less data and compute intensive</em></li>
 <li><strong>suppress</strong> the bad 👎</li>
 <li><strong>“elicit”</strong> the good 👍</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <ul>
-<li><strong>Alignment:</strong> Adapting model to human preferences
+<li><strong>Post-training as elicitation of capabilities</strong>
 <ul>
-<li>alignment has been characterized as a “jail” for LLMs</li>
-<li>recently the <em>opposite</em> idea that post-training unleashes and “elicits” latent knowledge and capabilities has been gaining traction</li>
+<li><strong>old view:</strong> alignment as a “jail” for LLMs</li>
+<li><strong>now:</strong> <em>opposite</em> idea that post-training unleashes and “elicits” a <strong>reservoir</strong> of latent knowledge and capabilities has been gaining traction</li>
 </ul></li>
 </ul>
 <div class="r-stack">
@@ -426,10 +428,14 @@ RLHF to the rescue <img data-src="KAIST-DistributionalHumanPreferences_files/img
 </div>
 </div></div>
 <ul>
-<li>RLHF tries to align LLMs with human preferences by making use of reward model</li>
+<li>RLHF tries to align LLMs with human preferences by making use of reward models</li>
 <li><strong>Reward models</strong> are themselves trained on human preference data</li>
-<li>Therefore they embody the biases and inclinations of the human annotators and model builders</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>⚠️this also means they embody the <em>biases of the human annotators</em> and <em>persuasions of model builders</em></li>
+</ul>
+</div>
 <div class="quarto-figure quarto-figure-center" style="top: -700px; left: 0px; height: 380px; ">
 <figure>
 <p><img data-src="./2025-INI-DistributionalHumanPreferences_files/img/elon_disinfo.png" class="absolute fragment"></p>
@@ -498,8 +504,8 @@ RLHF to the rescue <img data-src="KAIST-DistributionalHumanPreferences_files/img
 <ul>
 <li><strong>Paired preference dataset: <span class="math inline">\((x,y_+,y_-) \sim \mu\)</span></strong>
 <ul>
-<li><span class="math inline">\(y_+\)</span>: positive (chosen) response</li>
-<li><span class="math inline">\(y_-\)</span>: negative (rejected) response</li>
+<li><span class="math inline">\(y_+\)</span>: positive (chosen) response 👍</li>
+<li><span class="math inline">\(y_-\)</span>: negative (rejected) response 👎</li>
 </ul></li>
 </ul>
 </div>
@@ -675,12 +681,12 @@ RLHF to the rescue <img data-src="KAIST-DistributionalHumanPreferences_files/img
 <li class="fragment">indicator Loss: <span class="math inline">\(h(x)=\mathbb{1}_{x &lt; 0}\)</span></li>
 <li class="fragment"><span class="math inline">\(\beta\)</span>-squared Hinge Loss: for a margin <span class="math inline">\(\beta &gt; 0\)</span>, <span class="math inline">\(h(x) = (\beta - x)^2_+\)</span></li>
 <li class="fragment"><span class="math inline">\(\beta\)</span>-logistic Loss: <span class="math inline">\(h(x) = \log(1 + \exp(-\beta x))\)</span></li>
-<li class="fragment"><span class="math inline">\(\beta\)</span>-Least Squares<sup>1</sup>: <span class="math inline">\(h(x) = (\beta - x)^2\)</span></li>
+<li class="fragment"><span class="math inline">\(\beta\)</span>-Least Squares: <span class="math inline">\(h(x) = (\beta - x)^2\)</span> <span class="citation" data-cites="Azar2023">(e.g. <a href="#/references" role="doc-biblioref" onclick="">Azar et al. 2023</a>)</span></li>
 </ul></li>
 </ul></li>
 </ul>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>Although not a convex relaxation of the 0/1 loss, the least squares loss has been used in classification (for alignment, it was used in IPO by <span class="citation" data-cites="Azar2023">Azar et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span>)</p></li></ol></aside></section>
+</section>
 <section id="quantile-violation-as-an-optimal-transport-problem" class="slide level2">
 <h2>Quantile Violation as an Optimal Transport Problem</h2>
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -823,25 +829,26 @@ LLaMa Guard: a classifier for safety <span class="citation" data-cites="Inan2023
 <div class="columns">
 <div class="column" style="width:70%;">
 <ul>
-<li>One limitation of AOT is that it is restricted to <em>First Order Stochastic Dominance</em>, which is still a strong assumption
-<ul>
-<li><em>Second Order Stochastic Dominance</em> would be a better choice, since it captures for instance <strong>risk aversion</strong></li>
-</ul></li>
-<li>Preference datasets aggregate multiple annotators
+<li>Preference datasets aggregates the votes of multiple annotators
 <ul>
 <li>What does <strong>aggregating preferences</strong> mean? What happens when there are disagreements?</li>
+</ul></li>
+<li>A limitation of AOT is that it is restricted to <strong>First Order Stochastic Dominance</strong>, which is still a strong assumption
+<ul>
+<li><em>Second Order Stochastic Dominance</em> would be a better choice, since it captures for instance <strong>risk aversion</strong></li>
 </ul></li>
 <li><strong>“Reward hacking”</strong> happens when a policy overfits on a reward model
 <ul>
 <li>How can we control overfitting on finite preferences?</li>
 </ul></li>
-<li>We are using trasformers as Reward Models
+<li><strong>LLM post-training</strong> as elicitation of latent capabilities from a base reservoir
 <ul>
-<li>What type of <strong>priors are induced over preferences</strong> by transformer models?</li>
+<li>How to build an ideal <em>base reservoir</em>? What data, what learning algo?</li>
+<li>How are latent capabilities of LLMs being elicited?</li>
 </ul></li>
-<li><strong>RL with Verifiable Rewards in post-training</strong> induces capabilities like <strong>“reasoning”“</strong>
+<li><strong>RL with Verifiable Rewards in post-training</strong> elicits capabilities like <strong>“reasoning”“</strong>
 <ul>
-<li>reasoning in LLMs is however implemented as a chain-of-thought, i.e.&nbsp;a form of “verbal internal monologue”; reasoning in humans can be “more high-dimensional”, but how can this be modeled and implemented?</li>
+<li>reasoning in LLMs is however implemented as a chain-of-thought, i.e.&nbsp;a form of “internal monologue”; reasoning in humans can be “more high-dimensional”, but how can this be modeled and implemented?</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:30%;">
@@ -925,7 +932,6 @@ Zhao, Yao, Mikhail Khalman, Rishabh Joshi, Shashi Narayan, Mohammad Saleh, and P
 </div>
 </div>
 </section></section>
-
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

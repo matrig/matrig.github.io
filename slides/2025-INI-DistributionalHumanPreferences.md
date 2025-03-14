@@ -104,6 +104,7 @@ jupyter: python3
   * acquisition of **knowledge** ([**good**]{style="color:blue;"} \& [**bad**]{style="color:red;"})
   * acquisition of **capabilities** ([**good**]{style="color:blue;"} \& [**bad**]{style="color:red;"})
 * **post-training**: *Instruction finetuning* and *Alignment*
+  * *less data and compute intensive*
   * **suppress** the bad 👎
   * **"elicit"** the good 👍
 
@@ -131,14 +132,15 @@ jupyter: python3
   * acquisition of **knowledge** ([**good**]{style="color:blue;"} \& [**bad**]{style="color:red;"})
   * acquisition of **capabilities** ([**good**]{style="color:blue;"} \& [**bad**]{style="color:red;"})
 * **post-training**: *Instruction finetuning* and *Alignment*
+  * *less data and compute intensive*
   * **suppress** the bad 👎
   * **"elicit"** the good 👍
 
 :::
 ::: {.column width=50%}
-* **Alignment:** Adapting model to human preferences
-  * alignment has been characterized as a "jail" for LLMs
-  * recently the *opposite* idea that post-training unleashes and "elicits" latent knowledge and capabilities has been gaining traction
+* **Post-training as elicitation of capabilities**
+  * **old view:** alignment as a "jail" for LLMs
+  * **now:** *opposite* idea that post-training unleashes and "elicits" a **reservoir** of latent knowledge and capabilities has been gaining traction
 
 :::{.r-stack}
 ![&nbsp;](./2025-INI-DistributionalHumanPreferences_files/img/prisoner.png){ width=60% }
@@ -217,9 +219,12 @@ RLHF to the rescue
 :::
 :::
 ::::
-* RLHF tries to align LLMs with human preferences by making use of reward model
+* RLHF tries to align LLMs with human preferences by making use of reward models
 * **Reward models** are themselves trained on human preference data
-* Therefore they embody the biases and inclinations of the human annotators and model builders
+
+:::{.fragment}
+* ⚠️this also means they embody the *biases of the human annotators* and *persuasions of model builders*
+:::
 
 ![&nbsp;](./2025-INI-DistributionalHumanPreferences_files/img/elon_disinfo.png){.absolute top=-700 left=00 height="380" .fragment}
 
@@ -273,8 +278,8 @@ $$r_{\theta}(x,y) = \beta \log \frac{\pi_{\theta}(y|x)}{\pi_{\mathrm{ref}}(y|x)}
 
 ::: {.fragment }
 * **Paired preference dataset: $(x,y_+,y_-) \sim \mu$**
-  * $y_+$: positive (chosen) response
-  * $y_-$: negative (rejected) response
+  * $y_+$: positive (chosen) response 👍
+  * $y_-$: negative (rejected) response 👎
 :::
 ::: {.incremental }
 * **Bradley-Terry preference model** given ground-truth reward $r^*(x,y)$:
@@ -423,10 +428,8 @@ where $h$ penalizes the violations of dominance of $U_{\theta}$ on $V_{\theta}$.
     - indicator Loss: $h(x)=\mathbb{1}_{x < 0}$
     - $\beta$-squared Hinge Loss: for a margin $\beta > 0$, $h(x) = (\beta - x)^2_+$
     - $\beta$-logistic Loss: $h(x) = \log(1 + \exp(-\beta x))$
-    - $\beta$-Least Squares[^1]: $h(x) = (\beta - x)^2$
+    - $\beta$-Least Squares: $h(x) = (\beta - x)^2$ [e.g. @Azar2023]
 :::
-
-[^1]: Although not a convex relaxation of the 0/1 loss, the least squares loss has been used in classification (for alignment, it was used in IPO by @Azar2023)
 
 
 ## Quantile Violation as an Optimal Transport Problem
@@ -563,16 +566,17 @@ LLaMa Guard: a classifier for safety [@Inan2023]
 
 :::: {.columns}
 ::: {.column width=70% }
-* One limitation of AOT is that it is restricted to *First Order Stochastic Dominance*, which is still a strong assumption
-  * *Second Order Stochastic Dominance* would be a better choice, since it captures for instance **risk aversion**
-* Preference datasets aggregate multiple annotators
+* Preference datasets aggregates the votes of multiple annotators
   * What does **aggregating preferences** mean? What happens when there are disagreements?
+* A limitation of AOT is that it is restricted to **First Order Stochastic Dominance**, which is still a strong assumption
+  * *Second Order Stochastic Dominance* would be a better choice, since it captures for instance **risk aversion**
 * **"Reward hacking"** happens when a policy overfits on a reward model
   * How can we control overfitting on finite preferences?
-* We are using trasformers as Reward Models
-  * What type of **priors are induced over preferences** by transformer models?
-* **RL with Verifiable Rewards in post-training** induces capabilities like **"reasoning""**
-  * reasoning in LLMs is however implemented as a chain-of-thought, i.e. a form of "verbal internal monologue"; reasoning in humans can be "more high-dimensional", but how can this be modeled and implemented?
+* **LLM post-training** as elicitation of latent capabilities from a base reservoir
+  * How to build an ideal *base reservoir*? What data, what learning algo?
+  * How are latent capabilities of LLMs being elicited?
+* **RL with Verifiable Rewards in post-training** elicits capabilities like **"reasoning""**
+  * reasoning in LLMs is however implemented as a chain-of-thought, i.e. a form of "internal monologue"; reasoning in humans can be "more high-dimensional", but how can this be modeled and implemented?
 :::
 ::: {.column width=30%}
 ![&nbsp;](./2025-INI-DistributionalHumanPreferences_files/img/vote_hands.png){ width=60% }
