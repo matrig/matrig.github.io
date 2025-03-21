@@ -1,3 +1,11 @@
+- title: "Towards Reliable Conversational Data Analytics"
+  authors: "S. Amer-Yahia, J. Bogojeska, R. Facchinetti, V. Franceschi, A. Gionis, K. Hose, G. Koutrika, R. Kouyos, M. Lissandrini, S. Maniu, K. Mirylenka, D. Mottin, T. Palpanas, M. Rigotti, Y. Velegrakis"
+  publication: "International Conference on Extending Database Technology"
+  issue: "EDBT"
+  year: 2025
+  url: "https://openproceedings.org/2025/conf/edbt/paper-160.pdf"
+  pdf: "publications/articles/amer-yahia2025.pdf"
+
 - title: "Distributional Preference Alignment of LLMs via Optimal Transport"
   authors: "I. Melnyk, Y. Mroueh, B. Belgodere, M. Rigotti, A. Nitsure, M. Yurochkin, K. Greenewald, J. Navratil, J. Ross"
   publication: "Advances in Neural Information Processing Systems 38"
@@ -295,7 +303,7 @@
   additional_links:
     - preprint: "https://arxiv.org/abs/2012.11691"
       slides: "publications/articles/CVPR_Workshop_slides_2020.pdf"
-  
+
 - title: "Sobolev Independence Criterion"
   authors: "Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos"
   publication: "Advances in Neural Information Processing Systems 33"
