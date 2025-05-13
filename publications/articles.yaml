@@ -1,3 +1,11 @@
+- title: "Show or Tell? Effectively prompting Vision-Language Models for semantic segmentation"
+  authors: "N. Avogaro, T. Frick, M. Rigotti, A. Bartezzaghi, F. Janicki, A.C.I. Malossi, K. Schindler, R. Assaf"
+  publication: "Transactions on Machine Learning Research"
+  issue: "TMLR"
+  year: 2025
+  url: "https://openreview.net/forum?id=0yPWtbR3MC"
+  pdf: "publications/articles/avogaro2025.pdf"
+
 - title: "Towards Reliable Conversational Data Analytics"
   authors: "S. Amer-Yahia, J. Bogojeska, R. Facchinetti, V. Franceschi, A. Gionis, K. Hose, G. Koutrika, R. Kouyos, M. Lissandrini, S. Maniu, K. Mirylenka, D. Mottin, T. Palpanas, M. Rigotti, Y. Velegrakis"
   publication: "International Conference on Extending Database Technology"
