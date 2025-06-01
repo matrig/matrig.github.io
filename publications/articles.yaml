@@ -5,6 +5,16 @@
   year: 2025
   url: "https://openreview.net/forum?id=0yPWtbR3MC"
   pdf: "publications/articles/avogaro2025.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2503.19647"
+
+- title: "VP Lab: a PEFT-Enabled Visual Prompting Laboratory for Semantic Segmentation"
+  authors: "N. Avogaro, T. Frick, Y.G. Cinar, D. Caraballo, C. Skura, F.M. Janicki, P. Kluska, B. Ebouky, N. Farronato, F. Scheidegger, C. Malossi, K. Schindler, A. Bartezzaghi, R. Assaf, M. Rigotti"
+  publication: "IEEE/CVF Conference on Computer Vision and Pattern Recognition, Demo Track"
+  issue: "CVPR"
+  year: 2025
+  url: "https://arxiv.org/abs/2505.15592"
+  pdf: "publications/articles/avogaro2025a.pdf"
 
 - title: "Towards Reliable Conversational Data Analytics"
   authors: "S. Amer-Yahia, J. Bogojeska, R. Facchinetti, V. Franceschi, A. Gionis, K. Hose, G. Koutrika, R. Kouyos, M. Lissandrini, S. Maniu, K. Mirylenka, D. Mottin, T. Palpanas, M. Rigotti, Y. Velegrakis"
