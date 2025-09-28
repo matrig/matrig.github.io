@@ -1,10 +1,12 @@
 - title: "Eliciting Reasoning in Language Models with Cognitive Tools"
   authors: "B. Ebouky, A. Bartezzaghi, M. Rigotti"
-  publication: "arXiv preprint"
-  issue: "arXiv:2506.12115"
+  publication: "Advances in Neural Information Processing Systems 39"
+  issue: "NeurIPS"
   year: 2025
-  url: "https://arxiv.org/abs/2506.12115"
+  url: "https://neurips.cc/virtual/2025/poster/119804"
   pdf: "publications/articles/ebouky2025.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2506.12115"
 
 - title: "Q-SAM2: Accurate Quantization for Segment Anything Model 2"
   authors: "N. Farronato, F. Scheidegger, M. Rigotti, C. Malossi, M. Magno, H. Qin"
