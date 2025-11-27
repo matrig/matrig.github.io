@@ -8,6 +8,32 @@
   additional_links:
     - preprint: "https://arxiv.org/abs/2506.12115"
 
+- title: "Factorized embedding of goal and uncertainty in the lateral prefrontal cortex guides stably flexible learning"
+  authors: "Y. Sung, M. Rigotti, S.W. Lee"
+  publication: "Nature Communications"
+  issue: "26 Nov"
+  year: 2025
+  url: "https://doi.org/10.1038/s41467-025-66677-w"
+  pdf: "publications/articles/sung2025.pdf"
+
+- title: "Detection and Simulation of Urban Heat Islands Using a Fine-Tuned Geospatial Foundation Model for Microclimate Impact Prediction"
+  authors: "J. Fleckenstein, D. Kreismann, T.R. Govindasamy, T. Brunschwiler, E. Vos, M. Rigotti"
+  publication: "Advances in Neural Information Processing Systems 39"
+  issue: "Workshop: Tackling Climate Change with Machine Learning"
+  year: 2025
+  url: https://neurips.cc/virtual/2025/loc/san-diego/126944
+  pdf: "publications/articles/fleckenstein2025.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2510.18773"
+
+- title: "Factorized Prefrontal Geometry of Goal and Uncertainty Explains Flexible yet Stable Human Goal Pursuit"
+  authors: "Y. Sung, M. Rigotti, S.W. Lee"
+  publication: "Advances in Neural Information Processing Systems 39"
+  issue: "Workshop on Symmetry and Geometry in Neural Representations"
+  year: 2025
+  url: "https://openreview.net/forum?id=QQFfQ6yyRs"
+  pdf: "publications/articles/sung2025a.pdf"
+
 - title: "Q-SAM2: Accurate Quantization for Segment Anything Model 2"
   authors: "N. Farronato, F. Scheidegger, M. Rigotti, C. Malossi, M. Magno, H. Qin"
   publication: "arXiv preprint"
