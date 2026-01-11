@@ -1,0 +1,56 @@
+section#title-slide {
+  text-align: center !important;
+}
+
+/* Title - top part of block */
+section#title-slide .title,
+section#title-slide h1.title {
+  background-color: white !important;
+  padding: 20px 30px 5px 30px !important;
+  border-radius: 5px 5px 0 0 !important;
+  display: block !important;
+  margin: 0 auto !important;
+  min-width: 600px !important;
+  max-width: 750px !important;
+  font-weight: bold !important;
+}
+
+/* Subtitle - bottom part of same block */
+section#title-slide .subtitle,
+section#title-slide p.subtitle {
+  background-color: white !important;
+  padding: 5px 30px 20px 30px !important;
+  border-radius: 0 0 5px 5px !important;
+  display: block !important;
+  margin: 0 auto 30px auto !important;
+  min-width: 600px !important;
+  max-width: 750px !important;
+  font-weight: bold !important;
+}
+
+/* Author + Institute block */
+section#title-slide .quarto-title-authors {
+  background-color: white !important;
+  padding: 20px 30px !important;
+  border-radius: 5px !important;
+  display: inline-block !important;
+  margin-bottom: 20px !important;
+}
+
+section#title-slide .quarto-title-author-name {
+  margin-bottom: 5px !important;
+}
+
+section#title-slide .quarto-title-affiliation {
+  margin-top: 0 !important;
+}
+
+/* Date separate */
+section#title-slide .date {
+  background-color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  display: block !important;
+  margin: 0 auto !important;
+  width: fit-content !important;
+}
