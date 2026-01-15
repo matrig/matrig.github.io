@@ -1,7 +1,7 @@
 {% for patent in items %}
 <li type="square">
 <h6 style="font-family:arial,sans-serif;font-size:medium;padding-bottom:10px">
-    <style> a:hover { background: #DDDDFF; } </style> <a
+    <a
       {%- if patent.link %}
       href="{{ patent.link }}"
       {%- endif %}

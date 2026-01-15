@@ -8,7 +8,7 @@ def render(template_file, data_file, output_file):
         data = yaml.safe_load(file)
 
     # Sort filtered articles by year in descending order
-    if hasattr(data[0], 'year'):
+    if data and 'year' in data[0]:
         data.sort(key=lambda x: x['year'], reverse=True)
 
     # Setup Jinja2 environment
