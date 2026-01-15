@@ -187,6 +187,13 @@ input, select, textarea {
 		margin-right: 0.3em;
 	}
 
+	/* Slides get a different icon - must come after .pdf rule to override */
+	a.resource-link[href*="/slides/"]::before {
+		content: "📊";
+		opacity: 0.6;
+		margin-right: 0.3em;
+	}
+
 	a.resource-link[href*="arxiv"]::before {
 		content: "📝";
 		opacity: 0.6;
