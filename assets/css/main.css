@@ -180,6 +180,38 @@ input, select, textarea {
 			background: #DDDDFF;
 		}
 
+	/* Resource link icons - only for links with resource-link class */
+	a.resource-link[href$=".pdf"]::before {
+		content: "📄";
+		opacity: 0.6;
+		margin-right: 0.3em;
+	}
+
+	a.resource-link[href*="arxiv"]::before {
+		content: "📝";
+		opacity: 0.6;
+		margin-right: 0.3em;
+	}
+
+	a.resource-link[href*="doi.org"]::before {
+		content: "🔗";
+		opacity: 0.6;
+		margin-right: 0.3em;
+	}
+
+	a.resource-link[href*="neurips.cc"]::before,
+	a.resource-link[href*="openreview.net"]::before {
+		content: "🎓";
+		opacity: 0.6;
+		margin-right: 0.3em;
+	}
+
+	a.resource-link[href$=".jar"]::before {
+		content: "☕";
+		opacity: 0.6;
+		margin-right: 0.3em;
+	}
+
 	sub {
 		position: relative;
 		top: 0.5em;

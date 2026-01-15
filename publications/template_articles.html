@@ -9,11 +9,11 @@
     <a href="{{ ref.url }}" style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
     {{ ref.title }}</a>
     {%- if ref.pdf %}
-      <a href="{{ ref.pdf }}" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[PDF]</span></a>
+      <a href="{{ ref.pdf }}" class="resource-link" style="text-decoration:none;color:blue" target="_blank"></a>
     {%- endif %}
     {%- if ref.additional_links %}
       {%- for link in ref.additional_links %}{%- for key, value in link.items() %}
-    <a href="{{ value }}" style="text-decoration:none;color:blue" target="_blank"> <span style="font-size: small;">[{{ key }}]</span></a>
+    <a href="{{ value }}" class="resource-link" style="text-decoration:none;color:blue" target="_blank"></a>
       {%- endfor %}{%- endfor %}
     {%- endif %}
     <br>
