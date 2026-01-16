@@ -174,9 +174,9 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
-			border-bottom-color: rgba(255, 255, 255, 0);
-			background: #DDDDFF;
+			color: #2563eb;
+			border-bottom-color: #2563eb;
+			background: rgba(37, 99, 235, 0.08);
 		}
 
 	/* Resource link icons - only for links with resource-link class */
