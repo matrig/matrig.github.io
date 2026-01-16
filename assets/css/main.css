@@ -224,6 +224,14 @@ input, select, textarea {
 	}
 
 	/* Publication styling classes */
+	ul.pub-list {
+		list-style: square;
+	}
+
+	ul.pub-list li {
+		list-style-type: square;
+	}
+
 	.pub-item {
 		font-size: medium;
 		padding-bottom: 10px;

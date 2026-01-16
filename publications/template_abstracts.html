@@ -1,10 +1,11 @@
+<ul class="pub-list">
 {%- set ns = namespace(lastyr=None) -%}
 {%- for ref in items %}
 {%- if ns.lastyr != ref.year %}
 <h6><span class="year-label">{{ ref.year }}</span></h6>
     {%- set ns.lastyr = ref.year %}
 {% endif %}
-<li type="square">
+<li>
 <h6 class="pub-item">
     <span class="label-bold-gray">{{ ref.title }}</span>
     <a href="{{ ref.pdf }}" class="resource-link" target="_blank"> </a><br>
@@ -13,3 +14,4 @@
     </h6>
 </li>
 {% endfor %}
+</ul>
