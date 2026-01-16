@@ -181,6 +181,11 @@ input, select, textarea {
 		}
 
 	/* Resource link icons - only for links with resource-link class */
+	a.resource-link {
+		text-decoration: none;
+		color: blue;
+	}
+
 	a.resource-link[href$=".pdf"]::before {
 		content: "📄";
 		opacity: 0.6;
@@ -217,6 +222,43 @@ input, select, textarea {
 		content: "☕";
 		opacity: 0.6;
 		margin-right: 0.3em;
+	}
+
+	/* Publication styling classes */
+	.pub-item {
+		font-family: arial, sans-serif;
+		font-size: medium;
+		padding-bottom: 10px;
+	}
+
+	.pub-title {
+		text-decoration: none;
+		color: gray;
+		font-weight: bold;
+	}
+
+	.year-label {
+		font-weight: bold;
+		color: gray;
+		line-height: 20px;
+		margin-left: -20px;
+	}
+
+	.label-bold-gray {
+		font-weight: bold;
+		color: gray;
+	}
+
+	.conference-talk {
+		text-decoration: none;
+		color: gray;
+		font-weight: normal;
+	}
+
+	/* Email obfuscation using CSS direction */
+	.email-obf {
+		unicode-bidi: bidi-override;
+		direction: rtl;
 	}
 
 	sub {
