@@ -267,6 +267,29 @@ input, select, textarea {
 		direction: rtl;
 	}
 
+	/* Mobile-specific publication styles */
+	@media screen and (max-width: 736px) {
+		.year-label {
+			margin-left: 0;
+			display: block;
+			margin-bottom: 0.5em;
+		}
+
+		.pub-item {
+			font-size: small;
+			word-wrap: break-word;
+			overflow-wrap: break-word;
+		}
+
+		.pub-title {
+			font-size: 0.95em;
+		}
+
+		a.resource-link {
+			font-size: 1.1em;
+		}
+	}
+
 	sub {
 		position: relative;
 		top: 0.5em;
@@ -2666,6 +2689,11 @@ input, select, textarea {
 				font-size: 1.5em;
 				letter-spacing: 0;
 				font-weight: 300;
+			}
+
+			h3 {
+				font-size: 1.2em;
+				font-weight: 400;
 			}
 
 			.container {
