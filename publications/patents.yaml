@@ -1,3 +1,9 @@
+- title: "Risk-aware model ranking"
+  authors: "A. Nitsure, Y. Mroueh, M. Rigotti, K.H. Greenewald, B.M. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross"
+  reference: "US Patent App. 18/753,001"
+  year: 2025
+  link: "https://patents.google.com/patent/US20250390637A1/en"
+
 - title: "Layer normalization for calibrated uncertainty in deep learning"
   authors: "T. Frick, M. Rigotti, D.M. Antognini, I. Giurgiu, A.C.I. Malossi"
   reference: "US Patent App. 18/470,714"
