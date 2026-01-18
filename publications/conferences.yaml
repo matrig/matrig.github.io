@@ -1,12 +1,10 @@
 - date: "Jun 16, 2022"
-  talk: "Keynote talk \"Towards Automated Visual Inspection of Civil Engineering Structures\""
+  talk: 'Keynote talk "Towards Automated Visual Inspection of Civil Engineering Structures"'
   conference: "IEEE MELECON 2022, Palermo, Italy"
-  url: "https://melecon2022.org/keynote-speakers/"
 
 - date: "Sep 21, 2021"
-  talk: "Workshop \"The Geometry of Neural Activity: low-dimensional dynamics and high-dimensional representations\""
+  talk: 'Workshop "The Geometry of Neural Activity: low-dimensional dynamics and high-dimensional representations"'
   conference: "Bernstein Conference, online"
-  url: "https://bernstein-network.de/en/bernstein-conference/general-information/about-bernstein-conference/bernstein-conference-2021"
 
 - date: "Mar 23, 2021"
   talk: "Oxford/IBM Research Workshop on Behavioral Neuroscience"
@@ -19,17 +17,14 @@
 - date: "Jul 06, 2018"
   talk: "PKU Quantitative Biology Meeting"
   conference: "Peking University, Beijing, China"
-  url: "http://indico.pku.edu.cn/e/QB2018"
 
 - date: "Sep 12, 2017"
-  talk: "Workshop \"The Neural Code: Universal Grammar or Area-Specific Mechanisms?\""
+  talk: 'Workshop "The Neural Code: Universal Grammar or Area-Specific Mechanisms?"'
   conference: "Bernstein Conference, Göttingen, Germany"
-  url: "http://www.bernstein-network.de/en/bernstein-conference/past-conferences/2017/satellite-workshops/the-neural-code-universal-grammar-or-area-specific-mechanisms-russo-toutounji"
 
 - date: "Nov 02, 2016"
   talk: "'16 KAIST International Neural Computation Workshop"
   conference: "KAIST, Daejeon, South Korea"
-  url: "http://aibrain.kaist.ac.kr/nc2016/"
 
 - date: "Aug 29, 2016"
   talk: "5th Workshop on the Computational Properties of the Prefrontal Cortex"
@@ -39,17 +34,14 @@
 - date: "May 05, 2016"
   talk: "Symposium on the Role of Task Representation in Response Selection"
   conference: "International Meeting of the Psychonomic Society (PS-2016), Granada, Spain"
-  url: "http://www.ps2016.org/downloads/abstracts-ps2016.pdf#page=25"
 
 - date: "Dec 12, 2015"
   talk: "Workshop on Machine Learning and Interpretation in NeuroImaging"
   conference: "Conference on Neural Information Processing Systems (NIPS-2015), Montreal, Canada"
-  url: "https://sites.google.com/site/mliniworkshop2015/schedule"
 
 - date: "Sep 18, 2015"
   talk: "PhD Symposium"
   conference: "Bernstein Conference, Heidelberg, Germany"
-  url: "http://www.bernstein-network.de/en/bernstein-conference/past-conferences/2015/program/phd-student-event"
 
 - date: "May 15, 2015"
   talk: "Workshop session on neuronal selectivity in the PFC"
