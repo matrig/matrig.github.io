@@ -1,3 +1,13 @@
+- title: "Revisiting Group Relative Policy Optimization: Insights into On-Policy and Off-Policy Training"
+  authors: "Y. Mroueh, N. Dupuis, B. Belgodere, A. Nitsure, M. Rigotti, K. Greenewald, J. Navratil, J. Ross, J. Rios"
+  publication: "International Conference on Learning Representations"
+  issue: "ICLR"
+  year: 2026
+  url: "https://openreview.net/forum?id=XXfOf22o3K"
+  pdf: "publications/articles/mroueh2025.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2505.22257"
+
 - title: "Eliciting Reasoning in Language Models with Cognitive Tools"
   authors: "B. Ebouky, A. Bartezzaghi, M. Rigotti"
   publication: "Advances in Neural Information Processing Systems 39"
@@ -41,14 +51,6 @@
   year: 2025
   url: "https://arxiv.org/abs/2506.09782"
   pdf: "publications/articles/farronato2025.pdf"
-
-- title: "Revisiting Group Relative Policy Optimization: Insights into On-Policy and Off-Policy Training"
-  authors: "Y. Mroueh, N. Dupuis, B. Belgodere, A. Nitsure, M. Rigotti, K. Greenewald, J. Navratil, J. Ross, J. Rios"
-  publication: "arXiv preprint"
-  issue: "arXiv:2505.22257"
-  year: 2025
-  url: "https://arxiv.org/abs/2505.22257"
-  pdf: "publications/articles/mroueh2025.pdf"
 
 - title: "Show or Tell? Effectively prompting Vision-Language Models for semantic segmentation"
   authors: "N. Avogaro, T. Frick, M. Rigotti, A. Bartezzaghi, F. Janicki, A.C.I. Malossi, K. Schindler, R. Assaf"
