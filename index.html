@@ -367,6 +367,14 @@
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
 
+  <script>
+    $(document).ready(function () {
+      $('.email-obf').each(function () {
+        var email = $(this).text().split('').reverse().join('');
+        $(this).replaceWith('<a href="mailto:' + email + '" style="color:gray">' + email + '</a>');
+      });
+    });
+  </script>
   <script>$(document).ready(function () {$('#show_articles').load("articles.html");});</script>
   <script>$(document).ready(function () {$('#show_abstracts').load("abstracts.html");});</script>
   <script>$(document).ready(function () {$('#show_patents').load("patents.html");});</script>
