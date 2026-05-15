@@ -10,11 +10,12 @@
 
 - title: "SPARC: Separating Perception And Reasoning Circuits for Test-time Scaling of VLMs"
   authors: "N. Avogaro, N. Debnath, L. Mi, T. Frick, J. Wang, Z. He, H. Hua, K. Schindler, M. Rigotti"
-  publication: "arXiv preprint"
-  issue: "arXiv:2602.06566"
+  publication: "International Conference on Machine Learning"
+  issue: "ICML"
   year: 2026
-  url: "https://arxiv.org/abs/2602.06566"
   pdf: "publications/articles/avogaro2026.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2602.06566"
 
 - title: "Eliciting Reasoning in Language Models with Cognitive Tools"
   authors: "B. Ebouky, A. Bartezzaghi, M. Rigotti"
