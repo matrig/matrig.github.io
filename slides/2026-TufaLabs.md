@@ -32,7 +32,7 @@ Start from the one system that already works: the brain
 
 * **Decision making**  --  behavioural economics & prospect theory [@Kahneman1979]
 * **Cognitive architectures**  --  central control over specialized modules; ACT-R [@Anderson2004]
-* **Modular vision**  --  ventral *what* + dorsal *where* [@Ungerleider1982]; integration in PFC
+* **Modular & compositional vision**  --  ventral *what* + dorsal *where* [@Ungerleider1982]; integration in PFC
 
 ::: {.fragment}
 Three works today (AOT, Cognitive Tools, SPARC), one direction: brain-inspired structure carved progressively deeper into the model, each guided by one of these systems
@@ -73,9 +73,13 @@ Not (only) an ML question  --  one for **neuroscience**, **cognitive psychology*
 
 Long before *"LLM alignment"*, statistics, economics & psychology already dealt with modeling preferences
 
-* **psychometrics**  --  pairwise judgments [@Thurstone1927; @Bradley1952]
+* **psychophysics & psychometrics**  --  pairwise judgments [@Thurstone1927; @Bradley1952]
 * **decision theory**  --  *first-order stochastic dominance* over outcome distributions [@Hadar1969]; *second-order stochastic dominance* $\leftrightarrow$ risk aversion [@Kahneman1979]
 * **prospect theory**  --  value is *reference-dependent* and *loss-averse*, not absolute [@Kahneman1979]
+
+<center>
+![Psychometric function: choice probability vs stimulus level](2026-TufaLabs_files/img/psychometric-function.png){ width=38% } ![Prospect-theory value function: reference-dependent, loss-averse](2026-TufaLabs_files/img/prospect-value-function.png){ width=30% }
+</center>
 
 
 ## RLHF  --  reward models
@@ -218,9 +222,7 @@ Distributional comparison
 ![&nbsp;](2026-TufaLabs_files/img/aot_tb1.png){ width=90% }
 </center>
 
-::: {.fragment}
-SOTA in the 7B family  --  Open LLM Benchmark, AlpacaEval 2.0 LC win-rate
-:::
+* SOTA in the 7B family  --  Open LLM Benchmark, AlpacaEval 2.0 LC win-rate
 
 
 ## Safety with preference optimization
@@ -252,15 +254,16 @@ each bar is one preference-optimisation method  --  **AOT** is among the safest
 :::
 
 
-## Tool calling
-
-* **External tools**  --  functional modularity: hand a sub-task to a specialized module (search, code, calculator); the model only orchestrates
-  * ![&nbsp;](2026-TufaLabs_files/img/2025-07-09-17-12-23.png){ width=45% }
+## Calling cognitive tools
 
 * **Structured reasoning**  --  discrete operations coordinated by a central controller, à la cognitive architectures (ACT-R) [@Anderson2004]
 
 ::: {.fragment}
-**What if the sub-calls were *cognitive* operations the model runs on itself?**
+* **What if the sub-calls were *cognitive* operations the model runs on itself?**
+
+
+* **External tools**  --  functional modularity: hand a sub-task to a specialized module (search, code, calculator); the model only orchestrates
+  * ![&nbsp;](2026-TufaLabs_files/img/2025-07-09-17-12-23.png){ width=45% }
 :::
 
 
@@ -292,7 +295,7 @@ each bar is one preference-optimisation method  --  **AOT** is among the safest
 | `backtracking` | branch search (MCTS-style) | conflict resolution |
 
 ::: {.fragment}
-Each tool is a **sandboxed sub-call of the same LLM**: independent context, output folded back into the orchestrator
+Each tool is a **sandboxed sub-call of the same LLM**: independent context, output folded back into the orchestrator $\to$ reasoning emerges from **composing** these operations
 
 :::
 
@@ -321,13 +324,12 @@ Each tool is a **sandboxed sub-call of the same LLM**: independent context, outp
 
 * **Elicitation, not instillation**  --  reasoning was already latent; structure surfaces it without RL
 * **Modularity beats monolithic**  --  sandboxed sub-calls reduce interference; tool-call frequency self-regulates with task difficulty
-* **Inference-time compute, targeted**  --  extra calls only where the model judges them necessary
-* **Limitation**  --  the tools are still external prompts; the model invokes the structure but did not design it
+* **Targeted inference-time compute**  --  extra calls only where the model judges them necessary
 
 ::: {.fragment}
 *Cognitive tools* decomposed *reasoning* into sub-operations.
 
-Next, the same question for *vision*: can we carve specialized circuits into the model's perceptual processing, the way the brain separates *what* from *where*?
+How about *vision*: can we carve specialized circuits into the model's perceptual processing as well?
 :::
 
 
@@ -415,13 +417,13 @@ Accurate perception compensates for lost global detail
 
 ## SPARC architecture
 
-![Stage 1 (IRD) finds question-relevant regions  --  Stage 2 reasons over the crops; *what / where* perception circuits feed a prefrontal reasoning circuit](2026-TufaLabs_files/img/sparc_pipeline.png){ width=100% }
+![Two circuits *composed*: Stage 1 (IRD) localizes question-relevant regions, Stage 2 reasons over the crops  --  *what / where* perception feeding a prefrontal reasoning circuit](2026-TufaLabs_files/img/sparc_pipeline.png){ width=100% }
 
 * **Stage 1**  --  Implicit Relevance Detection (IRD)
-  - image + question $\to$ boxes or points
+  - low-res image + question $\to$ boxes or points
 
 * **Stage 2**  --  Perceptual Reasoning
-  - original image + IRD crops $\to$ answer
+  - original low-res image + IRD high-res crops $\to$ answer
 
 
 ## SPARC  --  main results
@@ -505,13 +507,13 @@ Decoupled circuits $\to$ each can be finetuned *independently* **without catastr
 
 ## Common threads
 
-* **The mind as blueprint**  --  a prior that narrows the search
-* **Modularity over monolith**  --  sandboxed sub-calls, separated circuits  --  easier to scale and to inspect
+* **The brain as blueprint**  --  an existence proof and a prior that narrows the search
+* **Modularity & compositionality over monolith**  --  specialized parts that *compose* (e.g.\ sandboxed sub-calls chained into reasoning, perception $\to$ reasoning stages)  --  easier to scale, inspect, and recombine
 
 ::: {.fragment}
 **Structure over scale**  --  sounds *[anti-Bitter-Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)*
 
-...yet more and more *structure* is being engineered *around* the model in the "**agentic harness** era": specification docs, context engineering, tools, skills, sub-agents (modularity)
+...*yet,* more and more *structure* is being engineered *around* the model in the "**agentic harness** era": specification docs, structured reasoning frameworks, context engineering, tools, skills, sub-agents (modularity)
 :::
 
 ::: {.fragment}
