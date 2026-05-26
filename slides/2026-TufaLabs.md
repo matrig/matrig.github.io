@@ -8,8 +8,9 @@ institute:
   - IBM Research
   - <br>
   - joint work with N. Avogaro, B. Ebouky, A. Bartezzaghi, and MIT-IBM Watson AI Lab
-date: 26 May, 2026
-date-format: "DD MMM YYYY"
+  - <br>
+  - "**Tufa Labs**"
+date: "26 May 2026, 16:06"
 bibliography: ../../Documents/zotero_library.bib
 link-citations: true
 fig-align: center
