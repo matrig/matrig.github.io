@@ -241,7 +241,7 @@ input, select, textarea {
 	}
 
 	.pub-item {
-		font-size: medium;
+		font-size: large;
 		padding-bottom: 10px;
 		color: #666;
 		font-weight: 300;
@@ -255,6 +255,7 @@ input, select, textarea {
 	}
 
 	.year-label {
+		font-size: large;
 		font-weight: bold;
 		color: gray;
 		line-height: 20px;
@@ -287,7 +288,7 @@ input, select, textarea {
 		}
 
 		.pub-item {
-			font-size: small;
+			font-size: medium;
 			word-wrap: break-word;
 			overflow-wrap: break-word;
 		}
