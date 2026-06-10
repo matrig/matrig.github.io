@@ -16,6 +16,7 @@
     content="machine learning; large language models; AI reasoning; computational neuroscience; neural networks; deep learning; reinforcement learning; IBM Research" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#222629" />
   <meta name="author" content="Mattia Rigotti" />
   <link rel="canonical" href="https://www.matrig.net/" />
 
@@ -191,10 +192,10 @@
         </header>
 
         <footer>
-          <div style="text-align:left; padding-left: 1em">
+          <div style="text-align:left">
 
             <!-- Articles -->
-            <h3 style="margin-left: -20px">Articles</h3>
+            <h3>Articles</h3>
             <div id="show_articles">
 {% assign by_year = site.data.articles | group_by: "year" | sort: "name" | reverse %}
 {% for year in by_year %}
@@ -226,7 +227,7 @@
             <br>
 
             <!-- Abstracts -->
-            <h3 style="margin-left: -20px">Conference abstracts</h3>
+            <h3>Conference abstracts</h3>
             <div id="show_abstracts">
 {% assign by_year = site.data.abstracts | group_by: "year" | sort: "name" | reverse %}
 {% for year in by_year %}
@@ -251,7 +252,7 @@
             <br>
 
             <!-- Conferences -->
-            <h3 style="margin-left: -20px">Conference presentations</h3>
+            <h3>Conference presentations</h3>
             <div id="show_conferences">
 <ul class="pub-list">
 {% for conference in site.data.conferences %}
@@ -285,7 +286,7 @@
         </header>
 
         <footer>
-          <div style="text-align:left; padding-left: 1em">
+          <div style="text-align:left">
             <div id="show_patents">
 <ul class="pub-list">
 {% for patent in site.data.patents %}
@@ -327,16 +328,14 @@
 
             <li>
               <p class="pub-item">
-                <a href="https://www.matrig.net/cookiecutter-uv-lite"
-                  style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
+                <a href="https://www.matrig.net/cookiecutter-uv-lite" class="pub-title" target="_blank">
                   cookiecutter-uv-lite</a> -- A lightweight, modern Python project template using uv for blazing-fast dependency management (2025)<br>
               </p>
             </li>
 
             <li>
               <p class="pub-item">
-                <a href="http://www-cs-students.stanford.edu/~blynn//gitmagic/index.html"
-                  style="text-decoration:none;color:gray; font-weight:bold;" target="_blank">
+                <a href="http://www-cs-students.stanford.edu/~blynn//gitmagic/index.html" class="pub-title" target="_blank">
                   Gitmagic</a> (Italian translation) -- The ultimate Git tutorial by Ben Lynn (2007)<br>
               </p>
             </li>

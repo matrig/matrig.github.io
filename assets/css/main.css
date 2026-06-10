@@ -87,7 +87,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #666;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -106,7 +106,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #666;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -155,7 +155,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: #444;
 	}
 
 	em, i {
@@ -225,11 +225,12 @@ input, select, textarea {
 
 	/* Publication styling classes */
 	ul.pub-list {
-		list-style: square;
+		list-style: none;
+		padding-left: 0;
 	}
 
 	ul.pub-list li {
-		list-style-type: square;
+		padding-left: 0;
 	}
 
 	/* pub items/lists were h6-based with zero margins; cancel the global
@@ -250,26 +251,25 @@ input, select, textarea {
 
 	.pub-title {
 		text-decoration: none;
-		color: gray;
+		color: #36639c;
 		font-weight: bold;
 	}
 
 	.year-label {
 		font-size: large;
 		font-weight: bold;
-		color: gray;
+		color: #555;
 		line-height: 20px;
-		margin-left: -20px;
 	}
 
 	.label-bold-gray {
 		font-weight: bold;
-		color: gray;
+		color: #555;
 	}
 
 	.conference-talk {
 		text-decoration: none;
-		color: gray;
+		color: #36639c;
 		font-weight: normal;
 	}
 
@@ -2747,4 +2747,75 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+/* Dark mode */
+
+	@media (prefers-color-scheme: dark) {
+
+		body, input, textarea, select {
+			color: #9aa0a6;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			color: #c8cdd2;
+		}
+
+			h2.alt {
+				color: #9aa0a6;
+			}
+
+				h2.alt strong {
+					color: #c8cdd2;
+				}
+
+		strong, b {
+			color: #c8cdd2;
+		}
+
+		a:hover {
+			color: #8ab4f8;
+			border-bottom-color: #8ab4f8;
+			background: rgba(138, 180, 248, 0.1);
+		}
+
+		#main > section {
+			background-image: none;
+		}
+
+			#main > section.one {
+				background-color: #16181a;
+			}
+
+			#main > section.two {
+				background-color: #1b1e21;
+			}
+
+			#main > section.three {
+				background-color: #202428;
+			}
+
+			#main > section.four {
+				background-color: #24282c;
+			}
+
+		#footer {
+			background-color: #101214;
+		}
+
+		.pub-item {
+			color: #aab0b6;
+		}
+
+		.pub-title, .conference-talk {
+			color: #7fa6d9;
+		}
+
+		.year-label, .label-bold-gray {
+			color: #9aa0a6;
+		}
+
+		table tbody tr:nth-child(2n+2) {
+			background: #1f2326;
+		}
 	}
