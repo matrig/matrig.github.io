@@ -1,5 +1,11 @@
 @import url("font-awesome.min.css");
 
+:root {
+	--accent: #36639c;
+	--accent-soft: rgba(54, 99, 156, 0.35);
+	--accent-tint: rgba(54, 99, 156, 0.06);
+}
+
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -83,10 +89,10 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+		font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.65em;
 		color: #666;
 	}
 
@@ -102,14 +108,15 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+		font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.65em;
 		color: #666;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: "Source Serif 4", Georgia, serif;
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -179,48 +186,32 @@ input, select, textarea {
 			background: rgba(37, 99, 235, 0.08);
 		}
 
-	/* Resource link icons - only for links with resource-link class */
+	/* Resource links render as small chips labeled from the title attribute */
 	a.resource-link {
+		display: inline-block;
+		border: 1px solid var(--accent-soft);
+		border-radius: 999px;
+		padding: 0 0.7em;
+		margin-left: 0.2em;
+		font-size: 0.62em;
+		font-weight: 600;
+		letter-spacing: 0.06em;
+		line-height: 1.7;
+		text-transform: uppercase;
 		text-decoration: none;
-		color: blue;
+		color: var(--accent);
+		vertical-align: 0.2em;
+		transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 	}
 
-	a.resource-link[href$=".pdf"]::before {
-		content: "📄";
-		opacity: 0.6;
-		margin-right: 0.3em;
+	a.resource-link::before {
+		content: attr(title);
 	}
 
-	/* Slides get a different icon - must come after .pdf rule to override */
-	a.resource-link[href*="/slides/"]::before {
-		content: "📊";
-		opacity: 0.6;
-		margin-right: 0.3em;
-	}
-
-	a.resource-link[href*="arxiv"]::before {
-		content: "📝";
-		opacity: 0.6;
-		margin-right: 0.3em;
-	}
-
-	a.resource-link[href*="doi.org"]::before {
-		content: "🔗";
-		opacity: 0.6;
-		margin-right: 0.3em;
-	}
-
-	a.resource-link[href*="neurips.cc"]::before,
-	a.resource-link[href*="openreview.net"]::before {
-		content: "🎓";
-		opacity: 0.6;
-		margin-right: 0.3em;
-	}
-
-	a.resource-link[href$=".jar"]::before {
-		content: "☕";
-		opacity: 0.6;
-		margin-right: 0.3em;
+	a.resource-link:hover {
+		background: var(--accent);
+		border-color: var(--accent);
+		color: #fff;
 	}
 
 	/* Publication styling classes */
@@ -231,6 +222,27 @@ input, select, textarea {
 
 	ul.pub-list li {
 		padding-left: 0;
+		position: relative;
+	}
+
+	ul.pub-list li::before {
+		content: "";
+		position: absolute;
+		left: -0.8em;
+		top: 0.3em;
+		bottom: 0.8em;
+		width: 2px;
+		background: var(--accent);
+		opacity: 0;
+		transition: opacity 0.25s ease-in-out;
+	}
+
+	ul.pub-list li:hover {
+		background: var(--accent-tint);
+	}
+
+	ul.pub-list li:hover::before {
+		opacity: 1;
 	}
 
 	/* pub items/lists were h6-based with zero margins; cancel the global
@@ -251,7 +263,8 @@ input, select, textarea {
 
 	.pub-title {
 		text-decoration: none;
-		color: #36639c;
+		border-bottom: none;
+		color: var(--accent);
 		font-weight: bold;
 	}
 
@@ -260,6 +273,21 @@ input, select, textarea {
 		font-weight: bold;
 		color: #555;
 		line-height: 20px;
+		letter-spacing: 0.08em;
+	}
+
+	p.year-row {
+		display: flex;
+		align-items: center;
+		gap: 0.8em;
+		margin-top: 0.6em;
+	}
+
+	p.year-row::after {
+		content: "";
+		flex: 1;
+		height: 1px;
+		background: linear-gradient(to right, var(--accent-soft), transparent);
 	}
 
 	.label-bold-gray {
@@ -269,7 +297,8 @@ input, select, textarea {
 
 	.conference-talk {
 		text-decoration: none;
-		color: #36639c;
+		border-bottom: none;
+		color: var(--accent);
 		font-weight: normal;
 	}
 
@@ -298,7 +327,7 @@ input, select, textarea {
 		}
 
 		a.resource-link {
-			font-size: 1.1em;
+			font-size: 0.7em;
 		}
 	}
 
@@ -2226,6 +2255,7 @@ input, select, textarea {
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
+			padding-left: 94px;
 		}
 
 		#logo p {
@@ -2235,6 +2265,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
+			padding-left: 94px;
 			word-wrap: break-word;
 			overflow-wrap: break-word;
 		}
@@ -2399,6 +2430,10 @@ input, select, textarea {
 				width: 300px;
 			}
 
+			#logo h1 {
+				font-size: 0.85em;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -2464,6 +2499,10 @@ input, select, textarea {
 			#logo .image {
 				position: relative;
 				margin: 0 0 0.5em 0;
+			}
+
+			#logo h1, #logo p {
+				padding-left: 0;
 			}
 
 			#nav ul li a {
@@ -2753,6 +2792,12 @@ input, select, textarea {
 
 	@media (prefers-color-scheme: dark) {
 
+		:root {
+			--accent: #7fa6d9;
+			--accent-soft: rgba(127, 166, 217, 0.4);
+			--accent-tint: rgba(127, 166, 217, 0.08);
+		}
+
 		body, input, textarea, select {
 			color: #9aa0a6;
 		}
@@ -2807,8 +2852,8 @@ input, select, textarea {
 			color: #aab0b6;
 		}
 
-		.pub-title, .conference-talk {
-			color: #7fa6d9;
+		a.resource-link:hover {
+			color: #16181a;
 		}
 
 		.year-label, .label-bold-gray {
