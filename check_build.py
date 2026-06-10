@@ -136,6 +136,10 @@ def main():
     missing = [p for p in pdfs if not (SITE / p.relative_to(ROOT)).exists()]
     check(f"{len(pdfs)} PDFs copied", not missing, f"missing {len(missing)}")
 
+    internal = re.findall(r'(?:href|src)="(?!https?:|mailto:|#|/)([^"]+)"', html)
+    broken = sorted({u for u in internal if not (SITE / u.split("#")[0]).exists()})
+    check(f"{len(internal)} internal links resolve", not broken, f"broken: {broken[:5]}")
+
     tracked = subprocess.run(["git", "ls-files"], capture_output=True, text=True, cwd=ROOT).stdout
     check("no tooling files tracked", not re.search(r"(?im)^claude", tracked))
 
