@@ -2294,13 +2294,6 @@ input, select, textarea {
 			overflow-wrap: break-word;
 		}
 
-		#logo .tagline {
-			display: inline-block;
-			margin-top: 0.6em;
-			color: rgba(255, 255, 255, 0.35);
-			letter-spacing: 0.06em;
-		}
-
 		#logo .image {
 			position: absolute;
 			left: 0;
