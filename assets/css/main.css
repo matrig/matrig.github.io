@@ -232,9 +232,20 @@ input, select, textarea {
 		list-style-type: square;
 	}
 
+	/* pub items/lists were h6-based with zero margins; cancel the global
+	   "p, ul { margin-bottom: 2em }" rule to keep the original spacing */
+	ul.pub-list,
+	p.pub-item,
+	p.year-row {
+		margin-bottom: 0;
+	}
+
 	.pub-item {
 		font-size: medium;
 		padding-bottom: 10px;
+		color: #666;
+		font-weight: 300;
+		line-height: 1.5em;
 	}
 
 	.pub-title {
