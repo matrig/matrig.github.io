@@ -24,7 +24,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent
 SITE = ROOT / "_site"
 SECTIONS = ["articles", "abstracts", "conferences", "patents"]
-PASSTHROUGH = ["CNAME", "robots.txt", "sitemap.xml"]
+PASSTHROUGH = ["CNAME", "robots.txt", "sitemap.xml", "llms.txt"]
 
 failures = []
 

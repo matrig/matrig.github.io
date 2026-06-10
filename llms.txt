@@ -1,0 +1,20 @@
+# Mattia Rigotti
+
+> Senior Research Scientist at IBM Research AI, working at the intersection of machine learning and neuroscience. Research on reasoning in large language models, visual foundation models, and the geometry of neural representations in the brain.
+
+Mattia Rigotti holds a Ph.D. in Neuroscience from Columbia University (2010) and an M.Sc. in Theoretical Physics from ETH Zürich. He was a postdoctoral fellow at New York University and an associate research fellow at Columbia University before joining IBM Research in 2014. His 2013 Nature paper on mixed selectivity showed that high-dimensional neural representations, in which individual neurons mix multiple task variables, support complex cognitive behavior; it remains a foundational result in the geometry of neural representations. His current work focuses on eliciting reasoning in large language models, test-time scaling of vision-language models, and brain-inspired structure for AI systems.
+
+## Key publications
+
+- [The importance of mixed selectivity in complex cognitive tasks](https://doi.org/10.1038/nature12160): Nature, 2013. With O. Barak, M.R. Warden, X.-J. Wang, N.D. Daw, E.K. Miller, S. Fusi.
+- [Eliciting Reasoning in Language Models with Cognitive Tools](https://arxiv.org/abs/2506.12115): NeurIPS, 2025. Modular cognitive operations that elicit reasoning in LLMs. With B. Ebouky, A. Bartezzaghi.
+- [SPARC: Separating Perception And Reasoning Circuits for Test-time Scaling of VLMs](https://arxiv.org/abs/2602.06566): ICML, 2026. With N. Avogaro, N. Debnath, L. Mi, T. Frick, J. Wang, Z. He, H. Hua, K. Schindler.
+- [Factorized embedding of goal and uncertainty in the lateral prefrontal cortex guides stably flexible learning](https://doi.org/10.1038/s41467-025-66677-w): Nature Communications, 2025. With Y. Sung, S.W. Lee.
+- [Attention-based Interpretability with Concept Transformers](https://openreview.net/forum?id=kAa9eDS0RdO): ICLR, 2022. With C. Miksovic, I. Giurgiu, T. Gschwind, P. Scotton.
+
+## Full record
+
+- [Homepage](https://www.matrig.net/): all publications, conference abstracts, talks, and patents
+- [Google Scholar](https://scholar.google.com/citations?user=TmHt7CwAAAAJ): citation record
+- [GitHub](https://github.com/matrig)
+- [LinkedIn](https://www.linkedin.com/in/mattia-rigotti)
