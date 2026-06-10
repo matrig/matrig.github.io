@@ -6,6 +6,30 @@
 	--accent-tint: rgba(54, 99, 156, 0.06);
 }
 
+@font-face {
+	font-family: "Source Sans 3";
+	font-style: normal;
+	font-weight: 200 900;
+	font-display: swap;
+	src: url("../fonts/SourceSans3-latin.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Source Sans 3";
+	font-style: italic;
+	font-weight: 200 900;
+	font-display: swap;
+	src: url("../fonts/SourceSans3-italic-latin.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Source Serif 4";
+	font-style: normal;
+	font-weight: 200 900;
+	font-display: swap;
+	src: url("../fonts/SourceSerif4-latin.woff2") format("woff2");
+}
+
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -2270,6 +2294,13 @@ input, select, textarea {
 			overflow-wrap: break-word;
 		}
 
+		#logo .tagline {
+			display: inline-block;
+			margin-top: 0.6em;
+			color: rgba(255, 255, 255, 0.35);
+			letter-spacing: 0.06em;
+		}
+
 		#logo .image {
 			position: absolute;
 			left: 0;
@@ -2368,6 +2399,19 @@ input, select, textarea {
 			text-align: center;
 			background-image: url("images/overlay.png");
 		}
+
+			#main > section .container > header {
+				text-align: left;
+			}
+
+				#main > section .container > header h2::before {
+					content: "";
+					display: block;
+					width: 2.5em;
+					height: 3px;
+					background: var(--accent);
+					margin-bottom: 0.6em;
+				}
 
 			#main > section.dark {
 				color: #ddd;
@@ -2862,5 +2906,51 @@ input, select, textarea {
 
 		table tbody tr:nth-child(2n+2) {
 			background: #1f2326;
+		}
+	}
+
+/* Print */
+
+	@media print {
+
+		#header, #headerToggle, #titleBar {
+			display: none;
+		}
+
+		#main, #footer {
+			margin-left: 0;
+		}
+
+		#main > section {
+			background: #fff !important;
+			background-image: none !important;
+			box-shadow: none;
+			padding: 1em 0;
+		}
+
+		body {
+			font-size: 11pt;
+			color: #000;
+		}
+
+		h1, h2, h3, h4, h5, h6, strong, b, .pub-item {
+			color: #000;
+		}
+
+		.pub-item {
+			font-size: 10pt;
+		}
+
+		.pub-title, .conference-talk, .year-label, .label-bold-gray {
+			color: #000;
+		}
+
+		a.resource-link,
+		ul.pub-list li::before {
+			display: none;
+		}
+
+		#footer {
+			background: #fff;
 		}
 	}
