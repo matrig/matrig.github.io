@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE HTML>
 <!--
     Prologue by HTML5 UP
@@ -13,7 +15,7 @@
   <meta name="keywords"
     content="computational neuroscience; machine learning; neural networks; deep learning; reinforcement learning; neuromorphic engineering; IBM Research" />
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="Mattia Rigotti" />
   <link rel="canonical" href="https://www.matrig.net/" />
 
@@ -28,7 +30,7 @@
 
   <link rel="stylesheet" href="assets/css/main.css" />
 
-  <a rel="me" href="https://mastodon.social/@matrig"></a>
+  <link rel="me" href="https://mastodon.social/@matrig" />
 </head>
 
 <body class="is-preload">
@@ -143,7 +145,7 @@
                 <br>Columbia University, College of Physicians and Surgeons, New York, NY
                 <br>Thesis: <span class="label-bold-gray">"Modeling the neural mechanisms underlying
                   rule-based behavior"</span>
-                <a class="resource-link" href="publications/rigotti_thesis.pdf" target="_blank"> </a>
+                <a class="resource-link" href="publications/rigotti_thesis.pdf" target="_blank" title="PDF" aria-label="PDF"> </a>
               </h6>
             </li>
 
@@ -163,7 +165,7 @@
                 <br>Swiss Federal Institute of Technology (ETH), Zurich, Switzerland
                 <br>Thesis: <span class="label-bold-gray">"A Relativistic Stochastic Process: statistical
                   mechanics in a general relativistic framework"</span>
-                <a class="resource-link" href="publications/rigotti_diplomarbeit.pdf" target="_blank"> </a>
+                <a class="resource-link" href="publications/rigotti_diplomarbeit.pdf" target="_blank" title="PDF" aria-label="PDF"> </a>
               </h6>
             </li>
 
@@ -187,19 +189,81 @@
 
             <!-- Articles -->
             <h3 style="margin-left: -20px">Articles</h3>
-            <div id="show_articles"></div>
+            <div id="show_articles">
+<ul class="pub-list">
+{% assign by_year = site.data.articles | group_by: "year" | sort: "name" | reverse %}
+{% for year in by_year %}
+<h6><span class="year-label">{{ year.name }}</span></h6>
+{% for ref in year.items %}
+{%- assign url = ref.url %}
+{%- unless url %}{% for pair in ref.additional_links[0] %}{% assign url = pair[1] %}{% endfor %}{% endunless %}
+<li>
+<h6 class="pub-item">
+    <a href="{{ url }}" class="pub-title" target="_blank">
+    {{ ref.title }}</a>
+    {%- if ref.pdf %}
+    <a href="{{ ref.pdf }}" class="resource-link" target="_blank" title="PDF" aria-label="PDF"> </a>
+    {%- endif %}
+    {%- for link in ref.additional_links %}{% for pair in link %}
+    <a href="{{ pair[1] }}" class="resource-link" target="_blank" title="{{ pair[0] }}" aria-label="{{ pair[0] }}"> </a>
+    {%- endfor %}{% endfor %}
+    <br>
+    {{ ref.authors }}<br>
+    <em>{{ ref.publication }},</em> {{ ref.issue }} {{ ref.year }}
+    </h6>
+</li>
+{% endfor %}
+{% endfor %}
+</ul>
+            </div>
 
             <br>
 
             <!-- Abstracts -->
             <h3 style="margin-left: -20px">Conference abstracts</h3>
-            <div id="show_abstracts"></div>
+            <div id="show_abstracts">
+<ul class="pub-list">
+{% assign by_year = site.data.abstracts | group_by: "year" | sort: "name" | reverse %}
+{% for year in by_year %}
+<h6><span class="year-label">{{ year.name }}</span></h6>
+{% for ref in year.items %}
+<li>
+<h6 class="pub-item">
+    <span class="label-bold-gray">{{ ref.title }}</span>
+    {%- if ref.pdf %}
+    <a href="{{ ref.pdf }}" class="resource-link" target="_blank" title="PDF" aria-label="PDF"> </a>
+    {%- endif %}<br>
+    {{ ref.authors }}<br>
+    <em>{{ ref.conference }},</em> {{ ref.year }}
+    </h6>
+</li>
+{% endfor %}
+{% endfor %}
+</ul>
+            </div>
 
             <br>
 
             <!-- Conferences -->
             <h3 style="margin-left: -20px">Conference presentations</h3>
-            <div id="show_conferences"></div>
+            <div id="show_conferences">
+<ul class="pub-list">
+{% for conference in site.data.conferences %}
+<li>
+<h6 class="pub-item">
+    <span class="label-bold-gray">{{ conference.date }}</span> &nbsp; &nbsp;
+    <a
+    {%- if conference.url %}
+        href="{{ conference.url }}"
+    {%- endif %}
+        class="conference-talk" target="_blank">
+    {{ conference.talk }}</a><br>
+    {{ conference.conference }}
+    </h6>
+</li>
+{% endfor %}
+</ul>
+            </div>
 
           </ul>
         </footer>
@@ -216,7 +280,25 @@
 
         <footer>
           <ul class="pub-list" style="text-align:left">
-            <div id="show_patents"></div>
+            <div id="show_patents">
+<ul class="pub-list">
+{% for patent in site.data.patents %}
+<li>
+<h6 class="pub-item">
+    <a
+    {%- if patent.link %}
+      href="{{ patent.link }}"
+    {%- endif %}
+      class="pub-title" target="_blank">
+    {{ patent.title }}</a>
+    <br>
+    {{ patent.authors }}<br>
+    <em>{{ patent.reference }},</em> {{ patent.year }}
+    </h6>
+</li>
+{% endfor %}
+</ul>
+            </div>
           </ul>
         </footer>
 
@@ -355,7 +437,7 @@
     <ul class="copyright">
       <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
     </ul>
-    <p>(last modified: 18 May 2026)</p>
+    <p>(last modified: {{ site.time | date: '%-d %B %Y' }})</p>
   </div>
 
   <!-- Scripts -->
@@ -375,11 +457,6 @@
       });
     });
   </script>
-  <script>$(document).ready(function () {$('#show_articles').load("articles.html");});</script>
-  <script>$(document).ready(function () {$('#show_abstracts').load("abstracts.html");});</script>
-  <script>$(document).ready(function () {$('#show_patents').load("patents.html");});</script>
-  <script>$(document).ready(function () {$('#show_conferences').load("conferences.html");});</script>
-
   <!-- Structured Data / JSON-LD -->
   <script type="application/ld+json">
   {
