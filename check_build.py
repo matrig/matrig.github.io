@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Build the site as GitHub Pages would and sanity-check the output.
+"""Build the site as GitHub Pages would, check the output, show it in Firefox.
 
-Usage: python check_build.py [--no-build] [--view] [--port N]
+Usage: python check_build.py [--no-build] [--no-view] [--port N]
 
 Builds with the containerized Jekyll (podman), then verifies _site/:
 every YAML entry rendered, no Liquid leftovers or empty links, valid
-list markup, static files passed through verbatim. Exits non-zero on
-any failure. With --view, serves _site/ and opens it in Firefox.
+list markup, static files passed through verbatim. Then serves _site/
+(with caching disabled) and opens it in Firefox; Ctrl-C stops the
+server. Exits non-zero if any check failed. --no-view skips the
+preview, e.g. for scripted use.
 """
 import argparse
 import functools
@@ -69,8 +71,16 @@ class ListValidator(HTMLParser):
             self.bad.append(f"line {self.getpos()[0]}: unbalanced </{tag}>")
 
 
+class NoCacheHandler(SimpleHTTPRequestHandler):
+    """Forbid caching so the browser never shows a stale build."""
+
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
+
+
 def view(port):
-    handler = functools.partial(SimpleHTTPRequestHandler, directory=str(SITE))
+    handler = functools.partial(NoCacheHandler, directory=str(SITE))
     server = ThreadingHTTPServer(("localhost", port), handler)
     url = f"http://localhost:{port}/"
     try:
@@ -87,7 +97,7 @@ def view(port):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-build", action="store_true", help="check the existing _site/ without rebuilding")
-    ap.add_argument("--view", action="store_true", help="serve _site/ and open it in Firefox after the checks")
+    ap.add_argument("--no-view", action="store_true", help="skip serving _site/ and opening Firefox")
     ap.add_argument("--port", type=int, default=8765)
     args = ap.parse_args()
 
@@ -134,7 +144,7 @@ def main():
         print(f"{len(failures)} check(s) failed: {', '.join(failures)}")
     else:
         print("all checks passed")
-    if args.view:
+    if not args.no_view:
         view(args.port)
     sys.exit(1 if failures else 0)
 
