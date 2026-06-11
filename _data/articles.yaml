@@ -562,7 +562,7 @@
   issue: "497:585-590,"
   year: 2013
   selected: true
-  note: "Why do prefrontal neurons respond to seemingly arbitrary mixtures of task variables? This work showed that such mixed selectivity is a feature, not noise: it generates the high-dimensional neural representations that make flexible cognition possible. A founding result of representational geometry, with lasting influence on both neuroscience and machine learning."
+  note: "Why do prefrontal neurons respond to seemingly arbitrary mixtures of task variables? This work showed that such mixed selectivity is a feature, not noise: it generates the high-dimensional neural representations that make flexible cognition possible."
   url: "http://dx.doi.org/10.1038/nature12160"
   pdf: "publications/articles/rigotti2013.pdf"
 
