@@ -205,13 +205,22 @@ input, select, textarea {
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		outline: 0;
 	}
 
 		a:hover {
 			color: #2563eb;
 			border-bottom-color: #2563eb;
 			background: rgba(37, 99, 235, 0.08);
+		}
+
+		a:focus-visible {
+			outline: 2px solid var(--accent);
+			outline-offset: 2px;
+		}
+
+		#header a:focus-visible,
+		#headerToggle .toggle:focus-visible {
+			outline-color: #fff;
 		}
 
 	/* Resource links render as small chips labeled from the title attribute */
@@ -2305,7 +2314,6 @@ input, select, textarea {
 				padding: 0.5em 1.5em 0.5em 1.5em;
 				color: rgba(255, 255, 255, 0.5);
 				text-decoration: none;
-				outline: 0;
 				border: 0;
 				-moz-transition: none;
 				-webkit-transition: none;
@@ -2654,7 +2662,6 @@ input, select, textarea {
 					color: #fff;
 					background: rgba(128, 136, 144, 0.5);
 					border-radius: 0.35em;
-					outline: 0;
 					border: 0;
 				}
 
@@ -2706,6 +2713,11 @@ input, select, textarea {
 
 				#main > section {
 					padding: 3em 0;
+				}
+
+				/* clear the fixed header-toggle pill */
+				#main > section.one {
+					padding-top: 4.5em;
 				}
 
 				#main section.cover {

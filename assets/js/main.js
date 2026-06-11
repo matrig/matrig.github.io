@@ -18,11 +18,20 @@
 
 	// Nav scroll-spy: the section crossing the viewport's vertical center is active.
 	var links = document.querySelectorAll('#nav a[href^="#"]');
+
+	function setActive(active) {
+		links.forEach(function (link) {
+			link.classList.toggle('active', link === active);
+			if (link === active) link.setAttribute('aria-current', 'true');
+			else link.removeAttribute('aria-current');
+		});
+	}
+
 	var observer = new IntersectionObserver(function (entries) {
 		entries.forEach(function (entry) {
 			if (!entry.isIntersecting) return;
 			links.forEach(function (link) {
-				link.classList.toggle('active', link.hash === '#' + entry.target.id);
+				if (link.hash === '#' + entry.target.id) setActive(link);
 			});
 		});
 	}, { rootMargin: '-50% 0px -50% 0px' });
@@ -31,8 +40,7 @@
 		var section = document.querySelector(link.hash);
 		if (section) observer.observe(section);
 		link.addEventListener('click', function () {
-			links.forEach(function (l) { l.classList.remove('active'); });
-			link.classList.add('active');
+			setActive(link);
 			document.body.classList.remove('header-visible');
 		});
 	});
