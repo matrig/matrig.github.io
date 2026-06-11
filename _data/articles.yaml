@@ -3,7 +3,6 @@
   publication: "International Conference on Learning Representations"
   issue: "ICLR"
   year: 2026
-  selected: true
   url: "https://openreview.net/forum?id=XXfOf22o3K"
   pdf: "publications/articles/mroueh2025.pdf"
   additional_links:
@@ -96,7 +95,6 @@
   publication: "Advances in Neural Information Processing Systems 38"
   issue: "NeurIPS"
   year: 2024
-  selected: true
   url: "https://neurips.cc/virtual/2024/poster/96822"
   pdf: "publications/articles/melnyk2024.pdf"
   additional_links:
@@ -115,7 +113,9 @@
 - title: "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs"
   authors: "B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navartil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young"
   publication: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
+  issue: "JETCAS (Awarded best paper award)"
   year: 2024
+  selected: true
   url: "https://doi.org/10.1109/JETCAS.2024.3477976"
   pdf: "publications/articles/belgodere2024.pdf"
   additional_links:
@@ -280,7 +280,6 @@
   publication: "International Conference on Learning Representations"
   issue: "ICLR"
   year: 2022
-  selected: true
   url: "https://openreview.net/forum?id=kAa9eDS0RdO"
   pdf: "publications/articles/rigotti2022.pdf"
 
