@@ -15,7 +15,7 @@
     {{ ref.authors }}<br>
     <em>{{ ref.publication }},</em> {{ ref.issue }} {{ ref.year }}
     {%- if include.show_note and ref.note %}
-    <br><span class="pub-note">{{ ref.note }}</span>
+<span class="pub-note"><span>{{ ref.note }}</span></span>
     {%- endif %}
     </p>
 </li>
