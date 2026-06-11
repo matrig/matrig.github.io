@@ -1,0 +1,18 @@
+{%- assign ref = include.ref %}
+{%- assign url = ref.url %}
+{%- unless url %}{% for pair in ref.additional_links[0] %}{% assign url = pair[1] %}{% endfor %}{% endunless %}
+<li>
+<p class="pub-item">
+    <a href="{{ url }}" class="pub-title" target="_blank">
+    {{ ref.title }}</a>
+    {%- if ref.pdf %}
+    <a href="{{ ref.pdf }}" class="resource-link" target="_blank" title="PDF" aria-label="PDF"> </a>
+    {%- endif %}
+    {%- for link in ref.additional_links %}{% for pair in link %}
+    <a href="{{ pair[1] }}" class="resource-link" target="_blank" title="{{ pair[0] }}" aria-label="{{ pair[0] }}"> </a>
+    {%- endfor %}{% endfor %}
+    <br>
+    {{ ref.authors }}<br>
+    <em>{{ ref.publication }},</em> {{ ref.issue }} {{ ref.year }}
+    </p>
+</li>

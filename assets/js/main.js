@@ -1,123 +1,50 @@
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+(function () {
 
-(function($) {
+	// Enable transitions only after first paint (prevents load-time animation flash).
+	window.addEventListener('load', function () {
+		setTimeout(function () {
+			document.body.classList.remove('is-preload');
+		}, 100);
+	});
 
-	var	$window = $(window),
-		$body = $('body'),
-		$nav = $('#nav');
+	// Email de-obfuscation: the address is stored reversed in the HTML.
+	document.querySelectorAll('.email-obf').forEach(function (span) {
+		var email = span.textContent.trim().split('').reverse().join('');
+		var a = document.createElement('a');
+		a.href = 'mailto:' + email;
+		a.textContent = email;
+		span.replaceWith(a);
+	});
 
-	// Breakpoints.
-		breakpoints({
-			wide:      [ '961px',  '1880px' ],
-			normal:    [ '961px',  '1620px' ],
-			narrow:    [ '961px',  '1320px' ],
-			narrower:  [ '737px',  '960px'  ],
-			mobile:    [ null,     '736px'  ]
-		});
-
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
-
-	// Nav.
-		var $nav_a = $nav.find('a');
-
-		$nav_a
-			.addClass('scrolly')
-			.on('click', function(e) {
-
-				var $this = $(this);
-
-				// External link? Bail.
-					if ($this.attr('href').charAt(0) != '#')
-						return;
-
-				// Prevent default.
-					e.preventDefault();
-
-				// Deactivate all links.
-					$nav_a.removeClass('active');
-
-				// Activate link *and* lock it (so Scrollex doesn't try to activate other links as we're scrolling to this one's section).
-					$this
-						.addClass('active')
-						.addClass('active-locked');
-
-			})
-			.each(function() {
-
-				var	$this = $(this),
-					id = $this.attr('href'),
-					$section = $(id);
-
-				// No section for this link? Bail.
-					if ($section.length < 1)
-						return;
-
-				// Scrollex.
-					$section.scrollex({
-						mode: 'middle',
-						top: '-10vh',
-						bottom: '-10vh',
-						initialize: function() {
-
-							// Deactivate section.
-								$section.addClass('inactive');
-
-						},
-						enter: function() {
-
-							// Activate section.
-								$section.removeClass('inactive');
-
-							// No locked links? Deactivate all links and activate this section's one.
-								if ($nav_a.filter('.active-locked').length == 0) {
-
-									$nav_a.removeClass('active');
-									$this.addClass('active');
-
-								}
-
-							// Otherwise, if this section's link is the one that's locked, unlock it.
-								else if ($this.hasClass('active-locked'))
-									$this.removeClass('active-locked');
-
-						}
-					});
-
+	// Nav scroll-spy: the section crossing the viewport's vertical center is active.
+	var links = document.querySelectorAll('#nav a[href^="#"]');
+	var observer = new IntersectionObserver(function (entries) {
+		entries.forEach(function (entry) {
+			if (!entry.isIntersecting) return;
+			links.forEach(function (link) {
+				link.classList.toggle('active', link.hash === '#' + entry.target.id);
 			});
+		});
+	}, { rootMargin: '-50% 0px -50% 0px' });
 
-	// Scrolly.
-		$('.scrolly').scrolly();
+	links.forEach(function (link) {
+		var section = document.querySelector(link.hash);
+		if (section) observer.observe(section);
+		link.addEventListener('click', function () {
+			links.forEach(function (l) { l.classList.remove('active'); });
+			link.classList.add('active');
+			document.body.classList.remove('header-visible');
+		});
+	});
 
-	// Header (narrower + mobile).
+	// Mobile sidebar toggle.
+	var toggle = document.querySelector('#headerToggle .toggle');
+	toggle.addEventListener('click', function (e) {
+		e.preventDefault();
+		document.body.classList.toggle('header-visible');
+	});
+	document.getElementById('main').addEventListener('click', function () {
+		document.body.classList.remove('header-visible');
+	});
 
-		// Toggle.
-			$(
-				'<div id="headerToggle">' +
-					'<a href="#header" class="toggle"></a>' +
-				'</div>'
-			)
-				.appendTo($body);
-
-		// Header.
-			$('#header')
-				.panel({
-					delay: 500,
-					hideOnClick: true,
-					hideOnSwipe: true,
-					resetScroll: true,
-					resetForms: true,
-					side: 'left',
-					target: $body,
-					visibleClass: 'header-visible'
-				});
-
-})(jQuery);
+})();

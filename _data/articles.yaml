@@ -3,6 +3,7 @@
   publication: "International Conference on Learning Representations"
   issue: "ICLR"
   year: 2026
+  selected: true
   url: "https://openreview.net/forum?id=XXfOf22o3K"
   pdf: "publications/articles/mroueh2025.pdf"
   additional_links:
@@ -13,6 +14,7 @@
   publication: "International Conference on Machine Learning"
   issue: "ICML"
   year: 2026
+  selected: true
   url: "https://icml.cc/virtual/2026/poster/62906"
   pdf: "publications/articles/avogaro2026.pdf"
   additional_links:
@@ -23,6 +25,7 @@
   publication: "Advances in Neural Information Processing Systems 39"
   issue: "NeurIPS"
   year: 2025
+  selected: true
   url: "https://neurips.cc/virtual/2025/poster/119804"
   pdf: "publications/articles/ebouky2025.pdf"
   additional_links:
@@ -93,6 +96,7 @@
   publication: "Advances in Neural Information Processing Systems 38"
   issue: "NeurIPS"
   year: 2024
+  selected: true
   url: "https://neurips.cc/virtual/2024/poster/96822"
   pdf: "publications/articles/melnyk2024.pdf"
   additional_links:
@@ -256,6 +260,7 @@
   publication: "Advances in Neural Information Processing Systems 36"
   issue: "NeurIPS (Awarded an oral presentation)"
   year: 2022
+  selected: true
   url: "https://openreview.net/forum?id=177GzUAds8U"
   pdf: "publications/articles/ito2022.pdf"
   additional_links:
@@ -275,6 +280,7 @@
   publication: "International Conference on Learning Representations"
   issue: "ICLR"
   year: 2022
+  selected: true
   url: "https://openreview.net/forum?id=kAa9eDS0RdO"
   pdf: "publications/articles/rigotti2022.pdf"
 
@@ -358,6 +364,7 @@
   publication: "Cell"
   issue: "183, 1-14,"
   year: 2020
+  selected: true
   url: "https://doi.org/10.1016/j.cell.2020.09.031"
   pdf: "publications/articles/bernardi2020.pdf"
   additional_links:
@@ -552,6 +559,7 @@
   publication: "Nature"
   issue: "497:585-590,"
   year: 2013
+  selected: true
   url: "http://dx.doi.org/10.1038/nature12160"
   pdf: "publications/articles/rigotti2013.pdf"
 
