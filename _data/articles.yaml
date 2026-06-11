@@ -14,7 +14,7 @@
   issue: "ICML"
   year: 2026
   selected: true
-  note: "Test-time scaling often fails for vision-language models (VLMs) because small perception errors cascade through long, entangled chains of thought. SPARC decouples visual perception from reasoning in a brain-inspired two-stage pipeline: first localize the question-relevant image regions through explicit visual search, then condition multimodal reasoning on those grounded regions. This makes inference-time scaling reliable without reinforcement learning or hand-crafted rewards."
+  note: "For vision-language models (VLMs), unstructured chain-of-thought entangles perception and reasoning, so small perceptual errors derail test-time scaling. SPARC decouples the two in a brain-inspired pipeline (explicit visual search to localize the relevant image regions, then reasoning conditioned on them), making inference-time scaling reliable without reinforcement learning or hand-crafted rewards."
   url: "https://icml.cc/virtual/2026/poster/62906"
   pdf: "publications/articles/avogaro2026.pdf"
   additional_links:
@@ -26,7 +26,7 @@
   issue: "NeurIPS"
   year: 2025
   selected: true
-  note: "Can reasoning be elicited from large language models rather than trained into them? Drawing on cognitive psychology and cognitive architectures, this work equips off-the-shelf LLMs with a small set of modular, tool-callable 'cognitive tools' (for understanding, recalling, examining, and verifying) that structure the reasoning process. Orchestrating these tools substantially improves mathematical reasoning benchmarks, offering a transparent, training-free alternative to chain-of-thought elicited through reinforcement learning."
+  note: "Drawing on cognitive psychology and cognitive architectures, this work equips off-the-shelf large language models with a small set of modular 'cognitive tools' (understanding, recalling, examining, verifying) that the model calls to structure its reasoning. Orchestrating these tools substantially improves mathematical reasoning benchmarks, a transparent, training-free alternative to chain-of-thought elicited through reinforcement learning."
   url: "https://neurips.cc/virtual/2025/poster/119804"
   pdf: "publications/articles/ebouky2025.pdf"
   additional_links:
@@ -118,7 +118,7 @@
   issue: "JETCAS (Awarded best paper award)"
   year: 2024
   selected: true
-  note: "Generative models promise synthetic data that is privacy-preserving, fair, and free of bias, but how do you know you can trust it? This work introduces a holistic auditing framework that quantifies synthetic datasets and their generative models along fidelity, utility, privacy, and fairness, then uses those audits to steer generation toward controllable, application-specific trade-offs. A practical contribution to trustworthy AI and responsible synthetic data generation."
+  note: "Synthetic data from generative models promises privacy and fairness, but its trustworthiness is hard to verify. This work introduces a holistic auditing framework that quantifies synthetic datasets and their generators along fidelity, utility, privacy, and fairness, and uses those audits to steer generation toward controllable, application-specific trade-offs in trustworthy AI."
   url: "https://doi.org/10.1109/JETCAS.2024.3477976"
   pdf: "publications/articles/belgodere2024.pdf"
   additional_links:
@@ -264,7 +264,7 @@
   issue: "NeurIPS (Awarded an oral presentation)"
   year: 2022
   selected: true
-  note: "Why can humans instantly recombine familiar skills into brand-new tasks while artificial neural networks struggle to generalize compositionally? Combining whole-cortex human fMRI with artificial neural network modeling on a highly compositional task, this study identifies shared abstract, compositional representations as the common mechanism, and shows that pretraining networks on task primitives induces the same low-dimensional geometry and yields human-like compositional (systematic) generalization."
+  note: "Combining whole-cortex human fMRI with artificial neural network modeling on a compositional task, this study pinpoints abstract, compositional representations as the shared mechanism behind generalization to novel tasks. Pretraining networks on task primitives induces the same low-dimensional geometry and yields human-like compositional (systematic) generalization."
   url: "https://openreview.net/forum?id=177GzUAds8U"
   pdf: "publications/articles/ito2022.pdf"
   additional_links:
@@ -562,7 +562,7 @@
   issue: "497:585-590,"
   year: 2013
   selected: true
-  note: "Why do prefrontal cortex neurons respond to seemingly arbitrary mixtures of task variables? Analyzing population recordings from monkeys performing a memory task, this work showed that such nonlinear mixed selectivity is a feature, not noise: it expands the dimensionality of the neural representation, letting simple linear readouts implement a far richer repertoire of input-output functions than specialized, pure-selectivity neurons could. High-dimensional mixed selectivity thus provides a population-coding substrate for cognitive flexibility, reframing disorganized-looking heterogeneous tuning as computationally essential and connecting single-neuron physiology to the geometry of neural population representations."
+  note: "Prefrontal cortex neurons respond to seemingly arbitrary mixtures of task variables. Analyzing population recordings from monkeys in a memory task, this work showed that such nonlinear mixed selectivity is a feature, not noise: it raises the dimensionality of the neural representation, letting simple linear readouts implement a far richer repertoire of input-output functions than pure-selectivity neurons could. High-dimensional mixed selectivity thus offers a population-coding substrate for cognitive flexibility, linking single-neuron physiology to the geometry of neural population representations."
   url: "http://dx.doi.org/10.1038/nature12160"
   pdf: "publications/articles/rigotti2013.pdf"
 

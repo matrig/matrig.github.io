@@ -290,11 +290,11 @@ body {
 
 	.pub-note {
 		display: block;
-		margin-top: 0.25em;
-		max-width: 60em;
-		font-size: 0.85em;
-		font-style: italic;
-		color: #727272;
+		margin-top: 0.3em;
+		max-width: 52em;
+		font-size: 0.9em;
+		line-height: 1.45;
+		color: #5f5f5f;
 	}
 
 	.conference-talk {
