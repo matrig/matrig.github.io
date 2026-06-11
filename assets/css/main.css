@@ -288,6 +288,15 @@ body {
 		margin-right: 0.8em;
 	}
 
+	.pub-note {
+		display: block;
+		margin-top: 0.25em;
+		max-width: 60em;
+		font-size: 0.85em;
+		font-style: italic;
+		color: #888;
+	}
+
 	.conference-talk {
 		text-decoration: none;
 		border-bottom: none;
@@ -1038,6 +1047,10 @@ body {
 
 		.year-label, .label-bold-gray {
 			color: #9aa0a6;
+		}
+
+		.pub-note {
+			color: #878d93;
 		}
 
 			}

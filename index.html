@@ -231,7 +231,7 @@
 <ul class="pub-list">
 {% assign selected = site.data.articles | where: "selected", true %}
 {% for ref in selected %}
-{% include article.html ref=ref %}
+{% include article.html ref=ref show_note=true %}
 {% endfor %}
 </ul>
             </div>

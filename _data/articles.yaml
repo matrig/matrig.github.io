@@ -14,6 +14,7 @@
   issue: "ICML"
   year: 2026
   selected: true
+  note: "Test-time scaling often fails for vision-language models because small perception errors cascade through long chains of thought. SPARC fixes this with a brain-inspired two-stage design: first search the image for the regions that matter, then reason over them. The result is reliable test-time scaling with no reinforcement learning required."
   url: "https://icml.cc/virtual/2026/poster/62906"
   pdf: "publications/articles/avogaro2026.pdf"
   additional_links:
@@ -25,6 +26,7 @@
   issue: "NeurIPS"
   year: 2025
   selected: true
+  note: "Can reasoning be elicited rather than trained? Drawing on classic cognitive architectures, this work equips off-the-shelf LLMs with a small set of modular 'cognitive tools' that structure how they understand, recall, and check their own work. Orchestrating these tools substantially boosts math reasoning, offering a transparent, training-free alternative to RL-based reasoning models."
   url: "https://neurips.cc/virtual/2025/poster/119804"
   pdf: "publications/articles/ebouky2025.pdf"
   additional_links:
@@ -116,6 +118,7 @@
   issue: "JETCAS (Awarded best paper award)"
   year: 2024
   selected: true
+  note: "Synthetic data promises privacy-preserving, bias-free training data, but how do you know you can trust it? This work introduces a holistic auditing framework that scores synthetic datasets and their generators along fidelity, utility, and privacy, and uses those audits to steer generation toward the trade-offs an application actually needs."
   url: "https://doi.org/10.1109/JETCAS.2024.3477976"
   pdf: "publications/articles/belgodere2024.pdf"
   additional_links:
@@ -261,6 +264,7 @@
   issue: "NeurIPS (Awarded an oral presentation)"
   year: 2022
   selected: true
+  note: "Why can humans instantly recombine familiar skills into brand-new tasks while neural networks struggle? Combining whole-cortex fMRI with neural network modeling, this study identifies abstract compositional representations as the shared ingredient, and shows that pretraining networks on task primitives endows them with human-like compositional generalization."
   url: "https://openreview.net/forum?id=177GzUAds8U"
   pdf: "publications/articles/ito2022.pdf"
   additional_links:
@@ -558,6 +562,7 @@
   issue: "497:585-590,"
   year: 2013
   selected: true
+  note: "Why do prefrontal neurons respond to seemingly arbitrary mixtures of task variables? This work showed that such mixed selectivity is a feature, not noise: it generates the high-dimensional neural representations that make flexible cognition possible. A founding result of representational geometry, with lasting influence on both neuroscience and machine learning."
   url: "http://dx.doi.org/10.1038/nature12160"
   pdf: "publications/articles/rigotti2013.pdf"
 
