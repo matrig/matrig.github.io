@@ -511,7 +511,7 @@ body {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 375px;
+		width: 340px;
 	}
 
 		#header .top {
@@ -558,7 +558,7 @@ body {
 			text-align: center;
 			font-size: medium;
 			margin: 0;
-			color: gray;
+			color: #9aa0a6;
 		}
 
 			#header .email svg {
@@ -580,15 +580,15 @@ body {
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: 1.15em;
 			line-height: 1em;
 		}
 
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.55em;
-			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.78em;
+			color: rgba(255, 255, 255, 0.65);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 			word-wrap: break-word;
@@ -614,7 +614,7 @@ body {
 				position: relative;
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(255, 255, 255, 0.65);
 				text-decoration: none;
 				border: 0;
 				-moz-transition: none;
@@ -636,7 +636,7 @@ body {
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					font-size: 0.875em;
 				}
 
 				#nav ul li a.active {
@@ -652,7 +652,7 @@ body {
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		margin-left: 340px;
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -663,7 +663,7 @@ body {
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		margin-left: 340px;
 	}
 
 		#main > section {
@@ -720,23 +720,23 @@ body {
 		/* Header */
 
 			#header {
-				width: 300px;
+				width: 280px;
 			}
 
 			#logo h1 {
-				font-size: 0.85em;
+				font-size: 1em;
 			}
 
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 280px;
 			}
 
 		/* Main */
 
 			#main {
-				margin-left: 300px;
+				margin-left: 280px;
 			}
 
 	}
@@ -777,6 +777,10 @@ body {
 
 			#header {
 				width: 20%;
+			}
+
+			#logo p {
+				font-size: 0.7em;
 			}
 
 			#nav ul li a {
@@ -844,10 +848,10 @@ body {
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
-				-moz-transform: translateX(-275px);
-				-webkit-transform: translateX(-275px);
-				-ms-transform: translateX(-275px);
-				transform: translateX(-275px);
+				-moz-transform: translateX(-240px);
+				-webkit-transform: translateX(-240px);
+				-ms-transform: translateX(-240px);
+				transform: translateX(-240px);
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
@@ -859,9 +863,9 @@ body {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 275px;
+				width: 240px;
 				z-index: 10002;
-				width: 275px;
+				width: 240px;
 				background: #222729;
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
@@ -882,9 +886,21 @@ body {
 				margin: 1.5em 1.25em 1.25em 1.25em;
 			}
 
+				#logo h1 {
+					font-size: 1.25em;
+				}
+
+				#logo p {
+					font-size: 0.85em;
+				}
+
 			#nav ul li a {
 				padding: 0.5em 1.25em 0.5em 1.25em;
 			}
+
+				#nav ul li a span {
+					font-size: 0.9em;
+				}
 
 			#headerToggle {
 				-moz-backface-visibility: hidden;
@@ -913,7 +929,7 @@ body {
 					line-height: 2.25em;
 					text-align: center;
 					color: #fff;
-					background: rgba(128, 136, 144, 0.5);
+					background: rgba(128, 136, 144, 0.75);
 					border-radius: 0.35em;
 					border: 0;
 				}
@@ -923,17 +939,17 @@ body {
 					}
 
 			body.header-visible #main {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
+				-moz-transform: translateX(240px);
+				-webkit-transform: translateX(240px);
+				-ms-transform: translateX(240px);
+				transform: translateX(240px);
 			}
 
 			body.header-visible #headerToggle {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
+				-moz-transform: translateX(240px);
+				-webkit-transform: translateX(240px);
+				-ms-transform: translateX(240px);
+				transform: translateX(240px);
 			}
 
 			body.header-visible #header {
