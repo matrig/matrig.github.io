@@ -45,6 +45,19 @@
 		});
 	});
 
+	// Touch: tapping a selected publication slides its note down; tapping
+	// anywhere else (or another publication) slides open notes back up.
+	if (window.matchMedia('(hover: none)').matches) {
+		document.addEventListener('click', function (e) {
+			var item = e.target.closest('ul.pub-list li');
+			if (item && (!item.querySelector('.pub-note') || e.target.closest('a'))) item = null;
+			document.querySelectorAll('li.note-open').forEach(function (open) {
+				if (open !== item) open.classList.remove('note-open');
+			});
+			if (item) item.classList.toggle('note-open');
+		});
+	}
+
 	// Mobile sidebar toggle.
 	var toggle = document.querySelector('#headerToggle .toggle');
 	toggle.addEventListener('click', function (e) {
