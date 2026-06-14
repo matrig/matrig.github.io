@@ -9,7 +9,7 @@
 <html lang="en">
 
 <head>
-  <title>Mattia Rigotti - AI and Neuroscience Research</title>
+  <title>Mattia Rigotti · Researcher · AI + Neuroscience</title>
   <meta name="description"
     content="Senior Research Scientist at IBM Research AI. Research on AI reasoning, LLMs, trustworthy AI, and AI for science. Publications in Nature, NeurIPS, ICML, ICLR." />
   <meta name="keywords"
@@ -23,7 +23,7 @@
   <!-- Open Graph / Social Media -->
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://www.matrig.net/" />
-  <meta property="og:title" content="Mattia Rigotti - AI and Neuroscience Research" />
+  <meta property="og:title" content="Mattia Rigotti · Researcher · AI + Neuroscience" />
   <meta property="og:description" content="Senior Research Scientist at IBM Research AI. Research on AI reasoning, LLMs, trustworthy AI, and AI for science. Publications in Nature, NeurIPS, ICML, ICLR." />
   <meta property="og:image" content="https://www.matrig.net/images/avatar.jpg" />
   <meta property="profile:first_name" content="Mattia" />
@@ -130,7 +130,7 @@
       <div class="container">
 
         <header>
-          <h2 class="alt">Mattia Rigotti&ensp;·&ensp;AI and Neuroscience Research</h2>
+          <h2 class="alt">Mattia Rigotti&ensp;·&ensp;Researcher&ensp;·&ensp;AI + Neuroscience</h2>
           <p>I am a Senior Research Scientist at <a target="_blank" rel="noopener noreferrer"
               href="https://www.research.ibm.com/artificial-intelligence/">IBM Research AI</a>,
             working at the intersection of machine learning and neuroscience. My research covers reasoning in LLMs,
@@ -287,12 +287,11 @@
 <li>
 <p class="pub-item">
     <span class="label-bold-gray date-label">{{ conference.date }}</span>
-    <a
     {%- if conference.url %}
-        href="{{ conference.url }}"
-    {%- endif %}
-        class="conference-talk" target="_blank">
-    {{ conference.talk }}</a><br>
+    <a href="{{ conference.url }}" class="conference-talk" target="_blank">{{ conference.talk }}</a>
+    {%- else %}
+    <span class="conference-talk">{{ conference.talk }}</span>
+    {%- endif %}<br>
     {{ conference.conference }}
     </p>
 </li>
@@ -317,12 +316,11 @@
 {% for patent in site.data.patents %}
 <li>
 <p class="pub-item">
-    <a
     {%- if patent.link %}
-      href="{{ patent.link }}"
+    <a href="{{ patent.link }}" class="pub-title" target="_blank">{{ patent.title }}</a>
+    {%- else %}
+    <span class="pub-title">{{ patent.title }}</span>
     {%- endif %}
-      class="pub-title" target="_blank">
-    {{ patent.title }}</a>
     <br>
     {{ patent.authors }}<br>
     <em>{{ patent.reference }},</em> {{ patent.year }}
@@ -352,14 +350,14 @@
             <li>
               <p class="pub-item">
                 <a href="https://www.matrig.net/cookiecutter-uv-lite" class="pub-title" target="_blank">
-                  cookiecutter-uv-lite</a> -- A lightweight, modern Python project template using uv for blazing-fast dependency management (2025)<br>
+                  cookiecutter-uv-lite</a> - A lightweight, modern Python project template using uv for blazing-fast dependency management (2025)<br>
               </p>
             </li>
 
             <li>
               <p class="pub-item">
                 <a href="http://www-cs-students.stanford.edu/~blynn//gitmagic/index.html" class="pub-title" target="_blank">
-                  Gitmagic</a> (Italian translation) -- The ultimate Git tutorial by Ben Lynn (2007)<br>
+                  Gitmagic</a> (Italian translation) - The ultimate Git tutorial by Ben Lynn (2007)<br>
               </p>
             </li>
 
@@ -375,7 +373,7 @@
                 <a class="resource-link" href="publications/other_projects/quantumlogic.pdf" target="_blank" title="PDF" aria-label="PDF"> </a>
                 - with G. Ortelli
 <br>
-                - Proseminar with Prof E. Specker, ETH Zürich 2004
+                - Proseminar with Prof E. Specker, ETH Zürich (2004)
               </p>
             </li>
 
@@ -384,7 +382,7 @@
                 <span class="label-bold-gray">Der Schroteffekt</span>
                 <a class="resource-link" href="publications/other_projects/schroteffekt.pdf" target="_blank" title="PDF" aria-label="PDF"> </a>
                 (in German) - Experimental praktikum,
-                ETH Zürich 2004
+                ETH Zürich (2004)
 <br>
               </p>
             </li>
@@ -394,7 +392,7 @@
                 <span class="label-bold-gray">Der Photoelektrische Effekt</span>
                 <a class="resource-link" href="publications/other_projects/photoeffect.pdf" target="_blank" title="PDF" aria-label="PDF"> </a>
                 (in German) - Experimental
-                praktikum, ETH Zürich 2004
+                praktikum, ETH Zürich (2004)
 <br>
               </p>
             </li>
@@ -403,7 +401,7 @@
               <p class="pub-item">
                 <span class="label-bold-gray">QCD, Parton model and Altarelli-Parisi equation</span>
                 <a class="resource-link" href="publications/other_projects/parton_model.pdf" target="_blank" title="PDF" aria-label="PDF"> </a>
-                - Proseminar with Prof Z. Kunszt, ETH Zürich 2003
+                - Proseminar with Prof Z. Kunszt, ETH Zürich (2003)
 <br>
               </p>
             </li>
@@ -473,6 +471,7 @@
 
   <!-- Footer -->
   <div id="footer">
+    <p class="to-top"><a href="#about">↑&ensp;Back to top</a></p>
     <p>(last modified: {{ site.time | date: '%-d %B %Y' }})</p>
   </div>
 
