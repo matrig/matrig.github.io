@@ -79,15 +79,31 @@ class NoCacheHandler(SimpleHTTPRequestHandler):
         super().end_headers()
 
 
+def lan_ip():
+    """Best-effort LAN IP, for viewing the preview from another device (e.g. phone)."""
+    import socket
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(("1.1.1.1", 80))  # no packets sent; just selects the egress interface
+        return s.getsockname()[0]
+    except OSError:
+        return None
+    finally:
+        s.close()
+
+
 def view(port):
     handler = functools.partial(NoCacheHandler, directory=str(SITE))
-    server = ThreadingHTTPServer(("localhost", port), handler)
+    server = ThreadingHTTPServer(("", port), handler)  # all interfaces, so LAN devices can reach it
     url = f"http://localhost:{port}/"
     try:
         subprocess.Popen(["firefox", url], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     except FileNotFoundError:
         print(f"firefox not found, open {url} yourself")
     print(f"serving _site/ at {url} (Ctrl-C to stop)")
+    ip = lan_ip()
+    if ip:
+        print(f"  from your phone on the same Wi-Fi: http://{ip}:{port}/")
     try:
         server.serve_forever()
     except KeyboardInterrupt:
