@@ -384,7 +384,7 @@
 - title: "The Geometry of Abstraction in the Hippocampus and Prefrontal Cortex"
   authors: "S. Bernardi, M.K. Benna, M. Rigotti, J. Munuera, S. Fusi, C.D. Salzman"
   publication: "Cell"
-  issue: "183, 1-14,"
+  issue: "183(4):954-967.e21,"
   year: 2020
   url: "https://doi.org/10.1016/j.cell.2020.09.031"
   pdf: "publications/articles/bernardi2020.pdf"
@@ -600,7 +600,7 @@
   publication: "Computational and Systems Neuroscience Conference"
   issue: "CoSyNe"
   year: 2013
-  url: "https://dx.doi.org/10.1186%2F1471-2202-14-S1-P136"
+  url: "publications/conferences/marti_conf2013a.pdf"
   pdf: "publications/conferences/marti_conf2013a.pdf"
 
 - title: "An adaptive spiking neural network for decision making in partially observable environments"
