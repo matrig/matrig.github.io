@@ -412,7 +412,7 @@
 - title: "Alleviating Noisy Data in Image Captioning with Cooperative Distillation"
   authors: "P. Dognin, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff"
   publication: "Computer Vision and Pattern Recognition Conference (CVPR 2020)"
-  issue: "VizWiz Grand Challenge Workshop"
+  issue: "VizWiz Grand Challenge Workshop (1st place)"
   year: 2020
   url: "https://vizwiz.org/workshops/2020-workshop/"
   pdf: "publications/articles/dognin2020.pdf"
