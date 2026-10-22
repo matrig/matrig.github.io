@@ -76,6 +76,11 @@
   year: 2008
   pdf: "publications/abstracts/chersi_abs2008.pdf"
 
+- title: "Mixed neuronal selectivity is important in recurrent neural networks implementing context dependent tasks"
+  authors: "M. Rigotti, D. Ben Dayan Rubin, X.-J. Wang, S. Fusi"
+  conference: "Society for Neuroscience Annual Meeting (Washington DC)"
+  year: 2008
+
 - title: "Modeling gain neuromodulation of recurrent cortical networks for cognitive switch"
   authors: "S. Fusi, M. Rigotti, M. Mattia"
   conference: "Society for Neuroscience Annual Meeting (San Diego, CA)"

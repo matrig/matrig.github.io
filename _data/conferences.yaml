@@ -1,6 +1,14 @@
+- date: "Jul 1, 2026"
+  talk: 'Invited talk "Less Compute, More Cortex: Brain-inspired structure for alignment, reasoning, vision, and attention"'
+  conference: "Paradigms of Intelligence, Google"
+
 - date: "May 26, 2026"
   talk: 'Invited talk "Less Compute, More Brain: Brain-inspired structure for alignment, reasoning, and vision"'
   conference: "Tufa Labs, Zurich, Switzerland"
+
+- date: "Sep 27, 2023"
+  talk: "Symposium on Future-oriented European Standardisation"
+  conference: "EuroStruct 2023, Vienna, Austria"
 
 - date: "Jun 16, 2022"
   talk: 'Keynote talk "Towards Automated Visual Inspection of Civil Engineering Structures"'
