@@ -22,7 +22,7 @@
 
 - title: "Eliciting Reasoning in Language Models with Cognitive Tools"
   authors: "B. Ebouky, A. Bartezzaghi, M. Rigotti"
-  publication: "Advances in Neural Information Processing Systems 39"
+  publication: "Advances in Neural Information Processing Systems 38"
   issue: "NeurIPS"
   year: 2025
   selected: true
@@ -42,7 +42,7 @@
 
 - title: "Detection and Simulation of Urban Heat Islands Using a Fine-Tuned Geospatial Foundation Model for Microclimate Impact Prediction"
   authors: "J. Fleckenstein, D. Kreismann, T.R. Govindasamy, T. Brunschwiler, E. Vos, M. Rigotti"
-  publication: "Advances in Neural Information Processing Systems 39"
+  publication: "Advances in Neural Information Processing Systems 38"
   issue: "Workshop: Tackling Climate Change with Machine Learning"
   year: 2025
   url: https://neurips.cc/virtual/2025/loc/san-diego/126944
@@ -52,7 +52,7 @@
 
 - title: "Factorized Prefrontal Geometry of Goal and Uncertainty Explains Flexible yet Stable Human Goal Pursuit"
   authors: "Y. Sung, M. Rigotti, S.W. Lee"
-  publication: "Advances in Neural Information Processing Systems 39"
+  publication: "Advances in Neural Information Processing Systems 38"
   issue: "Workshop on Symmetry and Geometry in Neural Representations"
   year: 2025
   url: "https://openreview.net/forum?id=QQFfQ6yyRs"
@@ -89,12 +89,12 @@
   publication: "International Conference on Extending Database Technology"
   issue: "EDBT"
   year: 2025
-  url: "https://openproceedings.org/2025/conf/edbt/paper-160.pdf"
+  url: "https://doi.org/10.48786/edbt.2025.78"
   pdf: "publications/articles/amer-yahia2025.pdf"
 
 - title: "Distributional Preference Alignment of LLMs via Optimal Transport"
   authors: "I. Melnyk, Y. Mroueh, B. Belgodere, M. Rigotti, A. Nitsure, M. Yurochkin, K. Greenewald, J. Navratil, J. Ross"
-  publication: "Advances in Neural Information Processing Systems 38"
+  publication: "Advances in Neural Information Processing Systems 37"
   issue: "NeurIPS"
   year: 2024
   url: "https://neurips.cc/virtual/2024/poster/96822"
@@ -104,7 +104,7 @@
 
 - title: "Multivariate Stochastic Dominance via Optimal Transport and Applications to Models Benchmarking"
   authors: "G. Rioux, A. Nitsure, M. Rigotti, K. Greenewald, Y. Mroueh"
-  publication: "Advances in Neural Information Processing Systems 38"
+  publication: "Advances in Neural Information Processing Systems 37"
   issue: "NeurIPS"
   year: 2024
   url: "https://neurips.cc/virtual/2024/poster/95459"
@@ -113,7 +113,7 @@
     - preprint: "https://arxiv.org/abs/2406.06425"
 
 - title: "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs"
-  authors: "B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navartil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young"
+  authors: "B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navratil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young"
   publication: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
   issue: "JETCAS (Awarded best paper award)"
   year: 2024
@@ -157,7 +157,7 @@
   url: "https://doi.org/10.1016/j.neuron.2024.04.017"
   pdf: publications/articles/tye2024.pdf
 
-- title: "Adaptive Conformal Regression with Jackknife+ Rescaled Scores"
+- title: "Adaptive Conformal Regression with Split-Jackknife+ Scores"
   authors: "N. Deutschmann, M. Rigotti, M. Rodriguez Martinez"
   publication: "Transactions on Machine Learning Research"
   issue: "TMLR"
@@ -256,11 +256,10 @@
   additional_links:
     - preprint: "https://arxiv.org/abs/2208.06665"
       slides: "publications/articles/belgodere2022_demo_video.mp4"
-      demo: "https://molformer.res.ibm.com"
 
 - title: "Compositional generalization through abstract representations in human and artificial neural networks"
   authors: "T. Ito, T. Klinger, D.H. Schultz, J.D. Murray, M.W. Cole, M. Rigotti"
-  publication: "Advances in Neural Information Processing Systems 36"
+  publication: "Advances in Neural Information Processing Systems 35"
   issue: "NeurIPS (Awarded an oral presentation)"
   year: 2022
   selected: true
@@ -333,7 +332,7 @@
 
 - title: "Deep Bandits Show-Off: Simple and Efficient Exploration with Deep Networks"
   authors: "R. Zhu, M. Rigotti"
-  publication: "Advances in Neural Information Processing Systems 35"
+  publication: "Advances in Neural Information Processing Systems 34"
   issue: "NeurIPS"
   year: 2021
   url: "https://proceedings.neurips.cc/paper/2021/hash/92fde850d824c2ba9b563cb6fa4078c3-Abstract.html"
@@ -349,7 +348,8 @@
   year: 2021
   url: "https://ojs.aaai.org/index.php/AAAI/article/view/17334"
   pdf: "publications/articles/zhu2020.pdf"
-  preprint: "https://arxiv.org/abs/2012.01100"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2012.01100"
 
 - title: "Tabular Transformers for Modeling Multivariate Time Series"
   authors: "I. Padhi, Y. Schiff, I. Melnyk, M. Rigotti, Y. Mroueh, P. Dognin, J. Ross, R. Nair, E. Altman"
@@ -374,7 +374,7 @@
 
 - title: "Unbalanced Sobolev Descent"
   authors: "Y. Mroueh, M. Rigotti"
-  publication: "Advances in Neural Information Processing Systems 34"
+  publication: "Advances in Neural Information Processing Systems 33"
   issue: "NeurIPS"
   year: 2020
   url: "https://proceedings.neurips.cc/paper/2020/hash/c5f5c23be1b71adb51ea9dc8e9d444a8-Abstract.html"
@@ -397,7 +397,7 @@
 
 - title: "Sobolev Independence Criterion"
   authors: "Y. Mroueh, T. Sercu, M. Rigotti, I. Padhi, C. Dos Santos"
-  publication: "Advances in Neural Information Processing Systems 33"
+  publication: "Advances in Neural Information Processing Systems 32"
   issue: "NeurIPS"
   year: 2019
   url: "https://papers.nips.cc/paper/9147-sobolev-independence-criterion"
@@ -419,11 +419,11 @@
   publication: "Conference on Cognitive Computational Neuroscience"
   issue: "CCN"
   year: 2019
-  url: "https://doi.org/10.32470/CCN.2019.1162-0"
+  url: "https://web.archive.org/web/20191209094154/https://ccneuro.org/2019/Papers/ViewPapers.asp?PaperNum=1162"
   pdf: "publications/articles/bhandari2019.pdf"
 
 - title: "Beyond Backprop: Online Alternating Minimization with Auxiliary Variables"
-  authors: "A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, B. Kingsbury, P. DiAchille, V. Gurev, R. Tejwani, D. Bouneffouf"
+  authors: "A. Choromanska, B. Cowen, S. Kumaravel, R. Luss, M. Rigotti, I. Rish, P. DiAchille, V. Gurev, B. Kingsbury, R. Tejwani, D. Bouneffouf"
   publication: "International Conference on Machine Learning"
   issue: "ICML"
   year: 2019
@@ -438,7 +438,7 @@
   publication: "Computational and Systems Neuroscience Conference"
   issue: "CoSyNe"
   year: 2019
-  url: "http://www.cosyne.org/c/index.php?title=Cosyne2019_posters_2"
+  url: "publications/conferences/bernardi_conf2019.pdf"
   pdf: "publications/conferences/bernardi_conf2019.pdf"
 
 - title: "Signatures of low-dimensional neural predictive manifolds"
@@ -446,14 +446,14 @@
   publication: "Computational and Systems Neuroscience Conference"
   issue: "CoSyNe"
   year: 2019
-  url: "http://www.cosyne.org/c/index.php?title=Cosyne2019_posters_2"
+  url: "publications/conferences/recanatesi_conf2019.pdf"
   pdf: "publications/conferences/recanatesi_conf2019.pdf"
 
 - title: "Signatures and mechanisms of low-dimensional neural predictive manifolds"
   authors: "S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown"
   publication: "bioRxiv"
   issue: "471987,"
-  year: 2019
+  year: 2018
   url: "https://doi.org/10.1101/471987"
   pdf: "publications/articles/recanatesi2018.pdf"
 
@@ -473,7 +473,7 @@
   url: "http://dx.doi.org/10.1038/s41593-018-0082-8"
   pdf: "publications/articles/munuera2018.pdf"
 
-- title: "Hebbian Learning in a Random Network Captures Selectivity Properties of Prefrontal Cortex"
+- title: "Hebbian Learning in a Random Network Captures Selectivity Properties of the Prefrontal Cortex"
   authors: "G.W. Lindsay, M. Rigotti, M.R. Warden, E.K. Miller, S. Fusi"
   publication: "Journal of Neuroscience"
   issue: "37:11021-11036,"
@@ -482,9 +482,9 @@
   pdf: "publications/articles/lindsay2017.pdf"
   additional_links:
     - preprint: "https://doi.org/10.1101/133025"
-      code: "https://senselab.med.yale.edu/ModelDB/showModel?model=234097"
+      code: "https://modeldb.science/234097"
 
-- title: "Neurophysiological mechanisms supporting flexible, context specific, emotional regulation"
+- title: "Neural Mechanisms Underlying the Cognitive Regulation of Value Attribution: Abstraction of Contextual Information in the Monkey Hippocampus"
   authors: "S. Bernardi, J. Munuera, M. Rigotti, S. Fusi, and C.D. Salzman"
   publication: "Biological Psychiatry"
   issue: "volume 81, pages S272,"
@@ -497,7 +497,7 @@
   publication: "Computational and Systems Neuroscience Conference"
   issue: "CoSyNe"
   year: 2017
-  url: "http://www.cosyne.org/c/index.php?title=Cosyne2017_posters_3"
+  url: "https://web.archive.org/web/20171117074005/http://www.cosyne.org/c/index.php?title=Cosyne2017_posters_3"
   pdf: "publications/conferences/recanatesi_conf2017.pdf"
 
 - title: "Energy-Efficient Neuromorphic Classifiers"
@@ -526,7 +526,7 @@
 
 - title: "Abstract context representations in primate amygdala and prefrontal cortex"
   authors: "A. Saez, M. Rigotti, S. Ostojic, S. Fusi, C.D. Salzman"
-  publication: "Neuron,"
+  publication: "Neuron"
   issue: "87:869-881"
   year: 2015
   url: "http://dx.doi.org/10.1016/j.neuron.2015.07.024"
@@ -603,7 +603,7 @@
   publication: "Cosyne: Computational and Systems Neuroscience Conference"
   issue: "CoSyNe"
   year: 2012
-  url: "http://www.cosyne.org/c/index.php?title=Cosyne2012_posters_2"
+  url: "publications/conferences/rigotti_conf2012.pdf"
   pdf: "publications/conferences/rigotti_conf2012.pdf"
 
 - title: "Neural representations that are good for both generalization and discrimination"
@@ -611,7 +611,7 @@
   publication: "Computational and Systems Neuroscience Conference"
   issue: "CoSyNe"
   year: 2012
-  url: "http://www.cosyne.org/c/index.php?title=Cosyne2012_posters_2"
+  url: "publications/conferences/barak_conf2012.pdf"
   pdf: "publications/conferences/barak_conf2012.pdf"
 
 - title: "A simple derivation of a bound on the Perceptron margin using Singular Value Decomposition"
@@ -627,7 +627,7 @@
   publication: "Computational and Systems Neuroscience Conference"
   issue: "CoSyNe"
   year: 2011
-  url: "http://www.cosyne.org/c/index.php?title=Cosyne_11_posters"
+  url: "https://web.archive.org/web/20160322080845/http://www.cosyne.org/c/index.php?title=Cosyne_11_posters"
   pdf: "publications/conferences/barak_conf2011.pdf"
 
 - title: "Internal representation of task rules by recurrent dynamics: the importance of the diversity of neural responses"
@@ -648,7 +648,7 @@
 
 - title: "Power-law autocorrelation of neural activity in models of mental states that are hierarchically organized"
   authors: "F. Chersi, M. Rigotti and S. Fusi"
-  publication: "BMC Neurosciencee"
+  publication: "BMC Neuroscience"
   issue: "10(Suppl 1):P292,"
   year: 2009
   url: "https://doi.org/10.1186/1471-2202-10-S1-P292"
@@ -659,7 +659,7 @@
   publication: "Computational and Systems Neuroscience Conference"
   issue: "CoSyNe"
   year: 2007
-  url: "http://www.cosyne.org/c/images/e/ea/Cosyne-poster-II-22.pdf"
+  url: "https://web.archive.org/web/20090106021855/http://cosyne.org/c/images/e/ea/Cosyne-poster-II-22.pdf"
   pdf: "publications/conferences/mattia_conf2007.pdf"
 
 - title: "An H-theorem for the general relativistic Ornstein-Uhlenbeck process"
