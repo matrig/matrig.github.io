@@ -5,26 +5,31 @@ Usage: python check_build.py [--no-build] [--no-view] [--port N]
 
 Builds with the containerized Jekyll (podman), then verifies _site/:
 every YAML entry rendered, no Liquid leftovers or empty links, valid
-list markup, static files passed through verbatim. Then serves _site/
+list markup, JSON-LD and generated text files (llms.txt, llms-full.txt,
+sitemap.xml) complete, static files passed through verbatim. Then serves _site/
 (with caching disabled) and opens it in Firefox; Ctrl-C stops the
 server. Exits non-zero if any check failed. --no-view skips the
 preview, e.g. for scripted use.
 """
 import argparse
 import functools
+import json
 import re
 import subprocess
 import sys
+from collections import Counter
 from html.parser import HTMLParser
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from xml.etree import ElementTree
 
 import yaml
 
 ROOT = Path(__file__).resolve().parent
 SITE = ROOT / "_site"
 SECTIONS = ["articles", "abstracts", "conferences", "patents"]
-PASSTHROUGH = ["CNAME", "robots.txt", "sitemap.xml", "llms.txt"]
+PASSTHROUGH = ["CNAME", "robots.txt"]
+GENERATED = ["llms.txt", "llms-full.txt", "sitemap.xml"]
 
 failures = []
 
@@ -132,12 +137,43 @@ def main():
     check("footer date rendered", re.search(r"last modified: \d{1,2} \w+ \d{4}", html))
 
     # every YAML entry must appear as one <li> in its section
-    for name in SECTIONS:
-        data = yaml.safe_load((ROOT / "_data" / f"{name}.yaml").read_text())
+    data = {name: yaml.safe_load((ROOT / "_data" / f"{name}.yaml").read_text()) for name in SECTIONS}
+    for name, entries in data.items():
         m = re.search(rf'<div id="show_{name}">(.*?)</div>', html, re.S)
         rendered = len(re.findall(r"<li>", m.group(1))) if m else -1
-        check(f"{name}: {len(data)} entries rendered", rendered == len(data),
+        check(f"{name}: {len(entries)} entries rendered", rendered == len(entries),
               f"found {rendered}")
+
+    selected = [a for a in data["articles"] if a.get("selected")]
+    m = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+    try:
+        graph = json.loads(m.group(1))["@graph"]
+        types = {n["@type"] for n in graph}
+        papers = [n["headline"] for n in graph if n["@type"] == "ScholarlyArticle"]
+        check("JSON-LD: ProfilePage, Person, one ScholarlyArticle per selected article",
+              {"ProfilePage", "Person"} <= types and papers == [a["title"] for a in selected],
+              f"types {sorted(types)}, {len(papers)} articles vs {len(selected)} selected")
+    except (AttributeError, ValueError, KeyError, TypeError) as e:
+        check("JSON-LD: ProfilePage, Person, one ScholarlyArticle per selected article", False, repr(e))
+
+    profile = yaml.safe_load((ROOT / "_data" / "profile.yaml").read_text())
+    titles = {a["title"] for a in data["articles"]}
+    unknown = [h["paper"] for h in profile["highlights"] if h["paper"] not in titles]
+    check("profile highlights name existing articles", not unknown, f"unknown: {unknown}")
+
+    gen = {f: (SITE / f).read_text() if (SITE / f).exists() else "" for f in GENERATED}
+    for f, text in gen.items():
+        check(f"generated: {f}", text and not text.startswith("---") and not re.search(r"{[{%]", text))
+    # count occurrences: some entries share a title (e.g. the two Marti 2013 abstracts)
+    expected = Counter(e.get("title") or e["talk"] for entries in data.values() for e in entries)
+    absent = [t for t, n in expected.items() if gen["llms-full.txt"].count(t) < n]
+    check("llms-full.txt lists every YAML entry", not absent, f"missing {len(absent)}: {absent[:3]}")
+    check("llms.txt lists every selected article", all(a["title"] in gen["llms.txt"] for a in selected))
+    try:
+        ElementTree.fromstring(gen["sitemap.xml"])
+        check("sitemap.xml is valid XML", True)
+    except ElementTree.ParseError as e:
+        check("sitemap.xml is valid XML", False, str(e))
 
     v = ListValidator()
     v.feed(html)

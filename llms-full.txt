@@ -1,0 +1,37 @@
+---
+---
+# Mattia Rigotti: full publication list
+
+> {{ site.data.profile.bio }}
+
+Summary and key publications: {{ "/llms.txt" | absolute_url }}
+
+## Articles
+{%- assign by_year = site.data.articles | group_by: "year" | sort: "name" | reverse %}
+{%- for year in by_year %}
+
+### {{ year.name }}
+{% for ref in year.items %}
+{% include article.md ref=ref show_note=true %}
+{%- endfor %}
+{%- endfor %}
+
+## Conference abstracts
+{%- assign by_year = site.data.abstracts | group_by: "year" | sort: "name" | reverse %}
+{%- for year in by_year %}
+
+### {{ year.name }}
+{% for ref in year.items %}
+- {{ ref.title }}. {{ ref.authors }}. {{ ref.conference }}, {{ ref.year }}.{% if ref.pdf %} [PDF]({{ ref.pdf | absolute_url }}){% endif %}
+{%- endfor %}
+{%- endfor %}
+
+## Conference presentations
+{% for conference in site.data.conferences %}
+- {{ conference.date }}: {% if conference.url %}[{{ conference.talk }}]({{ conference.url }}){% else %}{{ conference.talk }}{% endif %}. {{ conference.conference }}.
+{%- endfor %}
+
+## Patents
+{% for patent in site.data.patents %}
+- {% if patent.link %}[{{ patent.title }}]({{ patent.link }}){% else %}{{ patent.title }}{% endif %}. {{ patent.authors }}. {{ patent.reference }}, {{ patent.year }}.
+{%- endfor %}

@@ -1,6 +1,5 @@
 {%- assign ref = include.ref %}
-{%- assign url = ref.url %}
-{%- unless url %}{% for pair in ref.additional_links[0] %}{% assign url = pair[1] %}{% endfor %}{% endunless %}
+{%- include paper_url.html ref=ref %}
 <li>
 <p class="pub-item">
     <a href="{{ url }}" class="pub-title" target="_blank">

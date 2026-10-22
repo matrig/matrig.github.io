@@ -1,0 +1,78 @@
+{%- assign p = site.data.profile %}
+{%- assign person = "/#person" | absolute_url %}
+{%- assign selected = site.data.articles | where: "selected", true %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "url": {{ "/" | absolute_url | jsonify }},
+        "name": {{ p.page_title | jsonify }},
+        "dateModified": {{ site.time | date_to_xmlschema | jsonify }},
+        "mainEntity": { "@id": {{ person | jsonify }} }
+      },
+      {
+        "@type": "Person",
+        "@id": {{ person | jsonify }},
+        "name": "Mattia Rigotti",
+        "givenName": "Mattia",
+        "familyName": "Rigotti",
+        "url": {{ "/" | absolute_url | jsonify }},
+        "image": {{ "/images/avatar.jpg" | absolute_url | jsonify }},
+        "jobTitle": {{ p.job_title | jsonify }},
+        "description": {{ p.bio | jsonify }},
+        "worksFor": {
+          "@type": "Organization",
+          "name": "IBM Research",
+          "url": "https://research.ibm.com/",
+          "department": "Artificial Intelligence"
+        },
+        "workLocation": {
+          "@type": "Place",
+          "address": { "@type": "PostalAddress", "addressLocality": "Zurich", "addressCountry": "CH" }
+        },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Columbia University", "url": "https://www.columbia.edu/" },
+          { "@type": "CollegeOrUniversity", "name": "New York University", "url": "https://www.nyu.edu/" },
+          { "@type": "CollegeOrUniversity", "name": "ETH Zürich", "url": "https://ethz.ch/" }
+        ],
+        "award": {{ p.highlights | where_exp: "h", "h.award" | map: "award" | jsonify }},
+        "knowsAbout": [
+          "Machine Learning",
+          "Artificial Intelligence",
+          "Large Language Models",
+          "AI Reasoning",
+          "LLM Alignment",
+          "Vision-Language Models",
+          "Trustworthy AI",
+          "Neural Operators",
+          "Computational Fluid Dynamics",
+          "AI for Science",
+          "Computational Neuroscience",
+          "Deep Learning",
+          "Reinforcement Learning",
+          "Neural Networks"
+        ],
+        "sameAs": {{ p.profiles | map: "url" | jsonify }}
+      }
+      {%- for ref in selected %}
+      {%- include paper_url.html ref=ref %}
+      {%- assign names = ref.authors | replace: ", and ", ", " | replace: " and ", ", " | split: ", " %},
+      {
+        "@type": "ScholarlyArticle",
+        "headline": {{ ref.title | jsonify }},
+        "url": {{ url | absolute_url | jsonify }},
+        "datePublished": "{{ ref.year }}",
+        "isPartOf": { "@type": "Periodical", "name": {{ ref.publication | jsonify }} },
+        "description": {{ ref.note | jsonify }},
+        "author": [
+          {%- for name in names %}
+          {% if name == "M. Rigotti" %}{ "@id": {{ person | jsonify }} }{% else %}{ "@type": "Person", "name": {{ name | jsonify }} }{% endif %}{% unless forloop.last %},{% endunless %}
+          {%- endfor %}
+        ]
+      }
+      {%- endfor %}
+    ]
+  }
+</script>

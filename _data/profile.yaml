@@ -1,0 +1,38 @@
+# Shared profile text for <head> metadata, JSON-LD, llms.txt and llms-full.txt.
+# The first-person About paragraph lives in index.html.
+
+page_title: "Mattia Rigotti · Senior Research Scientist, IBM Research · AI reasoning & neuroscience"
+
+job_title: "Senior Research Scientist"
+
+description: "Senior Research Scientist at IBM Research. Research on reasoning and alignment in LLMs, neural operators for fluid dynamics, visual foundation models, trustworthy AI, and neural representations. Publications in Nature, NeurIPS, ICML, ICLR."
+
+bio: "Mattia Rigotti is a Senior Research Scientist at IBM Research in Zurich, working at the intersection of machine learning and neuroscience. Research areas: reasoning and alignment in large language models, neural operators for computational fluid dynamics, visual foundation models, trustworthy AI, and the geometry of neural representations in deep learning architectures and the brain. Previously Research Staff Member at the IBM T.J. Watson Research Center (2014–2020) and postdoctoral researcher in theoretical neuroscience at New York University and Columbia University. Ph.D. in Theoretical Neuroscience from Columbia University (2010), M.Sc. in Theoretical Physics from ETH Zurich."
+
+# `paper` must match an article title in articles.yaml exactly.
+highlights:
+  - award: "IEEE CASS 2025 Best Paper Award"
+    paper: "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs"
+  - award: "ACL 2023 oral presentation"
+    paper: "DARE: Towards Robust Text Explanations in Biomedical and Healthcare Applications"
+  - award: "NeurIPS 2022 oral presentation"
+    paper: "Compositional generalization through abstract representations in human and artificial neural networks"
+  - award: "ECCV 2022 Workshop on Computer Vision for Civil and Infrastructure Engineering Best Paper Award"
+    paper: "Model-Assisted Labeling via Explainability for Visual Inspection of Civil Infrastructures"
+  - paper: "The importance of mixed selectivity in complex cognitive tasks"
+
+profiles:
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=TmHt7CwAAAAJ"
+  - name: "ORCID"
+    url: "https://orcid.org/0000-0001-6466-2810"
+  - name: "Semantic Scholar"
+    url: "https://www.semanticscholar.org/author/2535094"
+  - name: "GitHub"
+    url: "https://github.com/matrig"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/mattia-rigotti"
+  - name: "Mastodon"
+    url: "https://mastodon.social/@matrig"
+  - name: "Bluesky"
+    url: "https://bsky.app/profile/matrig.net"

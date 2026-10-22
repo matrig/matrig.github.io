@@ -1,0 +1,3 @@
+{%- comment %}Sets `url` for include.ref: its url, else its first additional link.{% endcomment %}
+{%- assign url = include.ref.url %}
+{%- unless url %}{% for pair in include.ref.additional_links[0] %}{% assign url = pair[1] %}{% endfor %}{% endunless -%}
