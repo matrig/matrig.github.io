@@ -224,6 +224,8 @@
   issue: "Socially Responsible Language Modelling Research Workshop (SoLaR)"
   url: "https://openreview.net/forum?id=AW1T4xxZ6F"
   pdf: "publications/articles/nitsure2023a.pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/2310.07132"
 
 - title: "DARE: Towards Robust Text Explanations in Biomedical and Healthcare Applications"
   authors: "A. Ivankay, M. Rigotti, P. Frossard"
@@ -252,14 +254,6 @@
   year: 2023
   url: "https://doi.org/10.1002/cepa.2144"
   pdf: "publications/articles/weise2023.pdf"
-
-- title: "Risk Assessment and Statistical Significance in the Age of Foundation Models"
-  authors: "A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross"
-  publication: "arXiv preprint"
-  issue: "arXiv:2310.07132,"
-  year: 2023
-  url: "https://doi.org/10.48550/arXiv.2310.07132"
-  pdf: "publications/articles/nitsure2023.pdf"
 
 - title: "Cloud-Based Real-Time Molecular Screening Platform with MolFormer"
   authors: "B. Belgodere, V. Chenthamarakshan, P. Das, P. Dognin, T. Kurien, I. Melnyk, Y. Mroueh, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R.A. Young"
@@ -438,6 +432,8 @@
   year: 2019
   url: "https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/abstract"
   pdf: "https://www.frontiersin.org/articles/10.3389/fnins.2019.00753/pdf"
+  additional_links:
+    - preprint: "https://arxiv.org/abs/1807.01356"
 
 - title: "Measuring prefrontal representational geometry: fMRI adaptation vs pattern analysis"
   authors: "A. Bhandari, M.K. Benna, M. Rigotti, S. Fusi, D. Badre"
@@ -473,22 +469,6 @@
   year: 2019
   url: "publications/conferences/recanatesi_conf2019.pdf"
   pdf: "publications/conferences/recanatesi_conf2019.pdf"
-
-- title: "Signatures and mechanisms of low-dimensional neural predictive manifolds"
-  authors: "S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown"
-  publication: "bioRxiv"
-  issue: "471987,"
-  year: 2018
-  url: "https://doi.org/10.1101/471987"
-  pdf: "publications/articles/recanatesi2018.pdf"
-
-- title: "Efficient ConvNets for Analog Arrays"
-  authors: "M.J. Rasch, T. Gokmen, M. Rigotti, W. Haensch"
-  publication: "arXiv"
-  issue: "1807.01356,"
-  year: 2018
-  url: "https://arxiv.org/abs/1807.01356"
-  pdf: "publications/articles/rasch2018.pdf"
 
 - title: "Shared neural coding for social hierarchy and reward value in primate amygdala"
   authors: "J. Munuera, M. Rigotti, C.D. Salzman"
