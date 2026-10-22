@@ -1,3 +1,10 @@
+- title: "GIST: Gauge-Invariant Spectral Transformers for Scalable Graph Neural Operators"
+  authors: "M. Rigotti, N. Thumiger, T. Frick"
+  publication: "Advances in Neural Information Processing Systems 39"
+  issue: "NeurIPS"
+  year: 2026
+  url: "https://arxiv.org/abs/2603.16849"
+
 - title: "Revisiting Group Relative Policy Optimization: Insights into On-Policy and Off-Policy Training"
   authors: "Y. Mroueh, N. Dupuis, B. Belgodere, A. Nitsure, M. Rigotti, K. Greenewald, J. Navratil, J. Ross, J. Rios"
   publication: "International Conference on Learning Representations"
@@ -202,6 +209,13 @@
   url: "https://doi.org/10.1201/9781003483755-421"
   pdf: "publications/articles/malossi2024.pdf"
 
+- title: "Outline-Guided Object Inpainting with Diffusion Models"
+  authors: "M. Pobitzer, F. Janicki, M. Rigotti, C. Malossi"
+  publication: "arXiv preprint"
+  issue: "arXiv:2402.16421"
+  year: 2024
+  url: "https://arxiv.org/abs/2402.16421"
+
 - title: "Risk Assessment and Statistical Significance in the Age of Foundation Models"
   authors: "A. Nitsure, Y. Mroueh, M. Rigotti, K. Greenewald, B. Belgodere, M. Yurochkin, J. Navratil, I. Melnyk, J. Ross"
   publication: "NeurIPS"
@@ -319,6 +333,13 @@
   pdf: "publications/articles/dognin2022.pdf"
   additional_links:
     - preprint: "https://arxiv.org/abs/2012.11696"
+
+- title: "Estimating the Adversarial Robustness of Attributions in Text with Transformers"
+  authors: "A. Ivankay, M. Rigotti, I. Girardi, C. Marchiori, P. Frossard"
+  publication: "arXiv preprint"
+  issue: "arXiv:2212.09155"
+  year: 2022
+  url: "https://arxiv.org/abs/2212.09155"
 
 - title: "Predictive learning as a network mechanism for extracting low-dimensional latent space representations"
   authors: "S. Recanatesi, M. Farrell, G. Lajoie, S. Deneve, M. Rigotti, E. Shea-Brown"
