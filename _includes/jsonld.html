@@ -38,22 +38,23 @@
           { "@type": "CollegeOrUniversity", "name": "ETH Zürich", "url": "https://ethz.ch/" }
         ],
         "award": {{ p.highlights | where_exp: "h", "h.award" | map: "award" | jsonify }},
-        "knowsAbout": [
-          "Machine Learning",
-          "Artificial Intelligence",
-          "Large Language Models",
-          "AI Reasoning",
-          "LLM Alignment",
-          "Vision-Language Models",
-          "Trustworthy AI",
-          "Neural Operators",
-          "Computational Fluid Dynamics",
-          "AI for Science",
-          "Computational Neuroscience",
-          "Deep Learning",
-          "Reinforcement Learning",
-          "Neural Networks"
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": {{ p.job_title | jsonify }},
+          "occupationLocation": { "@type": "City", "name": "Zurich" }
+        },
+        "hasCredential": [
+          {%- for e in p.education %}
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "name": {{ e.degree | jsonify }},
+            "recognizedBy": { "@type": "CollegeOrUniversity", "name": {{ e.institution | jsonify }} },
+            "dateCreated": "{{ e.year }}"
+          }{% unless forloop.last %},{% endunless %}
+          {%- endfor %}
         ],
+        "knowsAbout": {{ p.skills | jsonify }},
         "sameAs": {{ p.profiles | map: "url" | jsonify }}
       }
       {%- for ref in selected %}

@@ -5,6 +5,30 @@
 
 > {{ p.bio }}
 
+## Career
+
+- 2020–present: Senior Research Scientist, IBM Research – Zurich, Switzerland.
+  - Technical lead for algorithmic innovation in IBM's neural operators for computational fluid dynamics effort (since 2024); GIST (NeurIPS 2026).
+  - Initiated IBM's visual prompting research and served as its technical lead; shipped as VP Lab in IBM Maximo Visual Inspection (generally available 2025).
+  - LLM alignment and reasoning: Alignment via Optimal Transport (NeurIPS 2024), Cognitive Tools (NeurIPS 2025).
+  - Principal Investigator for IBM Research on EU Horizon grants (2020–present).
+  - Supervises PhD students (TU Wien, ETH Zurich, EPFL) and master's interns.
+- 2014–2020: Research Staff Member, IBM T.J. Watson Research Center, Yorktown Heights, New York.
+  - Led the challenge team on neural network training under hardware and biological constraints.
+  - Lead developer of the approximate nearest-neighbor retrieval pipeline for IBM MolFormer.
+  - 1st place, CVPR 2020 VizWiz Grand Challenge (image captioning for blind users).
+- 2013–2014: Associate Research Fellow, Columbia University.
+- 2010–2013: Postdoctoral Fellow, Center for Neural Science, New York University.
+
+## Education
+{% for e in p.education %}
+- {{ e.degree }}, {{ e.institution }}, {{ e.year }}.
+{%- endfor %}
+
+## Skills
+
+{{ p.skills | join: ", " }}
+
 ## Highlights
 {% for h in p.highlights %}
 {%- assign ref = site.data.articles | where: "title", h.paper | first %}

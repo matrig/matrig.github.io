@@ -21,6 +21,42 @@ highlights:
     paper: "Model-Assisted Labeling via Explainability for Visual Inspection of Civil Infrastructures"
   - paper: "The importance of mixed selectivity in complex cognitive tasks"
 
+# The visible Education list in index.html carries the same degrees with more detail.
+education:
+  - degree: "Ph.D. in Theoretical Neuroscience"
+    institution: "Columbia University"
+    year: 2010
+  - degree: "M.Phil. in Neurobiology and Behavior"
+    institution: "Columbia University"
+    year: 2009
+  - degree: "DEA in Theoretical Physics"
+    institution: "Université Pierre et Marie Curie / École Normale Supérieure, Paris"
+    year: 2004
+  - degree: "M.Sc. in Theoretical Physics"
+    institution: "ETH Zurich"
+    year: 2005
+
+skills:
+  - "LLM post-training"
+  - "preference optimization"
+  - "reinforcement learning"
+  - "LLM reasoning"
+  - "test-time scaling"
+  - "vision-language models"
+  - "visual prompting"
+  - "foundation models"
+  - "neural operators"
+  - "scientific machine learning"
+  - "graph neural networks"
+  - "interpretability"
+  - "model quantization"
+  - "trustworthy AI"
+  - "computational neuroscience"
+  - "machine learning"
+  - "deep learning"
+  - "large language models"
+  - "computational fluid dynamics"
+
 profiles:
   - name: "Google Scholar"
     url: "https://scholar.google.com/citations?user=TmHt7CwAAAAJ"
