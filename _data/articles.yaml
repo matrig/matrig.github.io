@@ -122,7 +122,7 @@
 - title: "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs"
   authors: "B. Belgodere, P. Dognin, A. Ivankay, I. Melnyk, Y. Mroueh, A. Mojsilovic, J. Navratil, A. Nitsure, I. Padhi, M. Rigotti, J. Ross, Y. Schiff, R. Vedpathak, R.A. Young"
   publication: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
-  issue: "JETCAS (Awarded best paper award)"
+  issue: "JETCAS (IEEE CASS 2025 Best Paper Award)"
   year: 2024
   selected: true
   note: "Synthetic data from generative models promises privacy and fairness, but its trustworthiness is hard to verify. This work introduces a holistic auditing framework that quantifies synthetic datasets and their generators along fidelity, utility, privacy, and fairness, and uses those audits to steer generation toward controllable, application-specific trade-offs in trustworthy AI."
@@ -130,6 +130,7 @@
   pdf: "publications/articles/belgodere2024.pdf"
   additional_links:
     - preprint: "https://arxiv.org/abs/2304.10819"
+      award: "https://ieee-cas.org/post/announcement/announcing-ieee-cass-2025-award-winners"
 
 - title: "Probabilistic Feature Matching for Fast Scalable Visual Prompting"
   authors: "T. Frick, C. Skura, F.M. Janicki, R. Assaf, N. Avogaro, D. Caraballo-Rivera, Y.G. Cinar, B. Ebouky, I. Giurgiu, T. Katsuki, P.S. Kluska, C. Malossi, H. Qiu, T. Sakai, F. Scheidegger, A. Simeski, D. Yang, A. Bartezzaghi, M. Rigotti"
@@ -307,6 +308,8 @@
   year: 2022
   url: "https://doi.org/10.48550/arXiv.2209.11159"
   pdf: "publications/articles/janouskova2022.pdf"
+  additional_links:
+    - award: "https://web.archive.org/web/20231129190112/https://vap.aau.dk/cvcie/"
 
 - title: "Active Learning for Imbalanced Civil Infrastructure Data"
   authors: "T. Frick, D. Antognini, M. Rigotti, I. Giurgiu, B. Grewe, C. Malossi"
