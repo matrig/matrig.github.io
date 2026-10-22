@@ -284,6 +284,7 @@
   additional_links:
     - preprint: "https://arxiv.org/abs/2209.07431"
       slides: "https://neurips.cc/virtual/2022/poster/54735"
+      award: "https://nips.cc/virtual/2022/events/highlighted"
 
 - title: "The implications of categorical and category-free mixed selectivity on representational geometries"
   authors: "M.T. Kaufman, M.K. Benna, M. Rigotti, F. Stefanini, S. Fusi, A.K. Churchland"
