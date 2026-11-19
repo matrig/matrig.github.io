@@ -6,6 +6,8 @@
   url: "https://neurips.cc/virtual/2026/poster/152787"
   additional_links:
     - preprint: "https://arxiv.org/abs/2603.16849"
+    - code: "https://github.com/IBM/gist-neurips-2026"
+    - project page: "https://ibm.github.io/gist-neurips-2026/"
 
 - title: "Cracks in the Foundation: A Civil Infrastructure Dataset to Challenge Vision Foundation Models"
   authors: "N. Farronato, N. Avogaro, T. Frick, M. Rigotti, R.U. Khan, M. Magno, K. Schindler, C. Malossi, F. Scheidegger"
